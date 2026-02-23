@@ -32,3 +32,4 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           API_KEY: ${{ secrets.API_KEY }}
         run: python bpi_alerts_monitor.py
+        continue-on-error: true
