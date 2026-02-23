@@ -25,7 +25,7 @@ class TuskMonitor:
         self.previous_data = []
         self.changes = []
         self.lovable_url = os.environ.get('LOVABLE_FUNCTION_URL')
-        self.lovable_key = os.environ.get('LOVABLE_API_KEY', '')
+        self.lovable_key = os.environ.get('API_KEY', '')
         
     def load_previous_data(self):
         try:
@@ -119,7 +119,7 @@ class TuskMonitor:
             payload = {'source': 'tusk_strategies_monitor', 'timestamp': datetime.now().isoformat(), 'changes': self.changes, 'data_type': 'website_updates'}
             headers = {'Content-Type': 'application/json'}
             if self.lovable_key:
-                headers['Authorization'] = f'Bearer {self.lovable_key}'
+                headers['x-api-key'] = self.lovable_key
             response = requests.post(self.lovable_url, json=payload, headers=headers, timeout=30)
             if response.status_code in [200, 201]:
                 print("✅ Successfully updated Lovable!")
