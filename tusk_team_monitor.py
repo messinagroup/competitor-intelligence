@@ -25,7 +25,7 @@ class TuskMonitor:
         self.previous_data = []
         self.changes = []
         self.lovable_url = os.environ.get('LOVABLE_FUNCTION_URL')
-        self.lovable_key = os.environ.get('API_KEY', '')
+        self.lovable_key = os.environ.get('LOVABLE_API_KEY', '')
         
     def load_previous_data(self):
         try:
@@ -116,7 +116,7 @@ class TuskMonitor:
             return
         print(f'\n📤 Sending to Lovable...\n')
         try:
-            payload = {'source': 'tusk_strategies_monitor', 'timestamp': datetime.now().isoformat(), 'changes': self.changes, 'data_type': 'website_updates'}
+            payload = [{'title': c.get('title', 'Tusk Strategies page updated'), 'snippet': f'Content changed by {c.get("changePct", 0)}% on {c.get("url", "")}', 'source_domain': 'tuskstrategies.com', 'published_date': datetime.now().strftime('%Y-%m-%d'), 'url': c.get('url', 'https://tuskstrategies.com'), 'competitor_id': 'tusk'} for c in self.changes]
             headers = {'Content-Type': 'application/json'}
             if self.lovable_key:
                 headers['x-api-key'] = self.lovable_key
