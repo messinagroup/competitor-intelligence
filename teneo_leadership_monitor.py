@@ -8,28 +8,35 @@ STATE_FILE = "teneo_leadership_state.json"
 LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "")
 API_KEY = os.environ.get("LOVABLE_API_KEY", "")
 
+OFFICES = [
+    ("Boston", "boston"), ("Calgary", "calgary"), ("Chicago", "chicago"),
+    ("Los Angeles", "los-angeles"), ("Mexico City", "mexico-city"),
+    ("Montreal", "montreal"), ("New York", "new-york"),
+    ("San Francisco", "san-francisco"), ("Sao Paulo", "sao-paulo"),
+    ("Toronto", "toronto"), ("Washington DC", "washington-d-c"),
+    ("Beijing", "beijing"), ("Brisbane", "brisbane"), ("Hong Kong", "hong-kong"),
+    ("Melbourne", "melbourne"), ("Shanghai", "shangai"), ("Singapore", "singapore"),
+    ("Sydney", "sydney"), ("Tokyo", "tokyo"), ("Amsterdam", "amsterdam"),
+    ("Berlin", "berlin"), ("Birmingham", "birmingham"), ("Bristol", "bristol"),
+    ("Brussels", "brussels"), ("Cardiff", "cardiff"), ("Copenhagen", "copenhagen"),
+    ("Dublin", "dublin"), ("Edinburgh", "edinburgh"), ("Frankfurt", "frankfurt"),
+    ("Glasgow", "glasgow"), ("Guernsey", "guernsey"), ("Jersey", "jersey"),
+    ("Leeds", "leeds"), ("London", "london"), ("Madrid", "madrid"),
+    ("Manchester", "manchester"), ("Newcastle", "newcastle"), ("Paris", "paris"),
+    ("Abu Dhabi", "abu-dhabi"), ("Doha", "doha"), ("Dubai", "dubai"),
+    ("Riyadh", "riyadh"), ("Bermuda", "bermuda"),
+    ("British Virgin Islands", "british-virgin-islands"),
+    ("Cayman Islands", "cayman-islands")
+]
+
 SKIP = ["Teneo", "Services", "People", "Insights", "News", "Careers", "Global",
         "Overview", "People Directory", "Global Executive", "Global Management",
         "Senior Advisors", "Business Segments", "Financial Advisory",
         "Management Consulting", "People Advisory", "Risk Advisory",
         "Strategy & Communications", "Practice Areas", "Office Location",
         "All People", "Cookie", "Consent", "Essential", "Preferences",
-        "Marketing", "Show details", "Allow", "Skip to", "Board Search",
-        "Brand Strategy", "Business Restructuring", "Business Transformation",
-        "CEO & C-Suite", "Capital Advisory", "Corporate Affairs", "Corporate Governance",
-        "Corporate Insolvency", "Creative", "Crisis Management", "Digital & Social",
-        "Employee Engagement", "Energy & Infrastructure", "Enterprise Resilience",
-        "Executive Communications", "Executive Search", "Financial Communications",
-        "Financial Modeling", "Forensic", "Fund Services", "Geopolitical",
-        "Government & Public", "Initial Public", "Litigation", "Macro and Consumer",
-        "Merger & Acquisition", "Organizational Performance", "People Strategy",
-        "Performance Optimization", "Public Safety", "Purpose, Positioning",
-        "Regulatory & Risk", "Reputation Advertising", "Resilience & Intelligence",
-        "Restructuring Communications", "Risk Intelligence", "Shareholder Activism",
-        "Stakeholder Research", "Strategic Bid", "Strategy Implementation",
-        "Sustainability & Governance", "Target Operating", "Teneo Performance",
-        "Transaction Support", "Value Creation", "Next", "Previous", "Load more",
-        "© 2026", "Terms", "Privacy", "Regulatory Information"]
+        "Marketing", "Show details", "Allow", "Skip to", "Next", "Previous",
+        "First", "Last", "Terms", "Privacy", "© 2026"]
 
 TITLES = ["President", "Managing Director", "Senior Managing Director", "Director",
           "Vice President", "Senior Vice President", "Associate", "Manager",
@@ -41,35 +48,44 @@ def scrape_people():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
-        for page_num in range(1, 31):
-            url = BASE_URL if page_num == 1 else f"https://www.teneo.com/people/search-people/page/{page_num}/"
-            page.goto(url, wait_until="networkidle")
-            print(f"    Scraping page {page_num}/30...")
-            page.wait_for_timeout(1000)
-            lines = [l.strip() for l in page.inner_text("body").split("\n") if l.strip()]
-            i = 0
-            while i < len(lines):
-                line = lines[i]
-                if any(s.lower() == line.lower() for s in SKIP):
-                    i += 1
-                    continue
-                # Check if next line looks like a title
-                if i + 1 < len(lines):
-                    next_line = lines[i + 1]
-                    if any(t.lower() in next_line.lower() for t in TITLES):
-                        people.append({
-                            "name": line,
-                            "title": next_line,
-                            
-                            "competitor_id": "teneo",
-                            "url": f"https://www.teneo.com/people/{line.lower().replace(' ', '-')}/"
-                        })
-                        i += 2
+        for city, slug in OFFICES:
+            print(f"    Scraping {city}...")
+            page_num = 1
+            while True:
+                if page_num == 1:
+                    url = f"{BASE_URL}?office={slug}"
+                else:
+                    url = f"{BASE_URL}page/{page_num}/?office={slug}"
+                page.goto(url, wait_until="networkidle")
+                page.wait_for_timeout(800)
+                lines = [l.strip() for l in page.inner_text("body").split("\n") if l.strip()]
+                found_any = False
+                i = 0
+                while i < len(lines):
+                    line = lines[i]
+                    if any(s.lower() == line.lower() for s in SKIP):
+                        i += 1
                         continue
-                i += 1
-
+                    if i + 1 < len(lines):
+                        next_line = lines[i + 1]
+                        if any(t.lower() in next_line.lower() for t in TITLES):
+                            found_any = True
+                            people.append({
+                                "name": line,
+                                "title": next_line,
+                                "location": city,
+                                "competitor_id": "teneo",
+                                "url": f"https://www.teneo.com/people/{line.lower().replace(' ', '-')}/"
+                            })
+                            i += 2
+                            continue
+                    i += 1
+                next_link = page.query_selector("a[aria-label='Next page']")
+                if next_link and found_any:
+                    page_num += 1
+                else:
+                    break
         browser.close()
-    # Deduplicate
     seen = set()
     unique = []
     for p in people:
@@ -96,7 +112,6 @@ def send_to_lovable(payload):
     headers = {"Content-Type": "application/json"}
     if API_KEY:
         headers["x-api-key"] = API_KEY
-    # Send in batches of 50
     for i in range(0, len(payload), 50):
         batch = payload[i:i+50]
         r = requests.post(LOVABLE_URL, json=batch, headers=headers, timeout=30)
@@ -107,7 +122,7 @@ def main():
     print("TENEO LEADERSHIP MONITOR")
     previous = load_state()
     prev_names = {p["name"] for p in previous}
-    print("Scraping people directory...")
+    print("Scraping people by office location...")
     current = scrape_people()
     print(f"Found {len(current)} people")
     new_people = [p for p in current if p["name"] not in prev_names]
