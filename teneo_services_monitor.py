@@ -17,9 +17,9 @@ def scrape_services():
         links = page.query_selector_all("a")
         for link in links:
             href = link.get_attribute("href") or ""
-            name = link.inner_text().strip()
+            name = link.inner_text().strip().split("\n")[0].strip()
             if "/service/" in href and name and len(name) > 3:
-                found.append({"name": name, "description": f"Teneo {name} practice", "competitor_id": "teneo", "url": href})
+                found.append({"name": name, "description": "", "competitor_id": "teneo", "url": href})
         browser.close()
     seen = set()
     unique = []
