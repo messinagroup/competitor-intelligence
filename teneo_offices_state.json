@@ -1,0 +1,310 @@
+[
+  {
+    "city": "Boston",
+    "address": "255 Franklin Street, Floor 26, Boston, MA 02110",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Telus Sky",
+    "address": "685 Centre Street SW - Unit 2800",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Chicago",
+    "address": "111 W. Illinois St., Suite #541, Chicago, IL 60654",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Mexico City",
+    "address": "Av. Paseo de la Reforma 243,, Floor 18, 06600 Ciudad de M\u00e9xico",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Montr\u00e9al",
+    "address": "1002, rue Sherbrooke Ouest",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Sherbrooke West Street",
+    "address": "Bureau | Suite 1600, Montr\u00e9al (Qu\u00e9bec) H3A 3L6, 1 (514) 316 7096",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "San Francisco",
+    "address": "575 Market Street, Partial 36th Floor, Suite 3625",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "South Financial District",
+    "address": "San Francisco, CA 94105",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "S\u00e3o Paulo",
+    "address": "Avenida Major Sylvio de Magalh\u00e3es Padilha, 5200, Edificio Montreal, suite 607, 05693-000 S\u00e3o Paulo, SP, BRAZIL",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Toronto",
+    "address": "100 King St W, Suite 2710, Toronto, Ontario M5X 1A9",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Washington, D.C.",
+    "address": "1801 Pennsylvania Ave. NW, Suite 600, Washington, D.C. 20006",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Birmingham",
+    "address": "3rd Floor The Colmore Building,, 20 Colmore Circus, Queensway,, Birmingham, B4 6AT",
+    "region": "americas",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Beijing",
+    "address": "Level 14, China World Trade Centre Office 1,, No. 1 Jianguomenwai Avenue, Beijing 100004, China",
+    "region": "asia-pacific",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Brisbane",
+    "address": "Suites T1, T2 & T3 Level 54, 111 Eagle Street,, Brisbane, QLD 4000",
+    "region": "asia-pacific",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Hong Kong SAR",
+    "address": "4/F, Club Lusitano Building, 16 Ice House Street",
+    "region": "asia-pacific",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Melbourne",
+    "address": "Part Level 28 (Suite 2) 80 Collins Street,, Melbourne VIC 3000",
+    "region": "asia-pacific",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Shanghai",
+    "address": "Room 1713, 17/F Tower 2,",
+    "region": "asia-pacific",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Sydney",
+    "address": "Level 31, 25 Martin Place, Sydney, NSW, 2000",
+    "region": "asia-pacific",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Sydney: Castlereagh Street",
+    "address": "Suite 20.02, Level 20, 60 Castlereagh Street,, Sydney, NSW 2000",
+    "region": "asia-pacific",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Tokyo",
+    "address": "Level 15, Cerulean Tower, 26-1 Sakuragaokacho",
+    "region": "asia-pacific",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Amsterdam",
+    "address": "Fred. Roeskestraat 115, 1076 EE Amsterdam",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Berlin",
+    "address": "Reinhardtstra\u00dfe 58, 10117 Berlin",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Bristol",
+    "address": "3rd Floor, The Distillery Glassfields 1 + 1,",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Brussels",
+    "address": "Avenue des Arts, 56, Brussels, 1000",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Cardiff",
+    "address": "2nd Floor,, 5 Callaghan Square,, Cardiff, CF10 5BT",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Copenhagen",
+    "address": "Pakhus 54, Orient Plads 1, 2 Etage, 2150 Nordhavn",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Dublin",
+    "address": "3rd Floor, 20 On Hatch",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Hatch Street Lower",
+    "address": "Dublin 2, D02 XH02",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Edinburgh",
+    "address": "3rd Floor, 66 Hanover Street,, Edinburgh, EH2 1EL",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Frankfurt",
+    "address": "Neue Mainzer Stra\u00dfe 80, 60311 Frankfurt am Main",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Jersey",
+    "address": "Forum 3, Grenville Street,",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Leeds",
+    "address": "1st Floor, 1 City Square,, Leeds, LS1 2ES",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Madrid",
+    "address": "10th Floor, Paseo de la Castellana, 130,, 28046 Madrid, Spain",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Manchester",
+    "address": "3rd Floor, 11 York Street,, Manchester, M2 2AW",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Newcastle",
+    "address": "Suite 6, 3rd Floor, 60 Grey Street,, Newcastle Upon Tyne, NE1 6AF",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Paris",
+    "address": "17 Avenue George V, 75008",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Bermuda",
+    "address": "19 Par-la-Ville Road",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Third Floor",
+    "address": "Hamilton,\u00a0HM 11",
+    "region": "europe",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Abu Dhabi",
+    "address": "Level 15, Al Sarab Tower",
+    "region": "middle-east-africa",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Doha",
+    "address": "Bay Tower IV, 14th Floor",
+    "region": "middle-east-africa",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Dubai",
+    "address": "Office 405, Level 4, Gate Precinct Building 5",
+    "region": "middle-east-africa",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Dubai International Financial Center",
+    "address": "PO Box 506808",
+    "region": "middle-east-africa",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "Riyadh",
+    "address": "Office 4903, Floor 49",
+    "region": "middle-east-africa",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  },
+  {
+    "city": "British Virgin Islands",
+    "address": "3rd Floor",
+    "region": "caribbean-bermuda",
+    "office_type": "regional",
+    "competitor_id": "teneo"
+  }
+]

@@ -18,7 +18,7 @@ def scrape_services():
         for link in links:
             href = link.get_attribute("href") or ""
             name = link.inner_text().strip().split("\n")[0].strip()
-            if "/service/" in href and name and len(name) > 3:
+            if "/service/" in href and name and len(name) > 3 and len(name) < 80 and name[0].isupper() and not any(x in name for x in ["Level", "Abu", "Amsterdam", "Beijing", "Berlin", "Bermuda", "Boston", "Brisbane", "Brussels", "Calgary", "Chicago", "Copenhagen", "Dubai", "Dublin", "Frankfurt", "London", "Madrid", "Melbourne", "Paris", "Riyadh", "Singapore", "Sydney", "Toronto", "Washington", "Consent", "Essential", "Marketing", "Submit"]):
                 found.append({"name": name, "description": "", "competitor_id": "teneo", "url": href})
         browser.close()
     seen = set()
