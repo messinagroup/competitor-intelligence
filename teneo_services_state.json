@@ -1,278 +1,374 @@
 [
   {
+    "name": "Financial Advisory",
+    "description": "Teneo Financial Advisory practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/financial-advisory/"
+  },
+  {
+    "name": "Management Consulting",
+    "description": "Teneo Management Consulting practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/management-consulting/"
+  },
+  {
+    "name": "People Advisory",
+    "description": "Teneo People Advisory practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/people-advisory/"
+  },
+  {
+    "name": "Risk Advisory",
+    "description": "Teneo Risk Advisory practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/risk-advisory/"
+  },
+  {
+    "name": "Strategy & Communications",
+    "description": "Teneo Strategy & Communications practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/"
+  },
+  {
     "name": "Board Search & Effectiveness",
     "description": "Teneo Board Search & Effectiveness practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/people-advisory/board-search-and-effectiveness/"
   },
   {
     "name": "Brand Strategy & Corporate Positioning",
     "description": "Teneo Brand Strategy & Corporate Positioning practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Business Restructuring",
-    "description": "Teneo Business Restructuring practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/strategy-communications/brand-strategy-corporate-positioning/"
   },
   {
     "name": "Business Transformation",
     "description": "Teneo Business Transformation practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "CEO & C-Suite Strategic Counsel",
-    "description": "Teneo CEO & C-Suite Strategic Counsel practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/financial-advisory/business-transformation/"
   },
   {
     "name": "Capital Advisory",
     "description": "Teneo Capital Advisory practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Corporate Affairs Function Transformation",
-    "description": "Teneo Corporate Affairs Function Transformation practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Corporate Governance Advisory",
-    "description": "Teneo Corporate Governance Advisory practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/financial-advisory/capital-advisory/"
   },
   {
     "name": "Corporate Insolvency & Bankruptcy",
     "description": "Teneo Corporate Insolvency & Bankruptcy practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/financial-advisory/insolvency-bankruptcy/"
   },
   {
     "name": "Creative",
     "description": "Teneo Creative practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/teneo-studio/"
   },
   {
-    "name": "Crisis Management & Preparedness",
-    "description": "Teneo Crisis Management & Preparedness practice",
+    "name": "Crisis Management",
+    "description": "Teneo Crisis Management practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/strategy-communications/crisis-management-preparedness/"
   },
   {
     "name": "Digital & Social Media Advisory",
     "description": "Teneo Digital & Social Media Advisory practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Employee Engagement & Change Management",
-    "description": "Teneo Employee Engagement & Change Management practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/strategy-communications/digital-social-media/"
   },
   {
     "name": "Energy & Infrastructure",
     "description": "Teneo Energy & Infrastructure practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Enterprise Resilience & Security Solutions",
-    "description": "Teneo Enterprise Resilience & Security Solutions practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Executive Communications Coaching & Media Training",
-    "description": "Teneo Executive Communications Coaching & Media Training practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/management-consulting/sector-expertise/energy-and-infrastructure/"
   },
   {
     "name": "Executive Search",
     "description": "Teneo Executive Search practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/people-advisory/executive-search/"
   },
   {
-    "name": "Financial Communications & Investor Relations Services",
-    "description": "Teneo Financial Communications & Investor Relations Services practice",
+    "name": "Financial Communications & Investor Relations",
+    "description": "Teneo Financial Communications & Investor Relations practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Financial Modeling",
-    "description": "Teneo Financial Modeling practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/strategy-communications/investor-relations-and-financial-communications/"
   },
   {
     "name": "Forensic",
     "description": "Teneo Forensic practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Fund Services",
-    "description": "Teneo Fund Services practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/financial-advisory/forensic/"
   },
   {
     "name": "Geopolitical Risk",
     "description": "Teneo Geopolitical Risk practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/risk-advisory/geopolitical-and-political-risk-consulting/"
   },
   {
     "name": "Government & Public Affairs",
     "description": "Teneo Government & Public Affairs practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Initial Public Offering Advisory",
-    "description": "Teneo Initial Public Offering Advisory practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Litigation & Enforcement Action",
-    "description": "Teneo Litigation & Enforcement Action practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Litigation Communications",
-    "description": "Teneo Litigation Communications practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Macro and Consumer Economics and Demand Forecasting",
-    "description": "Teneo Macro and Consumer Economics and Demand Forecasting practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Merger & Acquisition Advisory",
-    "description": "Teneo Merger & Acquisition Advisory practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/strategy-communications/government-public-affairs/"
   },
   {
     "name": "Organizational Performance",
     "description": "Teneo Organizational Performance practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "People Strategy",
-    "description": "Teneo People Strategy practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Performance Optimization",
-    "description": "Teneo Performance Optimization practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Public Safety",
-    "description": "Teneo Public Safety practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/people-advisory/organizational-performance/"
   },
   {
     "name": "Purpose, Positioning & Narrative",
     "description": "Teneo Purpose, Positioning & Narrative practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Regulatory & Risk Advisory Services",
-    "description": "Teneo Regulatory & Risk Advisory Services practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
-  },
-  {
-    "name": "Reputation Advertising & Campaigning",
-    "description": "Teneo Reputation Advertising & Campaigning practice",
-    "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/strategy-communications/purpose-positioning-narrative/"
   },
   {
     "name": "Resilience & Intelligence",
     "description": "Teneo Resilience & Intelligence practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/risk-advisory/resilience-and-intelligence/"
+  },
+  {
+    "name": "Research & Analytics",
+    "description": "Teneo Research & Analytics practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/stakeholder-research-measurement/"
+  },
+  {
+    "name": "Special Situations",
+    "description": "Teneo Special Situations practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/financial-advisory/capital-advisory/special-situations-ma/"
+  },
+  {
+    "name": "Sustainability & Governance",
+    "description": "Teneo Sustainability & Governance practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/sustainability-and-governance/"
+  },
+  {
+    "name": "Strategy & Communications\n\nGlobal strategic advisory and communications business focused on helping clients achieve major business objectives, manage their reputations and enhance stakeholder value.",
+    "description": "Teneo Strategy & Communications\n\nGlobal strategic advisory and communications business focused on helping clients achieve major business objectives, manage their reputations and enhance stakeholder value. practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/"
+  },
+  {
+    "name": "Financial Advisory\n\nAdvising clients on strategies and actions to create, protect and realize value across the full spectrum of transactions and industries.",
+    "description": "Teneo Financial Advisory\n\nAdvising clients on strategies and actions to create, protect and realize value across the full spectrum of transactions and industries. practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/financial-advisory/"
+  },
+  {
+    "name": "Management Consulting\n\nProviding expertise and leadership that companies need to drive strategic change at critical inflection points that demand CEO focus and cross functional attention.",
+    "description": "Teneo Management Consulting\n\nProviding expertise and leadership that companies need to drive strategic change at critical inflection points that demand CEO focus and cross functional attention. practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/management-consulting/"
+  },
+  {
+    "name": "Risk Advisory\n\nAnticipating and mitigating risks associated with geopolitics, physical security and cybersecurity to ensure business continuity and resiliency.",
+    "description": "Teneo Risk Advisory\n\nAnticipating and mitigating risks associated with geopolitics, physical security and cybersecurity to ensure business continuity and resiliency. practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/risk-advisory/"
+  },
+  {
+    "name": "People Advisory\n\nAssessing current organizational needs and identifying what and who is needed in the future to build thriving, sustainable organizations.",
+    "description": "Teneo People Advisory\n\nAssessing current organizational needs and identifying what and who is needed in the future to build thriving, sustainable organizations. practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/people-advisory/"
+  },
+  {
+    "name": "Business Restructuring",
+    "description": "Teneo Business Restructuring practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/financial-advisory/restructuring/"
+  },
+  {
+    "name": "CEO & C-Suite Strategic Counsel",
+    "description": "Teneo CEO & C-Suite Strategic Counsel practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/ceo-c-suite-strategic-counsel/"
+  },
+  {
+    "name": "Corporate Affairs Function Transformation",
+    "description": "Teneo Corporate Affairs Function Transformation practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/corporate-affairs-function-transformation/"
+  },
+  {
+    "name": "Corporate Governance Advisory",
+    "description": "Teneo Corporate Governance Advisory practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/corporate-governance-advisory/"
+  },
+  {
+    "name": "Crisis Management & Preparedness",
+    "description": "Teneo Crisis Management & Preparedness practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/crisis-management-preparedness/"
+  },
+  {
+    "name": "Employee Engagement & Change Management",
+    "description": "Teneo Employee Engagement & Change Management practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/employee-engagement-change-management/"
+  },
+  {
+    "name": "Enterprise Resilience & Security Solutions",
+    "description": "Teneo Enterprise Resilience & Security Solutions practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/risk-advisory/resilience-and-intelligence/enterprise-resilience-security-solutions/"
+  },
+  {
+    "name": "Executive Communications Coaching & Media Training",
+    "description": "Teneo Executive Communications Coaching & Media Training practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/executive-communications-coaching/"
+  },
+  {
+    "name": "Financial Communications & Investor Relations Services",
+    "description": "Teneo Financial Communications & Investor Relations Services practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/investor-relations-and-financial-communications/"
+  },
+  {
+    "name": "Financial Modeling",
+    "description": "Teneo Financial Modeling practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/financial-advisory/business-transformation/financial-modeling/"
+  },
+  {
+    "name": "Fund Services",
+    "description": "Teneo Fund Services practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/financial-advisory/capital-advisory/fund-services/"
+  },
+  {
+    "name": "Initial Public Offering Advisory",
+    "description": "Teneo Initial Public Offering Advisory practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/initial-public-offering/"
+  },
+  {
+    "name": "Litigation & Enforcement Action",
+    "description": "Teneo Litigation & Enforcement Action practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/litigation-enforcement-action-communications/"
+  },
+  {
+    "name": "Litigation Communications",
+    "description": "Teneo Litigation Communications practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/litigation-communications/"
+  },
+  {
+    "name": "Macro and Consumer Economics and Demand Forecasting",
+    "description": "Teneo Macro and Consumer Economics and Demand Forecasting practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/management-consulting/capabilities/macro-and-consumer-economics-and-demand-forecasting/"
+  },
+  {
+    "name": "Merger & Acquisition Advisory",
+    "description": "Teneo Merger & Acquisition Advisory practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/mergers-and-acquisitions/"
+  },
+  {
+    "name": "People Strategy",
+    "description": "Teneo People Strategy practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/people-advisory/people-strategy/"
+  },
+  {
+    "name": "Performance Optimization",
+    "description": "Teneo Performance Optimization practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/management-consulting/capabilities/performance-optimization/"
+  },
+  {
+    "name": "Public Safety",
+    "description": "Teneo Public Safety practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/risk-advisory/resilience-and-intelligence/public-safety/"
+  },
+  {
+    "name": "Regulatory & Risk Advisory Services",
+    "description": "Teneo Regulatory & Risk Advisory Services practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/financial-advisory/regulatory-and-risk-advisory-services/"
+  },
+  {
+    "name": "Reputation Advertising & Campaigning",
+    "description": "Teneo Reputation Advertising & Campaigning practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/strategy-communications/campaigning/"
   },
   {
     "name": "Restructuring Communications",
     "description": "Teneo Restructuring Communications practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/strategy-communications/restructuring-communications/"
   },
   {
     "name": "Risk Intelligence",
     "description": "Teneo Risk Intelligence practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/risk-advisory/resilience-and-intelligence/risk-intelligence/"
   },
   {
     "name": "Shareholder Activism Defense",
     "description": "Teneo Shareholder Activism Defense practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/strategy-communications/shareholder-activism-defense/"
   },
   {
     "name": "Stakeholder Research & Analytics",
     "description": "Teneo Stakeholder Research & Analytics practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/strategy-communications/stakeholder-research-measurement/"
   },
   {
     "name": "Strategic Bid Support",
     "description": "Teneo Strategic Bid Support practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/management-consulting/capabilities/strategic-bid-support/"
   },
   {
     "name": "Strategy Implementation",
     "description": "Teneo Strategy Implementation practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/management-consulting/capabilities/strategy-implementation/"
   },
   {
     "name": "Sustainability & Governance Advisory Offering",
     "description": "Teneo Sustainability & Governance Advisory Offering practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/sustainability-and-governance/"
   },
   {
     "name": "Target Operating Model Design",
     "description": "Teneo Target Operating Model Design practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/management-consulting/capabilities/target-operating-model-design/"
+  },
+  {
+    "name": "Teneo Performance",
+    "description": "Teneo Teneo Performance practice",
+    "competitor_id": "teneo",
+    "url": "https://www.teneo.com/service/teneo-performance/"
   },
   {
     "name": "Transaction Support",
     "description": "Teneo Transaction Support practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/management-consulting/capabilities/transaction-support/"
   },
   {
     "name": "Value Creation",
     "description": "Teneo Value Creation practice",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/services/"
+    "url": "https://www.teneo.com/service/management-consulting/capabilities/value-creation/"
   }
 ]
