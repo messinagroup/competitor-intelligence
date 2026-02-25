@@ -97,3 +97,9 @@ jobs:
           git add *.json
           git diff --staged --quiet || git commit -m "Update monitor state files"
           git push
+
+      - name: Run FGS Careers Monitor
+        env:
+          LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
+          LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
+        run: python3 fgs_careers_monitor.py
