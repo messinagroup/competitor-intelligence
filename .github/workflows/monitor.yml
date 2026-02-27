@@ -121,3 +121,9 @@ jobs:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 fgs_services_monitor.py
+
+      - name: Run FGS News Monitor
+        env:
+          LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
+          LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
+        run: python3 fgs_news_monitor.py
