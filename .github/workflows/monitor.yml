@@ -109,3 +109,9 @@ jobs:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 fgs_ai_newsletter_monitor.py
+
+      - name: Run Google Alerts Monitor
+        env:
+          LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
+          LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
+        run: python3 google_alerts_monitor.py
