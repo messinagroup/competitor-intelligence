@@ -11,19 +11,19 @@ API_KEY = os.environ.get("LOVABLE_API_KEY", "")
 
 FEEDS = [
     {
-        "name": "Teneo",
+        "name": "Teneo", "search_term": "teneo",
         "competitor_id": "teneo",
         "url": "https://www.google.com/alerts/feeds/11374616852366129905/12523797253698245031",
         "filter_out": ["teneo online school", "teneo ai ab", "5jg", "online school"]
     },
     {
-        "name": "Tusk Strategies",
+        "name": "Tusk Strategies", "search_term": "tusk strategies",
         "competitor_id": "tusk",
         "url": "https://www.google.com/alerts/feeds/11374616852366129905/6627976990936379591",
         "filter_out": []
     },
     {
-        "name": "FGS Global",
+        "name": "FGS Global", "search_term": "fgs global",
         "competitor_id": "fgs",
         "url": "https://www.google.com/alerts/feeds/11374616852366129905/15812016646041442858",
         "filter_out": []
@@ -56,7 +56,10 @@ def fetch_feed(feed):
             published = entry.findtext("atom:published", "", NS)[:10]
             # Filter out irrelevant mentions
             combined = (title + content).lower()
-            if any(f.lower() in combined for f in feed["filter_out"]):
+            title_lower = title.lower()
+            if any(f.lower() in title_lower for f in feed["filter_out"]):
+                continue
+            if feed["search_term"] not in title_lower:
                 continue
             alerts.append({
                 "title": title,
