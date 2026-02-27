@@ -89,6 +89,7 @@ jobs:
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 bpi_alerts_monitor.py
         continue-on-error: true
+        continue-on-error: true
 
       - name: Commit updated state files
         run: |
