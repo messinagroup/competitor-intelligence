@@ -34,7 +34,7 @@ def scrape_news():
                     "title": title,
                     "url": f"https://fgsglobal.com{href}" if href.startswith("/") else href,
                     "source_domain": "fgsglobal.com",
-                    "published_date": from_page,
+                    "published_date": "2026-02-27",
                     "competitor_id": "fgs"
                 })
         browser.close()
