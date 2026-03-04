@@ -38,4 +38,4 @@ def scrape_wins():
 if __name__ == "__main__":
     wins = scrape_wins()
     for i,w in enumerate(wins,1):
-        print(f"{i}. {w.get('title','')[:60]}")
+        print(f"{i}. {w.get('title','')[:60]})"
