@@ -225,7 +225,8 @@ def main():
                 print(f"  → Including {len(comparison['new_alerts'])} new alerts")
             
             if not payload:
-                print("\n⚠️  No alerts to send")
+                print("\n⚠️  No alerts to send — skipping dashboard update")
+                save_current_data(current_data)
             elif send_to_lovable(payload, lovable_url, api_key):
                 print("\n✅ Successfully updated Lovable dashboard!")
                 save_current_data(current_data)
