@@ -1,0 +1,1732 @@
+{
+  "david-barrosse": {
+    "id": "david-barrosse",
+    "name": "David Barrosse",
+    "title": "Founder & CEO",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/david-barrosse/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/David-Official-Photo-scaled-e1750951718271.jpg",
+    "competitor_id": "capstone"
+  },
+  "thomas-dee-cfa": {
+    "id": "thomas-dee-cfa",
+    "name": "Thomas Dee, CFA",
+    "title": "Senior Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/thomas-dee-cfa/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Thomas-Dee-2025-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "eric-scheriff": {
+    "id": "eric-scheriff",
+    "name": "Eric Scheriff",
+    "title": "Senior Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/eric-scheriff/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Eric-Scheriff-2025-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "danielle-a-palcich": {
+    "id": "danielle-a-palcich",
+    "name": "Danielle A. Palcich",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/danielle-a-palcich/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Danielle-Palcich-2025-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "mathew-gilbert": {
+    "id": "mathew-gilbert",
+    "name": "Mathew Gilbert",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/mathew-gilbert/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-mathew-gilbert.jpg",
+    "competitor_id": "capstone"
+  },
+  "john-donnelly": {
+    "id": "john-donnelly",
+    "name": "John Donnelly",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/john-donnelly/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-john-donnelly.jpg",
+    "competitor_id": "capstone"
+  },
+  "cordell-eddings": {
+    "id": "cordell-eddings",
+    "name": "Cordell Eddings",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/cordell-eddings/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Cordell-Eddings-2025-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "jb-ferguson": {
+    "id": "jb-ferguson",
+    "name": "JB Ferguson",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jb-ferguson/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-jb-ferguson.jpg",
+    "competitor_id": "capstone"
+  },
+  "hunter-hammond": {
+    "id": "hunter-hammond",
+    "name": "Hunter Hammond",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/hunter-hammond/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-hunter-hammond.jpg",
+    "competitor_id": "capstone"
+  },
+  "stephanie-ho": {
+    "id": "stephanie-ho",
+    "name": "Stephanie Ho",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/stephanie-ho/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Stephanie-Ho-2025-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "elena-mcgovern": {
+    "id": "elena-mcgovern",
+    "name": "Elena McGovern",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/elena-mcgovern/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-elena-mcgovern.jpg",
+    "competitor_id": "capstone"
+  },
+  "kiran-savjani": {
+    "id": "kiran-savjani",
+    "name": "Kiran Savjani",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/kiran-savjani/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Image-20-scaled-e1763136917574.jpg",
+    "competitor_id": "capstone"
+  },
+  "daniel-silverberg": {
+    "id": "daniel-silverberg",
+    "name": "Daniel Silverberg",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/daniel-silverberg/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-daniel-silverberg.jpg",
+    "competitor_id": "capstone"
+  },
+  "grace-totman": {
+    "id": "grace-totman",
+    "name": "Grace Totman",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/grace-totman/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-grace-totman.jpg",
+    "competitor_id": "capstone"
+  },
+  "matt-wiederrecht": {
+    "id": "matt-wiederrecht",
+    "name": "Matt Wiederrecht",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/matt-wiederrecht/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-matt-wiederrecht.jpg",
+    "competitor_id": "capstone"
+  },
+  "robyn-yun": {
+    "id": "robyn-yun",
+    "name": "Robyn Yun",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/robyn-yun/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/05/Robyn-Yun-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "mina-hite": {
+    "id": "mina-hite",
+    "name": "Mina Hite",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/mina-hite/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-mina-hamblet.jpg",
+    "competitor_id": "capstone"
+  },
+  "kristen-trevino": {
+    "id": "kristen-trevino",
+    "name": "Kristen Trevino",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/kristen-trevino/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-kristen-trevino.jpg",
+    "competitor_id": "capstone"
+  },
+  "malcolm-barnett": {
+    "id": "malcolm-barnett",
+    "name": "Malcolm Barnett",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/malcolm-barnett/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-malcolm-barnett.jpg",
+    "competitor_id": "capstone"
+  },
+  "douglas-bush": {
+    "id": "douglas-bush",
+    "name": "Douglas Bush",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/douglas-bush/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/10/Douglas-Bush.jpg",
+    "competitor_id": "capstone"
+  },
+  "allison-clements": {
+    "id": "allison-clements",
+    "name": "Allison Clements",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/allison-clements/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/04/Allison-Clements-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "lori-cobos": {
+    "id": "lori-cobos",
+    "name": "Lori Cobos",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/lori-cobos/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/09/Lori-Cobos_Headshot-e1773236027174.jpeg",
+    "competitor_id": "capstone"
+  },
+  "ryan-a-costello": {
+    "id": "ryan-a-costello",
+    "name": "Ryan A. Costello",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/ryan-a-costello/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/07/Ryan-Costello-e1752000159713.jpg",
+    "competitor_id": "capstone"
+  },
+  "thomas-p-feddo": {
+    "id": "thomas-p-feddo",
+    "name": "Thomas P. Feddo",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/thomas-p-feddo/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-thomas-feddo.jpg",
+    "competitor_id": "capstone"
+  },
+  "jeffrey-gerrish": {
+    "id": "jeffrey-gerrish",
+    "name": "Jeffrey Gerrish",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jeffrey-gerrish/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/03/Jeff_Gerrish_photo.jpg",
+    "competitor_id": "capstone"
+  },
+  "christopher-hanson": {
+    "id": "christopher-hanson",
+    "name": "Christopher Hanson",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/christopher-hanson/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/10/Christopher-Hanson.png",
+    "competitor_id": "capstone"
+  },
+  "john-hughes": {
+    "id": "john-hughes",
+    "name": "John Hughes",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/john-hughes/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/09/John-Hughes-Headshot.jpg",
+    "competitor_id": "capstone"
+  },
+  "andrew-p-hunter": {
+    "id": "andrew-p-hunter",
+    "name": "Andrew P. Hunter",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/andrew-p-hunter/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/08/Andew-Hunter.jpeg",
+    "competitor_id": "capstone"
+  },
+  "ruth-kelly": {
+    "id": "ruth-kelly",
+    "name": "Ruth Kelly",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/ruth-kelly/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2026/01/Ruth-Kelly-Headshot-scaled-e1769443642413.jpg",
+    "competitor_id": "capstone"
+  },
+  "dhanendra-kumar": {
+    "id": "dhanendra-kumar",
+    "name": "Dhanendra Kumar",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/dhanendra-kumar/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/06/Dahnendra-Kumar.jpg",
+    "competitor_id": "capstone"
+  },
+  "matt-salo": {
+    "id": "matt-salo",
+    "name": "Matt Salo",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/matt-salo/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/04/Matt-Salo.jpg",
+    "competitor_id": "capstone"
+  },
+  "dr-navtej-sarna": {
+    "id": "dr-navtej-sarna",
+    "name": "Navtej Sarna",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/dr-navtej-sarna/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/06/Navtej-Sarna-scaled-e1717518785589.jpg",
+    "competitor_id": "capstone"
+  },
+  "karan-singh": {
+    "id": "karan-singh",
+    "name": "Karan Singh",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/karan-singh/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/06/Karan-Singh-headshot.jpg",
+    "competitor_id": "capstone"
+  },
+  "daniel-tarullo": {
+    "id": "daniel-tarullo",
+    "name": "Daniel Tarullo",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/daniel-tarullo/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/02/Daniel-Tarullo.jpg",
+    "competitor_id": "capstone"
+  },
+  "ted-tozer": {
+    "id": "ted-tozer",
+    "name": "Ted Tozer",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/ted-tozer/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/10/ted-tozer.jpg",
+    "competitor_id": "capstone"
+  },
+  "vishwapati-trivedi": {
+    "id": "vishwapati-trivedi",
+    "name": "Vishwapati Trivedi",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/vishwapati-trivedi/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/05/Vishwapati-Trivedi-Head-Shot-e1716232027719.jpg",
+    "competitor_id": "capstone"
+  },
+  "peter-wright": {
+    "id": "peter-wright",
+    "name": "Peter Wright",
+    "title": "Senior Adviser",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/peter-wright/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/08/Peter-Wright.jpg",
+    "competitor_id": "capstone"
+  },
+  "andrew-gier-cfa": {
+    "id": "andrew-gier-cfa",
+    "name": "Andrew Gier, CFA",
+    "title": "Managing Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/andrew-gier-cfa/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-andrew-gier.jpg",
+    "competitor_id": "capstone"
+  },
+  "joy-assent": {
+    "id": "joy-assent",
+    "name": "Joy Assent",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/joy-assent/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Joy-Assent-scaled-e1724688004707.jpg",
+    "competitor_id": "capstone"
+  },
+  "sebastiaan-bierens": {
+    "id": "sebastiaan-bierens",
+    "name": "Sebastiaan Bierens",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/sebastiaan-bierens/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-sebastiaan-bierens.jpg",
+    "competitor_id": "capstone"
+  },
+  "eva-borbely": {
+    "id": "eva-borbely",
+    "name": "Eva Borbely",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/eva-borbely/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Eva-Borbely-2025-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "bridget-brennan": {
+    "id": "bridget-brennan",
+    "name": "Bridget Brennan",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/bridget-brennan/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Bridget-Brennan-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "wylie-butler": {
+    "id": "wylie-butler",
+    "name": "Wylie Butler",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/wylie-butler/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2022/03/Wylie-e1649710625927.jpg",
+    "competitor_id": "capstone"
+  },
+  "monica-chen": {
+    "id": "monica-chen",
+    "name": "Monica Chen",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/monica-chen/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-monica-chen.jpg",
+    "competitor_id": "capstone"
+  },
+  "chris-dattaro": {
+    "id": "chris-dattaro",
+    "name": "Chris Dattaro",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/chris-dattaro/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/02/Chris-Dattaro-scaled-e1709147786419.jpg",
+    "competitor_id": "capstone"
+  },
+  "brett-doyle": {
+    "id": "brett-doyle",
+    "name": "Brett Doyle",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/brett-doyle/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/09/Brett-Doyle.jpg",
+    "competitor_id": "capstone"
+  },
+  "jad-faki": {
+    "id": "jad-faki",
+    "name": "Jad Faki",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jad-faki/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-jad-faki.jpg",
+    "competitor_id": "capstone"
+  },
+  "keegan-ferguson": {
+    "id": "keegan-ferguson",
+    "name": "Keegan Ferguson",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/keegan-ferguson/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-keegan-ferguson.jpg",
+    "competitor_id": "capstone"
+  },
+  "nick-galdos": {
+    "id": "nick-galdos",
+    "name": "Nick Galdos",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/nick-galdos/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-nick-galdos.jpg",
+    "competitor_id": "capstone"
+  },
+  "aaron-gao": {
+    "id": "aaron-gao",
+    "name": "Aaron Gao",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/aaron-gao/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/07/Aaron-Gao-scaled-e1720446572198.jpg",
+    "competitor_id": "capstone"
+  },
+  "paul-niznik": {
+    "id": "paul-niznik",
+    "name": "Paul Niznik",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/paul-niznik/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/person-avitar.jpg",
+    "competitor_id": "capstone"
+  },
+  "brian-scanlon": {
+    "id": "brian-scanlon",
+    "name": "Brian Scanlon, CFA",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/brian-scanlon/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-brian-scanlon.jpg",
+    "competitor_id": "capstone"
+  },
+  "sean-sullivan": {
+    "id": "sean-sullivan",
+    "name": "Sean Sullivan",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/sean-sullivan/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-sean-sullivan.jpg",
+    "competitor_id": "capstone"
+  },
+  "ian-tang": {
+    "id": "ian-tang",
+    "name": "Ian Tang",
+    "title": "Director",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/ian-tang/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Ian-Tang-2026-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "nick-bartlett": {
+    "id": "nick-bartlett",
+    "name": "Nick Bartlett",
+    "title": "Senior Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/nick-bartlett/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-nick-bartlett.jpg",
+    "competitor_id": "capstone"
+  },
+  "charlotte-bucchioni": {
+    "id": "charlotte-bucchioni",
+    "name": "Charlotte Bucchioni",
+    "title": "Senior Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/charlotte-bucchioni/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Charlotte-Bucchioni-2025-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "benoit-calatayud": {
+    "id": "benoit-calatayud",
+    "name": "Beno\u00eet Calatayud",
+    "title": "Senior Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/benoit-calatayud/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Benoit-Calatayud-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "trace-dodge": {
+    "id": "trace-dodge",
+    "name": "Trace Dodge",
+    "title": "Senior Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/trace-dodge/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Trace-Dodge-scaled-e1725548782463.jpg",
+    "competitor_id": "capstone"
+  },
+  "paul-greenough": {
+    "id": "paul-greenough",
+    "name": "Paul Greenough",
+    "title": "Senior Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/paul-greenough/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Paul-Greenough-scaled-e1722263047524.jpeg",
+    "competitor_id": "capstone"
+  },
+  "daniel-kruger": {
+    "id": "daniel-kruger",
+    "name": "Daniel Kruger",
+    "title": "Senior Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/daniel-kruger/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/HSDC2863E1-e1640104411723.jpg",
+    "competitor_id": "capstone"
+  },
+  "walker-livingston": {
+    "id": "walker-livingston",
+    "name": "Walker Livingston",
+    "title": "Senior Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/walker-livingston/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Walker-Livingston-scaled-e1721667403165.jpg",
+    "competitor_id": "capstone"
+  },
+  "dania-maimouni": {
+    "id": "dania-maimouni",
+    "name": "Dania Maimouni",
+    "title": "Senior Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/dania-maimouni/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Dania-Maimouni-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "tj-pyzyk": {
+    "id": "tj-pyzyk",
+    "name": "T.J. Pyzyk",
+    "title": "Senior Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/tj-pyzyk/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/TJ-Pyzyk.jpg",
+    "competitor_id": "capstone"
+  },
+  "michael-wang": {
+    "id": "michael-wang",
+    "name": "Michael Wang",
+    "title": "Senior Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/michael-wang/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/06/Michael-Wang-scaled-e1719251974114.jpg",
+    "competitor_id": "capstone"
+  },
+  "lena-bhagat": {
+    "id": "lena-bhagat",
+    "name": "Lena Bhagat",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/lena-bhagat/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Lena-B1-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "jack-buckley": {
+    "id": "jack-buckley",
+    "name": "Jack Buckley",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jack-buckley/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2023/08/Jack-Buckley-scaled-e1691588468659.jpg",
+    "competitor_id": "capstone"
+  },
+  "joe-clancy": {
+    "id": "joe-clancy",
+    "name": "Joe Clancy",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/joe-clancy/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/12/Joe-Clancy-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "murphy-costigan": {
+    "id": "murphy-costigan",
+    "name": "Murphy Costigan",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/murphy-costigan/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Murphy-Costigan-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "chris-defeo": {
+    "id": "chris-defeo",
+    "name": "Chris DeFeo",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/chris-defeo/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Chris-DeFeo-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "sandra-diaz": {
+    "id": "sandra-diaz",
+    "name": "Sandra Diaz",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/sandra-diaz/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/04/Sandra-Diaz-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "brendan-dulin": {
+    "id": "brendan-dulin",
+    "name": "Brendan Dulin",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/brendan-dulin/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2026/03/Brendan-Dulin-e1773321337876.jpg",
+    "competitor_id": "capstone"
+  },
+  "jean-fogarty": {
+    "id": "jean-fogarty",
+    "name": "Jean Fogarty",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jean-fogarty/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-jean-fogarty.jpg",
+    "competitor_id": "capstone"
+  },
+  "benjamin-gilbert": {
+    "id": "benjamin-gilbert",
+    "name": "Benjamin R. Gilbert",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/benjamin-gilbert/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2026/02/HSDC5502V1-e1770905759750.jpg",
+    "competitor_id": "capstone"
+  },
+  "lucas-gomez-acebo": {
+    "id": "lucas-gomez-acebo",
+    "name": "Lucas Gomez-Acebo",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/lucas-gomez-acebo/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/07/Lucas-Gomez-Acebo-scaled-e1719856673996.jpg",
+    "competitor_id": "capstone"
+  },
+  "christian-gray": {
+    "id": "christian-gray",
+    "name": "Christian Gray",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/christian-gray/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Christian-Gray-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "kelly-harold": {
+    "id": "kelly-harold",
+    "name": "Kelly Harold",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/kelly-harold/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/10/Kelly-Harold-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "kate-hertz": {
+    "id": "kate-hertz",
+    "name": "Kate Hertz",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/kate-hertz/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Kate-Hertz-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "mariana-herrera": {
+    "id": "mariana-herrera",
+    "name": "Mariana Herrera",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/mariana-herrera/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Mariana-Herrera-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "will-humphrey": {
+    "id": "will-humphrey",
+    "name": "Will Humphrey",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/will-humphrey/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/06/Will-Humphrey-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "bob-ivry": {
+    "id": "bob-ivry",
+    "name": "Bob Ivry",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/bob-ivry/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/09/Bob-Ivry.jpg",
+    "competitor_id": "capstone"
+  },
+  "charlotte-jenkins": {
+    "id": "charlotte-jenkins",
+    "name": "Charlotte Jenkins",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/charlotte-jenkins/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/CJ-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "rohit-joshi": {
+    "id": "rohit-joshi",
+    "name": "Rohit Joshi",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/rohit-joshi/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/HSDC3458V1-scaled-e1759422761679.jpg",
+    "competitor_id": "capstone"
+  },
+  "lucas-karron": {
+    "id": "lucas-karron",
+    "name": "Lucas Karron",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/lucas-karron/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-lucas-karron.jpg",
+    "competitor_id": "capstone"
+  },
+  "lorenz-kottmeier": {
+    "id": "lorenz-kottmeier",
+    "name": "Lorenz Kottmeier",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/lorenz-kottmeier/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Lorenz-Kottmeier-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "angela-lamari": {
+    "id": "angela-lamari",
+    "name": "Angela Lamari",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/angela-lamari/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Angela-Lamari-scaled-e1710507527715.jpg",
+    "competitor_id": "capstone"
+  },
+  "andrew-lascaleia": {
+    "id": "andrew-lascaleia",
+    "name": "Andrew LaScaleia",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/andrew-lascaleia/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Andrew-LaScaleia-scaled-e1721061070462.jpg",
+    "competitor_id": "capstone"
+  },
+  "erin-melly": {
+    "id": "erin-melly",
+    "name": "Erin Melly",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/erin-melly/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/HSDC3976V1-e1770050285228.jpg",
+    "competitor_id": "capstone"
+  },
+  "jonathan-meza": {
+    "id": "jonathan-meza",
+    "name": "Jonathan Meza",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jonathan-meza/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Jonathan-Meza-scaled-e1726670963526.jpg",
+    "competitor_id": "capstone"
+  },
+  "maria-giulia-mobilia": {
+    "id": "maria-giulia-mobilia",
+    "name": "Maria Giulia Mobilia",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/maria-giulia-mobilia/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Maria-Giulia-Mobilia-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "david-mohler": {
+    "id": "david-mohler",
+    "name": "David Mohler",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/david-mohler/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/David-Mohler-scaled-e1704987677606.jpg",
+    "competitor_id": "capstone"
+  },
+  "drew-monroe": {
+    "id": "drew-monroe",
+    "name": "Drew Monroe",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/drew-monroe/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/U17A8666-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "jimmy-nolen": {
+    "id": "jimmy-nolen",
+    "name": "Jimmy Nolen",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jimmy-nolen/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Jimmy-Nolen.jpg",
+    "competitor_id": "capstone"
+  },
+  "jordan-osias": {
+    "id": "jordan-osias",
+    "name": "Jordan Osias",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jordan-osias/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/HSDC2451E1-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "jack-painter": {
+    "id": "jack-painter",
+    "name": "Jack Painter",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jack-painter/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Jack-Painter-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "meghan-pallardy": {
+    "id": "meghan-pallardy",
+    "name": "Meghan Pallardy",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/meghan-pallardy/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/team-meghan-pallardy.jpg",
+    "competitor_id": "capstone"
+  },
+  "klaus-preusser": {
+    "id": "klaus-preusser",
+    "name": "Klaus Preusser",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/klaus-preusser/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Klaus-Preusser-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "julia-rosen": {
+    "id": "julia-rosen",
+    "name": "Julia Rosen",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/julia-rosen/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Julia-Rosen-2.jpeg",
+    "competitor_id": "capstone"
+  },
+  "eric-schiavone": {
+    "id": "eric-schiavone",
+    "name": "Eric Schiavone",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/eric-schiavone/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Eric-Schiavone-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "jas-sehmi": {
+    "id": "jas-sehmi",
+    "name": "Jas Sehmi",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jas-sehmi/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/person-avitar.jpg",
+    "competitor_id": "capstone"
+  },
+  "matthew-shernicoff": {
+    "id": "matthew-shernicoff",
+    "name": "Matthew Shernicoff",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/matthew-shernicoff/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2026/02/HSDC6044V1--e1771347399291.jpg",
+    "competitor_id": "capstone"
+  },
+  "charlie-speno": {
+    "id": "charlie-speno",
+    "name": "Charlie Speno",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/charlie-speno/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2026/02/HSDC7647V1-e1772212869112.jpg",
+    "competitor_id": "capstone"
+  },
+  "christina-stewart": {
+    "id": "christina-stewart",
+    "name": "Christina Stewart",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/christina-stewart/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Christina-Stewart-scaled-e1725823362748.jpg",
+    "competitor_id": "capstone"
+  },
+  "neil-suri": {
+    "id": "neil-suri",
+    "name": "Neil Suri",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/neil-suri/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/08/Neil-Suri-scaled-e1724767271778.jpg",
+    "competitor_id": "capstone"
+  },
+  "john-taylor": {
+    "id": "john-taylor",
+    "name": "John Taylor",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/john-taylor/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/03/John-Taylor-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "emily-tucker": {
+    "id": "emily-tucker",
+    "name": "Emily Tucker",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/emily-tucker/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/06/Emily-Tucker-scaled-e1717609244729.jpg",
+    "competitor_id": "capstone"
+  },
+  "snigdha-udupi": {
+    "id": "snigdha-udupi",
+    "name": "Snigdha Udupi",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/snigdha-udupi/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/09/Snigdha-Udupi-scaled-e1725454270612.jpg",
+    "competitor_id": "capstone"
+  },
+  "phoebe-willars": {
+    "id": "phoebe-willars",
+    "name": "Phoebe Willars",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/phoebe-willars/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Phoebe-Willars-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "zhanara-backus": {
+    "id": "zhanara-backus",
+    "name": "Zhanara Backus",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/zhanara-backus/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Zhanara-Backus-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "dunja-zhou": {
+    "id": "dunja-zhou",
+    "name": "Dunja Zhou",
+    "title": "Vice President",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/dunja-zhou/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Dunja-Zhou-scaled-e1722620842240.jpg",
+    "competitor_id": "capstone"
+  },
+  "caroline-bayless": {
+    "id": "caroline-bayless",
+    "name": "Caroline Bayless",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/caroline-bayless/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/05/Caroline-Bayless-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "gia-beaton": {
+    "id": "gia-beaton",
+    "name": "Gia Beaton",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/gia-beaton/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Gia-Beaton-scaled-e1725823088489.jpg",
+    "competitor_id": "capstone"
+  },
+  "gregory-bell": {
+    "id": "gregory-bell",
+    "name": "Gregory Bell",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/gregory-bell/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/01/Gregory-Bell-scaled-e1706628291223.jpg",
+    "competitor_id": "capstone"
+  },
+  "tom-bellini": {
+    "id": "tom-bellini",
+    "name": "Tom Bellini",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/tom-bellini/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/07/Tom-Bellini-scaled-e1719857496157.jpg",
+    "competitor_id": "capstone"
+  },
+  "aida-berhane": {
+    "id": "aida-berhane",
+    "name": "Aida Berhane",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/aida-berhane/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Aida-Berhane-scaled-e1725384676906.jpg",
+    "competitor_id": "capstone"
+  },
+  "priyanka-bhanushali": {
+    "id": "priyanka-bhanushali",
+    "name": "Priyanka Bhanushali",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/priyanka-bhanushali/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Priyanka-Bhanushali.png",
+    "competitor_id": "capstone"
+  },
+  "sophie-blum": {
+    "id": "sophie-blum",
+    "name": "Sophie Blum",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/sophie-blum/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/03/Sophie-Blum.jpg",
+    "competitor_id": "capstone"
+  },
+  "schuyler-bordeau": {
+    "id": "schuyler-bordeau",
+    "name": "Schuyler Bordeau",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/schuyler-bordeau/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Schuyler-Bordeau-scaled-e1721667531282.jpg",
+    "competitor_id": "capstone"
+  },
+  "kate-braddom": {
+    "id": "kate-braddom",
+    "name": "Kate Braddom",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/kate-braddom/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/01/Kate-Braddom-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "noah-carroll": {
+    "id": "noah-carroll",
+    "name": "Noah Carroll",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/noah-carroll/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Noah-Carroll-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "robert-cheung": {
+    "id": "robert-cheung",
+    "name": "Robert Cheung",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/robert-cheung/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Bobby-Cheung-scaled-e1695131375275.jpg",
+    "competitor_id": "capstone"
+  },
+  "eli-cook": {
+    "id": "eli-cook",
+    "name": "Eli Cook",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/eli-cook/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/05/Eli-Cook-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "mayeul-danselme": {
+    "id": "mayeul-danselme",
+    "name": "Mayeul d\u2019Anselme",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/mayeul-danselme/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Mayeul-dAnselme-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "franck-djoumessi": {
+    "id": "franck-djoumessi",
+    "name": "Franck Djoumessi",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/franck-djoumessi/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Franck-Djoumessi-scaled-e1714743200131.jpg",
+    "competitor_id": "capstone"
+  },
+  "grace-feitel": {
+    "id": "grace-feitel",
+    "name": "Grace Feitel",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/grace-feitel/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/09/Grace-Feitel-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "nora-flennmark": {
+    "id": "nora-flennmark",
+    "name": "Nora Flennmark",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/nora-flennmark/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Nora-Flennmark-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "jeanne-garner": {
+    "id": "jeanne-garner",
+    "name": "Jeanne Garner",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jeanne-garner/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/11/Jeanne-Garner-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "pauline-giorgini": {
+    "id": "pauline-giorgini",
+    "name": "Pauline Giorgini",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/pauline-giorgini/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Pauline-Giorgini-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "claudia-gorman": {
+    "id": "claudia-gorman",
+    "name": "Claudia Gorman",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/claudia-gorman/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/10/Claudia-Gorman-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "rhishabh-goswami": {
+    "id": "rhishabh-goswami",
+    "name": "Rhishabh Goswami",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/rhishabh-goswami/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/person-avitar.jpg",
+    "competitor_id": "capstone"
+  },
+  "maya-hadiputro": {
+    "id": "maya-hadiputro",
+    "name": "Maya Hadiputro",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/maya-hadiputro/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/HSDC6833E1-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "suzie-kemp": {
+    "id": "suzie-kemp",
+    "name": "Suzie Kemp",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/suzie-kemp/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Suzie-Kemp-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "ishita-khosla": {
+    "id": "ishita-khosla",
+    "name": "Ishita Khosla",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/ishita-khosla/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/person-avitar.jpg",
+    "competitor_id": "capstone"
+  },
+  "fareen-kiani": {
+    "id": "fareen-kiani",
+    "name": "Fareen Kiani",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/fareen-kiani/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Fareen-Kiani-scaled-e1709147943932.jpeg",
+    "competitor_id": "capstone"
+  },
+  "aimee-kimble": {
+    "id": "aimee-kimble",
+    "name": "Aimee Kimble",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/aimee-kimble/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Aimee-Kimble-1-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "deepak-kumar": {
+    "id": "deepak-kumar",
+    "name": "Deepak Kumar",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/deepak-kumar/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/12/person-avitar.jpg",
+    "competitor_id": "capstone"
+  },
+  "christopher-malcomson": {
+    "id": "christopher-malcomson",
+    "name": "Christopher Malcomson",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/christopher-malcomson/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/02/Christopher-Malcomson-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "tomas-martinez-adalid": {
+    "id": "tomas-martinez-adalid",
+    "name": "Tom\u00e1s Mart\u00ednez Adalid",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/tomas-martinez-adalid/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Tomas-Martin-Adalid-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "jack-ocallaghan": {
+    "id": "jack-ocallaghan",
+    "name": "Jack O\u2019Callaghan",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/jack-ocallaghan/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Jack-OCallaghan-scaled-e1721237821600.jpg",
+    "competitor_id": "capstone"
+  },
+  "erik-orta": {
+    "id": "erik-orta",
+    "name": "Erik Orta",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/erik-orta/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/05/Erik-Orta-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "josh-parker": {
+    "id": "josh-parker",
+    "name": "Josh Parker",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/josh-parker/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Josh-Parker-scaled-e1722262861559.jpg",
+    "competitor_id": "capstone"
+  },
+  "allison-reinhardt": {
+    "id": "allison-reinhardt",
+    "name": "Allison Reinhardt",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/allison-reinhardt/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Allison-Reinhardt.jpg",
+    "competitor_id": "capstone"
+  },
+  "hannah-rogers": {
+    "id": "hannah-rogers",
+    "name": "Hannah Rogers",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/hannah-rogers/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/08/Hannah-Rogers-scaled-e1723489668287.jpg",
+    "competitor_id": "capstone"
+  },
+  "lena-saha": {
+    "id": "lena-saha",
+    "name": "Lena Saha",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/lena-saha/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/09/Lena-Saha.jpg",
+    "competitor_id": "capstone"
+  },
+  "andy-shaw": {
+    "id": "andy-shaw",
+    "name": "Andy Shaw",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/andy-shaw/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/02/Andy-Shaw-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "ishteyaq-sheikh": {
+    "id": "ishteyaq-sheikh",
+    "name": "Ishteyaq Sheikh",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/ishteyaq-sheikh/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/03/Ishteyaq-Sheikh.png",
+    "competitor_id": "capstone"
+  },
+  "nikhita-swarnkar": {
+    "id": "nikhita-swarnkar",
+    "name": "Nikhita Swarnkar",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/nikhita-swarnkar/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Nikhita-Swarnkar-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "spencer-van-every": {
+    "id": "spencer-van-every",
+    "name": "Spencer Van Every",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/spencer-van-every/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Spencer-Van-Every-scaled-e1701099265155.jpg",
+    "competitor_id": "capstone"
+  },
+  "carlos-washington": {
+    "id": "carlos-washington",
+    "name": "Carlos Washington",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/carlos-washington/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Carlos-Washington-Headshot-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "walker-wicklund": {
+    "id": "walker-wicklund",
+    "name": "Walker Wicklund",
+    "title": "Senior Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/walker-wicklund/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Walker-Wicklund-scaled-e1725549105962.jpg",
+    "competitor_id": "capstone"
+  },
+  "bharati-agarwal": {
+    "id": "bharati-agarwal",
+    "name": "Bharati Agarwal",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/bharati-agarwal/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Bharati-Agarwal-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "rakan-akhdar": {
+    "id": "rakan-akhdar",
+    "name": "Rakan Akhdar",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/rakan-akhdar/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Rakan-Akhdar.jpg",
+    "competitor_id": "capstone"
+  },
+  "andrew-coulibaly": {
+    "id": "andrew-coulibaly",
+    "name": "Andrew Coulibaly",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/andrew-coulibaly/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2026/01/Andrew-Coulibaly-e1768929611948.jpg",
+    "competitor_id": "capstone"
+  },
+  "mansi-dhonde": {
+    "id": "mansi-dhonde",
+    "name": "Mansi Dhonde",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/mansi-dhonde/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Mansi-Dhonde-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "gianina-flegueras": {
+    "id": "gianina-flegueras",
+    "name": "Gianina Flegueras",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/gianina-flegueras/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/10/Gianina-Flegueras.jpg",
+    "competitor_id": "capstone"
+  },
+  "ishika-gupta": {
+    "id": "ishika-gupta",
+    "name": "Ishika Gupta",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/ishika-gupta/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/08/Ishika-Gupta-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "claudia-harnett": {
+    "id": "claudia-harnett",
+    "name": "Claudia Harnett",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/claudia-harnett/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/09/Claudia-Harnett-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "kevin-hoban": {
+    "id": "kevin-hoban",
+    "name": "Kevin Hoban",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/kevin-hoban/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/07/Kevin-Hoban-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "will-karmen": {
+    "id": "will-karmen",
+    "name": "Will Karmen",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/will-karmen/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Will-Karmen-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "liam-carpenter-shulman": {
+    "id": "liam-carpenter-shulman",
+    "name": "Liam Carpenter-Shulman",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/liam-carpenter-shulman/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Liam-Carpenter-Shulman-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "annabelle-krause": {
+    "id": "annabelle-krause",
+    "name": "Annabelle Krause",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/annabelle-krause/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Annabelle-Krause-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "kate-lardner": {
+    "id": "kate-lardner",
+    "name": "Kate Lardner",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/kate-lardner/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Kate-Lardner-scaled-e1722634654542.jpg",
+    "competitor_id": "capstone"
+  },
+  "emily-lyssenko": {
+    "id": "emily-lyssenko",
+    "name": "Emily Lyssenko",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/emily-lyssenko/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Emily-Lyssenko-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "rosie-mccarthy": {
+    "id": "rosie-mccarthy",
+    "name": "Rosie McCarthy",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/rosie-mccarthy/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Rosie-McCarthy-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "katherine-mock": {
+    "id": "katherine-mock",
+    "name": "Katherine Mock",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/katherine-mock/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2024/01/Katherine-Mock-scaled-e1705516206817.jpg",
+    "competitor_id": "capstone"
+  },
+  "annie-morgan": {
+    "id": "annie-morgan",
+    "name": "Annie Morgan",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/annie-morgan/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/09/Annie-Morgan-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "samir-neal": {
+    "id": "samir-neal",
+    "name": "Samir Neal",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/samir-neal/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/07/Samir-Neal-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "sanjana-patel": {
+    "id": "sanjana-patel",
+    "name": "Sanjana Patel",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/sanjana-patel/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/10/Sanjana-Patel-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "lilly-pope": {
+    "id": "lilly-pope",
+    "name": "Lilly Pope",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/lilly-pope/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2026/01/Lilly-Pope-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "ben-romeo": {
+    "id": "ben-romeo",
+    "name": "Ben Romeo",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/ben-romeo/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Ben-Romeo-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "shakhnoza-salimjonova": {
+    "id": "shakhnoza-salimjonova",
+    "name": "Shakhnoza Salimjonova",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/shakhnoza-salimjonova/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Shaky-Salimjonova-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "bradley-virden": {
+    "id": "bradley-virden",
+    "name": "Bradley Virden",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/bradley-virden/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2025/11/HSDC8806V1-1-scaled-e1763404252472.jpg",
+    "competitor_id": "capstone"
+  },
+  "ishyan-veluppillai": {
+    "id": "ishyan-veluppillai",
+    "name": "Ishyan Veluppillai",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/ishyan-veluppillai/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Ishyan-Veluppillai-scaled.jpg",
+    "competitor_id": "capstone"
+  },
+  "caroline-zvonek": {
+    "id": "caroline-zvonek",
+    "name": "Caroline Zvonek",
+    "title": "Associate",
+    "section": "Team",
+    "location": "Washington, DC",
+    "profile": "https://capstonedc.com/team-member/caroline-zvonek/",
+    "photo": "https://capstonedc.com/wp-content/uploads/2021/08/Caroline-Zvonek.jpg",
+    "competitor_id": "capstone"
+  }
+}
