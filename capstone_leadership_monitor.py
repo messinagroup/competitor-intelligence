@@ -39,7 +39,7 @@ def scrape_team():
         photo = img["src"].strip() if img and img.get("src") else ""
         members.append({"id": slug, "name": text, "title": title, "section": current_section,
                         "location": LOCATION, "profile": anchor["href"].strip(),
-                        "photo": photo, "company": COMPANY})
+                        "photo": photo, "competitor_id": "capstone"})
     return members
 
 def load_state():
@@ -66,8 +66,8 @@ def diff(old, new):
 
 def push(payload):
     resp = requests.post(SUPABASE_URL,
-        headers={"Content-Type": "application/json", "Authorization": f"Bearer {API_KEY}"},
-        json=payload, timeout=30)
+        headers={"Content-Type": "application/json", "x-api-key": API_KEY},
+        json=payload["data"], timeout=30)
     resp.raise_for_status()
     print(f"  ✓ Pushed → {resp.status_code}")
 
@@ -78,7 +78,7 @@ def main():
     old_state = load_state()
     if not old_state:
         print("  First run — pushing full snapshot…")
-        push({"type": "leadership_snapshot", "company": COMPANY,
+        push({"type": "leadership_snapshot", "competitor_id": "capstone",
               "data": members, "scraped_at": datetime.now(timezone.utc).isoformat()})
     else:
         changes = diff(old_state, members)
@@ -86,7 +86,7 @@ def main():
             print(f"  {len(changes)} change(s) detected")
             for c in changes:
                 print(f"    [{c['change_type'].upper()}] {c['name']} — {c.get('title','')}")
-            push({"type": "leadership", "company": COMPANY, "data": changes})
+            push({"type": "leadership", "competitor_id": "capstone", "data": changes})
         else:
             print("  No changes detected.")
     save_state(members)
