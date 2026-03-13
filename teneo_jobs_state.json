@@ -133,6 +133,12 @@
   },
   {
     "title": "Corporate Receptionist | London",
+    "location": "Frankfurt, Germany",
+    "url": "https://www.teneo.com/careers/open-positions/",
+    "competitor_id": "teneo"
+  },
+  {
+    "title": "Director, Corporate Communications",
     "location": "Berlin, Germany",
     "url": "https://www.teneo.com/careers/open-positions/",
     "competitor_id": "teneo"
@@ -223,6 +229,12 @@
   },
   {
     "title": "Manager, Debt Advisory",
+    "location": "London, United Kingdom",
+    "url": "https://www.teneo.com/careers/open-positions/",
+    "competitor_id": "teneo"
+  },
+  {
+    "title": "Manager, Financial Advisory",
     "location": "Madrid, Spain",
     "url": "https://www.teneo.com/careers/open-positions/",
     "competitor_id": "teneo"
@@ -288,8 +300,8 @@
     "competitor_id": "teneo"
   },
   {
-    "title": "Senior Consultant, Financial Advisory",
-    "location": "Leeds, United Kingdom",
+    "title": "Senior Consultant, Corporate Communications",
+    "location": "Birmingham, United Kingdom",
     "url": "https://www.teneo.com/careers/open-positions/",
     "competitor_id": "teneo"
   },
@@ -301,12 +313,18 @@
   },
   {
     "title": "Senior Consultant, Financial Advisory",
-    "location": "Birmingham, United Kingdom",
+    "location": "Leeds, United Kingdom",
     "url": "https://www.teneo.com/careers/open-positions/",
     "competitor_id": "teneo"
   },
   {
     "title": "Senior Consultant, Financial Advisory",
+    "location": "London, United Kingdom",
+    "url": "https://www.teneo.com/careers/open-positions/",
+    "competitor_id": "teneo"
+  },
+  {
+    "title": "Senior Consultant, Financial Modelling",
     "location": "London, United Kingdom",
     "url": "https://www.teneo.com/careers/open-positions/",
     "competitor_id": "teneo"
@@ -319,13 +337,13 @@
   },
   {
     "title": "Senior Consultant, Management Consulting",
-    "location": "Dubai DIFC FA",
+    "location": "Guernsey, United Kingdom",
     "url": "https://www.teneo.com/careers/open-positions/",
     "competitor_id": "teneo"
   },
   {
     "title": "Senior Consultant / Manager, Financial Advisory",
-    "location": "Guernsey, United Kingdom",
+    "location": "Dubai DIFC FA",
     "url": "https://www.teneo.com/careers/open-positions/",
     "competitor_id": "teneo"
   },
