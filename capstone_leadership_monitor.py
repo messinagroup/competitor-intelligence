@@ -7,8 +7,8 @@ URL          = "https://capstonedc.com/about/team/"
 COMPANY      = "Capstone"
 LOCATION     = "Washington, DC"
 STATE_FILE   = Path(__file__).parent / "state" / "capstone_leadership_state.json"
-SUPABASE_URL = "https://hhgtzjyjkcnwkawcgfbv.supabase.co/functions/v1/import"
-API_KEY      = os.environ.get("BPI_API_KEY", "bpi_test_key_12345")
+SUPABASE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "")
+API_KEY = os.environ.get("LOVABLE_API_KEY", "")
 HEADERS      = {"User-Agent": "Mozilla/5.0"}
 SECTION_MAP  = {"leadership": "Leadership", "senior advisers": "Senior Advisers", "team": "Team"}
 
