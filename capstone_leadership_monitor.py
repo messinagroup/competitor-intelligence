@@ -64,12 +64,22 @@ def diff(old, new):
             events.append({"change_type": "removed", "detected_at": now, "source_url": URL, **member})
     return events
 
-def push(payload):
-    resp = requests.post(SUPABASE_URL,
-        headers={"Content-Type": "application/json", "x-api-key": API_KEY},
-        json=payload["data"], timeout=30)
-    resp.raise_for_status()
-    print(f"  ✓ Pushed → {resp.status_code}")
+def push(members):
+    today = datetime.now().strftime("%Y-%m-%d")
+    payload = [{
+        "title": f"{m['name']} — {m['title']}",
+        "snippet": f"{m['section']} at Capstone | {m['location']}",
+        "source_domain": "capstonedc.com",
+        "published_date": today,
+        "url": m["profile"],
+        "competitor_id": "capstone"
+    } for m in members]
+    for i in range(0, len(payload), 50):
+        batch = payload[i:i+50]
+        resp = requests.post(SUPABASE_URL,
+            headers={"Content-Type": "application/json", "x-api-key": API_KEY},
+            json=batch, timeout=30)
+        print(f"  Batch {i//50+1}: {resp.status_code} {resp.text[:80]}")
 
 def main():
     print(f"[{datetime.now().isoformat()}] Capstone leadership monitor starting…")
@@ -78,8 +88,7 @@ def main():
     old_state = load_state()
     if not old_state:
         print("  First run — pushing full snapshot…")
-        push({"type": "leadership_snapshot", "competitor_id": "capstone",
-              "data": members, "scraped_at": datetime.now(timezone.utc).isoformat()})
+        push(members)
     else:
         changes = diff(old_state, members)
         if changes:
