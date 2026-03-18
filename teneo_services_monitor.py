@@ -13,7 +13,7 @@ def scrape_services():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
-        page.goto(SERVICES_URL, wait_until="networkidle")
+        page.goto(SERVICES_URL, wait_until="domcontentloaded", timeout=60000)
         links = page.query_selector_all("a")
         for link in links:
             href = link.get_attribute("href") or ""
