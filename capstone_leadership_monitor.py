@@ -95,7 +95,7 @@ def main():
             print(f"  {len(changes)} change(s) detected")
             for c in changes:
                 print(f"    [{c['change_type'].upper()}] {c['name']} — {c.get('title','')}")
-            push({"type": "leadership", "competitor_id": "capstone", "data": changes})
+            push(changes)
         else:
             print("  No changes detected.")
     save_state(members)
