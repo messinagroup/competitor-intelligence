@@ -56,7 +56,7 @@ def scrape_people():
                     url = f"{BASE_URL}?office={slug}"
                 else:
                     url = f"{BASE_URL}page/{page_num}/?office={slug}"
-                page.goto(url, wait_until="networkidle")
+                page.goto(url, wait_until="domcontentloaded", timeout=60000)
                 page.wait_for_timeout(800)
                 lines = [l.strip() for l in page.inner_text("body").split("\n") if l.strip()]
                 found_any = False
