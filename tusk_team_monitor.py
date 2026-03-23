@@ -1,150 +1,136 @@
 """
-Tusk Strategies Website Monitor - Sends to Lovable Dashboard
-Install: pip3 install requests beautifulsoup4 lxml
-Run: python3 tusk_team_monitor.py
+Tusk Strategies Team Monitor
+Scrapes individual bio pages for each team member.
 """
 
 import os
 import json
+import hashlib
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-from urllib.parse import urljoin
+from pathlib import Path
 
-class TuskMonitor:
-    def __init__(self):
-        self.base_url = 'https://tuskstrategies.com'
-        self.pages_to_monitor = [
-            'https://tuskstrategies.com/',
-            'https://tuskstrategies.com/services/',
-            'https://tuskstrategies.com/our-team/',
-            'https://tuskstrategies.com/services/crypto-and-advanced-tech-practice/',
-            'https://tuskstrategies.com/services/new-york-practice/',
-        ]
-        self.current_data = []
-        self.previous_data = []
-        self.changes = []
-        self.lovable_url = os.environ.get('LOVABLE_FUNCTION_URL')
-        self.lovable_key = os.environ.get('LOVABLE_API_KEY', '')
-        
-    def load_previous_data(self):
-        try:
-            if os.path.exists('data/tusk_previous.json'):
-                with open('data/tusk_previous.json', 'r') as f:
-                    self.previous_data = json.load(f)
-                print(f"✅ Loaded previous data: {len(self.previous_data)} pages")
-            else:
-                print("ℹ️  No previous data found (first run)")
-        except Exception as e:
-            print(f"⚠️  Error loading previous data: {e}")
+BASE_URL   = "https://tuskstrategies.com"
+TEAM_URL   = "https://tuskstrategies.com/our-team/"
+STATE_FILE = Path("state/tusk_team_state.json")
+LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "")
+API_KEY     = os.environ.get("LOVABLE_API_KEY", "")
+HEADERS     = {"User-Agent": "Mozilla/5.0"}
 
-    def scrape_page(self, url):
-        try:
-            print(f"📄 Scraping: {url}")
-            response = requests.get(url, timeout=15, headers={
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-            })
-            response.raise_for_status()
-            soup = BeautifulSoup(response.content, 'lxml')
-            title = soup.find('title')
-            title = title.get_text().strip() if title else ''
-            h1 = soup.find('h1')
-            h1_text = h1.get_text().strip() if h1 else ''
-            description = ''
-            meta_desc = soup.find('meta', attrs={'name': 'description'})
-            if meta_desc:
-                description = meta_desc.get('content', '')
-            for element in soup(['script', 'style', 'nav', 'footer', 'header']):
-                element.decompose()
-            main = soup.find('main') or soup.find('article') or soup.find('body')
-            content = ' '.join(main.get_text().split()) if main else ''
-            headings = [h.get_text().strip() for h in soup.find_all(['h2', 'h3']) if h.get_text().strip()]
-            return {
-                'url': url,
-                'title': title,
-                'h1': h1_text,
-                'description': description,
-                'content': content[:2000],
-                'contentLength': len(content),
-                'headings': headings[:10],
-                'scrapedAt': datetime.now().isoformat()
-            }
-        except Exception as e:
-            print(f"   ✗ Error: {e}")
-            return None
 
-    def scrape_all(self):
-        print('\n🔍 Scraping monitored pages...\n')
-        for url in self.pages_to_monitor:
-            data = self.scrape_page(url)
-            if data:
-                self.current_data.append(data)
-        print(f"\n✅ Scraped {len(self.current_data)} pages")
+def fetch(url):
+    r = requests.get(url, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    return BeautifulSoup(r.text, "html.parser")
 
-    def detect_changes(self):
-        print('\n📊 Detecting changes...\n')
-        if not self.previous_data:
-            print("🆕 First run - establishing baseline")
-            self.changes = [{'type': 'new', 'page': page, 'message': 'Initial scrape'} for page in self.current_data]
-            return
-        prev_dict = {p['url']: p for p in self.previous_data}
-        curr_dict = {p['url']: p for p in self.current_data}
-        for url, current in curr_dict.items():
-            if url not in prev_dict:
-                self.changes.append({'type': 'new_page', 'url': url, 'title': current['title'], 'message': f"New page: {current['title']}"})
-            else:
-                previous = prev_dict[url]
-                if current['title'] != previous['title']:
-                    self.changes.append({'type': 'title_change', 'url': url, 'old': previous['title'], 'new': current['title']})
-                prev_len = previous.get('contentLength', 0)
-                curr_len = current.get('contentLength', 0)
-                if prev_len > 0:
-                    change_pct = abs(curr_len - prev_len) / prev_len * 100
-                    if change_pct > 5:
-                        self.changes.append({'type': 'content_change', 'url': url, 'title': current['title'], 'changePct': round(change_pct, 1)})
-        if self.changes:
-            print(f"🔔 Found {len(self.changes)} changes!")
+
+def scrape_team():
+    soup    = fetch(TEAM_URL)
+    members = []
+    seen    = set()
+
+    # Tusk team cards — find all links pointing to /our-team/* bio pages
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if "/people/" not in href:
+            continue
+        if not href.startswith("http"):
+            href = BASE_URL + href
+        if href in seen:
+            continue
+        seen.add(href)
+
+        # Name: from the link text or a heading inside
+        name = ""
+        h_tag = a.find(["h2", "h3", "h4"])
+        if h_tag:
+            name = h_tag.get_text(strip=True)
+        if not name:
+            name = a.get_text(strip=True).split("\n")[0].strip()
+        if not name:
+            continue
+
+        # Title: next <p> or sibling text inside the card
+        title = ""
+        p_tag = a.find("p")
+        if p_tag:
+            title = p_tag.get_text(strip=True)
+
+        uid = hashlib.md5(href.encode()).hexdigest()[:12]
+        members.append({
+            "id":            uid,
+            "name":          name,
+            "title":         title,
+            "location":      "New York, NY",
+            "competitor_id": "tusk",
+            "url":           href,  # real individual bio page
+        })
+
+    return members
+
+
+def load_state():
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    return json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else {}
+
+
+def save_state(members):
+    STATE_FILE.write_text(json.dumps({m["id"]: m for m in members}, indent=2))
+
+
+def member_hash(m):
+    return hashlib.md5(f"{m['name']}|{m['title']}|{m['url']}".encode()).hexdigest()
+
+
+def diff(old, new):
+    events, now = [], datetime.utcnow().isoformat()
+    new_by_id = {m["id"]: m for m in new}
+    for mid, member in new_by_id.items():
+        if mid not in old:
+            events.append({"change_type": "added", "detected_at": now, **member})
+        elif member_hash(member) != member_hash(old[mid]):
+            events.append({"change_type": "updated", "detected_at": now, "previous": old[mid], **member})
+    for mid, member in old.items():
+        if mid not in new_by_id:
+            events.append({"change_type": "removed", "detected_at": now, **member})
+    return events
+
+
+def push(members):
+    if not LOVABLE_URL:
+        print("  Skipping push — LOVABLE_FUNCTION_URL not set.")
+        return
+    today   = datetime.now().strftime("%Y-%m-%d")
+    records = [{"name": m["name"], "title": m["title"], "url": m["url"], "location": m.get("location",""), "competitor_id": "tusk"} for m in members]
+    wrapped = {"data_type": "leadership", "data": records}
+    headers = {"Content-Type": "application/json", "x-api-key": API_KEY}
+    r = requests.post(LOVABLE_URL, json=wrapped, headers=headers, timeout=30)
+    print(f"  {r.status_code} {r.text[:100]}")
+
+
+def main():
+    print(f"[{datetime.now().isoformat()}] Tusk team monitor starting…")
+    members   = scrape_team()
+    print(f"  Scraped {len(members)} members")
+    for m in members[:5]:
+        print(f"    {m['name']} — {m['url']}")
+    old_state = load_state()
+    if not old_state:
+        print("  First run — pushing full snapshot…")
+        push(members)
+    else:
+        changes = diff(old_state, members)
+        if changes:
+            print(f"  {len(changes)} change(s) detected")
+            for c in changes:
+                print(f"    [{c['change_type'].upper()}] {c['name']}")
+            push(changes)
         else:
-            print("✓ No changes detected")
+            print("  No changes detected.")
+    save_state(members)
+    print("  Done.")
 
-    def send_to_lovable(self):
-        if not self.lovable_url:
-            print("\n⚠️  LOVABLE_FUNCTION_URL not set")
-            return
-        if not self.changes:
-            print("\n✓ No changes to send")
-            return
-        print(f'\n📤 Sending to Lovable...\n')
-        try:
-            payload = [{'title': c.get('title', 'Tusk Strategies page updated'), 'snippet': f'Content changed by {c.get("changePct", 0)}% on {c.get("url", "")}', 'source_domain': 'tuskstrategies.com', 'published_date': datetime.now().strftime('%Y-%m-%d'), 'url': c.get('url', 'https://tuskstrategies.com'), 'competitor_id': 'tusk'} for c in self.changes]
-            headers = {'Content-Type': 'application/json'}
-            if self.lovable_key:
-                headers['x-api-key'] = self.lovable_key
-            response = requests.post(self.lovable_url, json=payload, headers=headers, timeout=30)
-            if response.status_code in [200, 201]:
-                print("✅ Successfully updated Lovable!")
-            else:
-                print(f"⚠️  Failed: {response.status_code}")
-        except Exception as e:
-            print(f"❌ Error: {e}")
 
-    def save_current_data(self):
-        os.makedirs('data', exist_ok=True)
-        with open('data/tusk_previous.json', 'w') as f:
-            json.dump(self.current_data, f, indent=2)
-        print("\n✅ Saved data for next run")
-
-    def run(self):
-        print('╔════════════════════════════════════════╗')
-        print('║   TUSK STRATEGIES MONITOR             ║')
-        print('╚════════════════════════════════════════╝\n')
-        self.load_previous_data()
-        self.scrape_all()
-        self.detect_changes()
-        self.send_to_lovable()
-        self.save_current_data()
-        print('\n║   MONITORING COMPLETE                 ║\n')
-
-if __name__ == '__main__':
-    monitor = TuskMonitor()
-    monitor.run()
+if __name__ == "__main__":
+    main()

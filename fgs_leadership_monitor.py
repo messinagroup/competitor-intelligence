@@ -24,7 +24,8 @@ def scrape_people():
         page = browser.new_page()
         page.goto(PEOPLE_URL, wait_until="networkidle")
         page.wait_for_timeout(2000)
-        # Keep clicking Load More until it disappears
+
+        # Click Load More until gone
         while True:
             try:
                 load_more = page.query_selector("text=Load More")
@@ -35,39 +36,66 @@ def scrape_people():
                 print("    Loaded more...")
             except:
                 break
-        lines = [l.strip() for l in page.inner_text("body").split("\n") if l.strip()]
-        i = 0
-        while i < len(lines):
-            line = lines[i]
-            if any(s.lower() == line.lower() for s in SKIP):
-                i += 1
+
+        # FIX: scrape actual <a href> links to individual bio pages
+        cards = page.query_selector_all("a[href*='/people/']")
+        seen = set()
+        for card in cards:
+            href = card.get_attribute("href") or ""
+            # Skip the main /people page itself
+            if href.rstrip("/") == "/people" or href.rstrip("/") == PEOPLE_URL.rstrip("/"):
                 continue
-            # Check if next line has a title and location
-            if i + 1 < len(lines):
-                next_line = lines[i + 1]
-                if any(t.lower() in next_line.lower() for t in TITLES) and "," in next_line:
-                    # Split title and location by last comma
-                    parts = next_line.rsplit(",", 1)
+            if not href.startswith("http"):
+                href = "https://fgsglobal.com" + href
+
+            # Get name and title from within the card
+            name = ""
+            title = ""
+            location = ""
+
+            name_el = card.query_selector("h3, h2, .name, [class*='name']")
+            if name_el:
+                name = name_el.inner_text().strip()
+
+            title_el = card.query_selector("p, .title, [class*='title'], [class*='role']")
+            if title_el:
+                raw = title_el.inner_text().strip()
+                if "," in raw:
+                    parts = raw.rsplit(",", 1)
                     title = parts[0].strip()
-                    location = parts[1].strip() if len(parts) > 1 else ""
-                    people.append({
-                        "name": line,
-                        "title": title,
-                        "location": location,
-                        "competitor_id": "fgs",
-                        "url": f"https://fgsglobal.com/people"
-                    })
-                    i += 2
-                    continue
-            i += 1
+                    location = parts[1].strip()
+                else:
+                    title = raw
+
+            # Fall back to text lines if selectors didn't work
+            if not name:
+                lines = [l.strip() for l in card.inner_text().split("\n") if l.strip()]
+                if lines:
+                    name = lines[0]
+                if len(lines) > 1:
+                    raw = lines[1]
+                    if "," in raw:
+                        parts = raw.rsplit(",", 1)
+                        title = parts[0].strip()
+                        location = parts[1].strip()
+                    else:
+                        title = raw
+
+            if not name or name in seen:
+                continue
+            seen.add(name)
+
+            people.append({
+                "name": name,
+                "title": title,
+                "location": location,
+                "competitor_id": "fgs",
+                "url": href,   # FIX: real individual bio URL
+            })
+
         browser.close()
-    seen = set()
-    unique = []
-    for p in people:
-        if p["name"] not in seen:
-            seen.add(p["name"])
-            unique.append(p)
-    return unique
+    return people
+
 
 def load_state():
     try:
@@ -76,9 +104,11 @@ def load_state():
     except:
         return []
 
+
 def save_state(s):
     with open(STATE_FILE, "w") as f:
         json.dump(s, f, indent=2)
+
 
 def send_to_lovable(payload):
     if not LOVABLE_URL:
@@ -93,6 +123,7 @@ def send_to_lovable(payload):
         print(f"  Batch {i//50+1}: {r.status_code} {r.text[:80]}")
     return True
 
+
 def main():
     print("FGS GLOBAL LEADERSHIP MONITOR")
     previous = load_state()
@@ -101,7 +132,7 @@ def main():
     current = scrape_people()
     print(f"Found {len(current)} people:")
     for p in current[:10]:
-        print(f"  {p['name']} - {p['title']} - {p['location']}")
+        print(f"  {p['name']} - {p['title']} - {p['url']}")
     if len(current) > 10:
         print(f"  ... and {len(current)-10} more")
     new_people = [p for p in current if p["name"] not in prev_names]
@@ -118,6 +149,7 @@ def main():
         print(f"{len(removed)} removed")
     save_state(current)
     print("Done")
+
 
 if __name__ == "__main__":
     main()

@@ -3,10 +3,11 @@ import os
 import requests
 from playwright.sync_api import sync_playwright
 
-BASE_URL = "https://www.teneo.com/people/search-people/"
+BASE_URL   = "https://www.teneo.com"
+PEOPLE_URL = "https://www.teneo.com/people/search-people/"
 STATE_FILE = "teneo_leadership_state.json"
 LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "")
-API_KEY = os.environ.get("LOVABLE_API_KEY", "")
+API_KEY     = os.environ.get("LOVABLE_API_KEY", "")
 
 OFFICES = [
     ("Boston", "boston"), ("Calgary", "calgary"), ("Chicago", "chicago"),
@@ -29,43 +30,64 @@ OFFICES = [
     ("Cayman Islands", "cayman-islands")
 ]
 
-SKIP = ["Teneo", "Services", "People", "Insights", "News", "Careers", "Global",
-        "Overview", "People Directory", "Global Executive", "Global Management",
-        "Senior Advisors", "Business Segments", "Financial Advisory",
-        "Management Consulting", "People Advisory", "Risk Advisory",
-        "Strategy & Communications", "Practice Areas", "Office Location",
-        "All People", "Cookie", "Consent", "Essential", "Preferences",
-        "Marketing", "Show details", "Allow", "Skip to", "Next", "Previous",
-        "First", "Last", "Terms", "Privacy", "© 2026"]
-
-TITLES = ["President", "Managing Director", "Senior Managing Director", "Director",
-          "Vice President", "Senior Vice President", "Associate", "Manager",
-          "Consultant", "Partner", "Chief", "Co-Founder", "Chairman", "Officer",
-          "Head", "Principal", "Advisor", "Founder", "Executive"]
 
 def scrape_people():
     people = []
+    seen   = set()
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            viewport={"width": 1280, "height": 800}
+            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            viewport={"width": 1280, "height": 800},
+            locale="en-US",
+            timezone_id="America/New_York",
         )
         page = context.new_page()
+        # Hide webdriver flag
+        page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
         for city, slug in OFFICES:
             print(f"    Scraping {city}...")
             page_num = 1
             while True:
-                if page_num == 1:
-                    url = f"{BASE_URL}?office={slug}"
-                else:
-                    url = f"{BASE_URL}page/{page_num}/?office={slug}"
+                url = (f"{PEOPLE_URL}?office={slug}" if page_num == 1
+                       else f"{PEOPLE_URL}page/{page_num}/?office={slug}")
                 try:
                     page.goto(url, wait_until="domcontentloaded", timeout=60000)
                 except Exception as e:
-                    print(f"    ⚠️  Could not load {url}: {e}")
-                    continue
+                    print(f"    ⚠️  {url}: {e}")
+                    break
                 page.wait_for_timeout(800)
+
+                # Build a map of name → real href from ALL anchors on the page
+                all_links = page.query_selector_all("a[href]")
+                href_map = {}
+                for link in all_links:
+                    href = link.get_attribute("href") or ""
+                    if not href or href.startswith("#") or "search-people" in href:
+                        continue
+                    if not href.startswith("http"):
+                        href = BASE_URL + href
+                    txt = link.inner_text().strip().split("\n")[0].strip()
+                    if txt and len(txt) > 2:
+                        href_map[txt] = href
+
+                # Original text-parsing approach (was working) + URL lookup
+                SKIP = ["Teneo", "Services", "People", "Insights", "News", "Careers",
+                        "Global", "Overview", "People Directory", "Global Executive",
+                        "Global Management", "Senior Advisors", "Business Segments",
+                        "Financial Advisory", "Management Consulting", "People Advisory",
+                        "Risk Advisory", "Strategy & Communications", "Practice Areas",
+                        "Office Location", "All People", "Cookie", "Consent", "Essential",
+                        "Preferences", "Marketing", "Show details", "Allow", "Skip to",
+                        "Next", "Previous", "First", "Last", "Terms", "Privacy", "© 2026"]
+                TITLES = ["President", "Managing Director", "Senior Managing Director",
+                          "Director", "Vice President", "Senior Vice President",
+                          "Associate", "Manager", "Consultant", "Partner", "Chief",
+                          "Co-Founder", "Chairman", "Officer", "Head", "Principal",
+                          "Advisor", "Founder", "Executive"]
+
                 lines = [l.strip() for l in page.inner_text("body").split("\n") if l.strip()]
                 found_any = False
                 i = 0
@@ -77,30 +99,31 @@ def scrape_people():
                     if i + 1 < len(lines):
                         next_line = lines[i + 1]
                         if any(t.lower() in next_line.lower() for t in TITLES):
-                            found_any = True
-                            people.append({
-                                "name": line,
-                                "title": next_line,
-                                "location": city,
-                                "competitor_id": "teneo",
-                                "url": f"https://www.teneo.com/people/{line.lower().replace(' ', '-')}/"
-                            })
+                            if line not in seen and len(line) > 2:
+                                seen.add(line)
+                                found_any = True
+                                # FIX: look up real URL, fall back to search page
+                                bio_url = href_map.get(line, f"{PEOPLE_URL}?office={slug}")
+                                people.append({
+                                    "name":          line,
+                                    "title":         next_line,
+                                    "location":      city,
+                                    "competitor_id": "teneo",
+                                    "url":           bio_url,
+                                })
                             i += 2
                             continue
                     i += 1
+
                 next_link = page.query_selector("a[aria-label='Next page']")
                 if next_link and found_any:
                     page_num += 1
                 else:
                     break
+
         browser.close()
-    seen = set()
-    unique = []
-    for p in people:
-        if p["name"] not in seen:
-            seen.add(p["name"])
-            unique.append(p)
-    return unique
+    return people
+
 
 def load_state():
     try:
@@ -109,9 +132,11 @@ def load_state():
     except:
         return []
 
+
 def save_state(s):
     with open(STATE_FILE, "w") as f:
         json.dump(s, f, indent=2)
+
 
 def send_to_lovable(payload):
     if not LOVABLE_URL:
@@ -123,18 +148,21 @@ def send_to_lovable(payload):
     for i in range(0, len(payload), 50):
         batch = payload[i:i+50]
         r = requests.post(LOVABLE_URL, json=batch, headers=headers, timeout=30)
-        print(f"  Batch {i//50 + 1}: {r.status_code} {r.text[:80]}")
+        print(f"  Batch {i//50+1}: {r.status_code} {r.text[:80]}")
     return True
+
 
 def main():
     print("TENEO LEADERSHIP MONITOR")
-    previous = load_state()
+    previous   = load_state()
     prev_names = {p["name"] for p in previous}
     print("Scraping people by office location...")
     current = scrape_people()
     print(f"Found {len(current)} people")
+    for p in current[:5]:
+        print(f"  {p['name']} - {p['title']} - {p['url']}")
     new_people = [p for p in current if p["name"] not in prev_names]
-    removed = [p for p in previous if p["name"] not in {c["name"] for c in current}]
+    removed    = [p for p in previous if p["name"] not in {c["name"] for c in current}]
     if not previous:
         print(f"First run - sending all {len(current)} people...")
         send_to_lovable(current)
@@ -147,6 +175,7 @@ def main():
         print(f"{len(removed)} removed")
     save_state(current)
     print("Done")
+
 
 if __name__ == "__main__":
     main()
