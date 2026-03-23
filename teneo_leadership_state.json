@@ -4,13 +4,13 @@
     "title": "Global Headquarters",
     "location": "Boston",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/people/new-york/"
+    "url": "https://www.teneo.com/people/search-people/?office=boston"
   },
   {
     "name": "All Practice Areas",
     "title": "Risk Advisory",
     "location": "Boston",
     "competitor_id": "teneo",
-    "url": "https://www.teneo.com/people/all-practice-areas/"
+    "url": "https://www.teneo.com/services/"
   }
 ]
