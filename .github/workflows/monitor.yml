@@ -64,18 +64,21 @@ jobs:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 teneo_leadership_monitor.py
+        continue-on-error: true
 
       - name: Run Teneo News Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 teneo_news_monitor.py
+        continue-on-error: true
 
       - name: Run Teneo Jobs Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 teneo_jobs_monitor.py
+        continue-on-error: true
 
       - name: Run FGS Leadership Monitor
         env:
@@ -158,3 +161,4 @@ jobs:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 teneo_leadership_monitor.py
+        continue-on-error: true
