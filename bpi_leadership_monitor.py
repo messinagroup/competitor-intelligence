@@ -29,16 +29,17 @@ def compare_leadership(current, previous):
 
 def send_to_lovable(items, scraped_at, lovable_url, api_key, batch_size=25):
     total_sent = 0
+    lovable_url = lovable_url.strip()
     for i in range(0, len(items), batch_size):
         batch = items[i:i + batch_size]
         batch_num = i // batch_size + 1
         print(f"  Sending batch {batch_num} ({len(batch)} leaders)...")
-        payload = {"competitor_id": "bpi", "data_type": "leadership", "scraped_date": scraped_at, "items": batch}
+        payload = [{"title": l.get('name',''), "snippet": l.get('title',''), "source_domain": "bpi.com", "published_date": scraped_at[:10], "url": "https://www.bpistrategy.com/our-team", "competitor_id": "bpi"} for l in batch]
         try:
-            resp = requests.post(f"{lovable_url}/functions/v1/import", headers={"Content-Type": "application/json", "x-api-key": api_key}, json=payload, timeout=60)
+            resp = requests.post(lovable_url, headers={"Content-Type": "application/json", "x-api-key": api_key}, json=payload, timeout=60)
             resp.raise_for_status()
             total_sent += len(batch)
-            print(f"  Batch {batch_num} sent: {resp.text}")
+            print(f"  Batch {batch_num} sent: {resp.text[:80]}")
         except Exception as e:
             print(f"  Batch {batch_num} failed: {e}")
         time.sleep(1)
