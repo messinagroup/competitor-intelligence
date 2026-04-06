@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 
 PEOPLE_URL = "https://fgsglobal.com/people"
 STATE_FILE = "fgs_leadership_state.json"
-LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "")
+LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "").strip()
 API_KEY = os.environ.get("LOVABLE_API_KEY", "")
 
 SKIP = ["What We Do", "Insights", "About Us", "People", "Join Us", "Contact Us",
@@ -21,8 +21,15 @@ def scrape_people():
     people = []
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.goto(PEOPLE_URL, wait_until="networkidle")
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            viewport={"width": 1280, "height": 800}
+        )
+        page = context.new_page()
+        try:
+            page.goto(PEOPLE_URL, wait_until="domcontentloaded", timeout=60000)
+        except Exception as e:
+            print(f"Warning: page load issue: {e}")
         page.wait_for_timeout(2000)
 
         # Click Load More until gone
@@ -37,18 +44,15 @@ def scrape_people():
             except:
                 break
 
-        # FIX: scrape actual <a href> links to individual bio pages
         cards = page.query_selector_all("a[href*='/people/']")
         seen = set()
         for card in cards:
             href = card.get_attribute("href") or ""
-            # Skip the main /people page itself
             if href.rstrip("/") == "/people" or href.rstrip("/") == PEOPLE_URL.rstrip("/"):
                 continue
             if not href.startswith("http"):
                 href = "https://fgsglobal.com" + href
 
-            # Get name and title from within the card
             name = ""
             title = ""
             location = ""
@@ -67,7 +71,6 @@ def scrape_people():
                 else:
                     title = raw
 
-            # Fall back to text lines if selectors didn't work
             if not name:
                 lines = [l.strip() for l in card.inner_text().split("\n") if l.strip()]
                 if lines:
@@ -90,7 +93,7 @@ def scrape_people():
                 "title": title,
                 "location": location,
                 "competitor_id": "fgs",
-                "url": href,   # FIX: real individual bio URL
+                "url": href,
             })
 
         browser.close()
