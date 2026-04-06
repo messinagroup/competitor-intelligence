@@ -34,7 +34,7 @@ def send_to_lovable(items, scraped_at, lovable_url, api_key, batch_size=25):
         batch = items[i:i + batch_size]
         batch_num = i // batch_size + 1
         print(f"  Sending batch {batch_num} ({len(batch)} leaders)...")
-        payload = [{"title": l.get('name',''), "snippet": l.get('title',''), "source_domain": "bpi.com", "published_date": scraped_at[:10], "url": "https://www.bpistrategy.com/our-team", "competitor_id": "bpi"} for l in batch]
+        payload = [{"title": l.get('name',''), "snippet": l.get('title',''), "source_domain": "bpigroup.com", "published_date": scraped_at[:10], "url": l.get('profile_url') or "https://bpigroup.com/leadership/", "competitor_id": "bpi"} for l in batch]
         try:
             resp = requests.post(lovable_url, headers={"Content-Type": "application/json", "x-api-key": api_key}, json=payload, timeout=60)
             resp.raise_for_status()
