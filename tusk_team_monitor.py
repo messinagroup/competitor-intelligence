@@ -14,9 +14,13 @@ from pathlib import Path
 BASE_URL   = "https://tuskstrategies.com"
 TEAM_URL   = "https://tuskstrategies.com/our-team/"
 STATE_FILE = Path("state/tusk_team_state.json")
-LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "")
+LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "").strip()
 API_KEY     = os.environ.get("LOVABLE_API_KEY", "")
-HEADERS     = {"User-Agent": "Mozilla/5.0"}
+HEADERS     = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+}
 
 
 def fetch(url):
@@ -30,7 +34,6 @@ def scrape_team():
     members = []
     seen    = set()
 
-    # Tusk team cards — find all links pointing to /our-team/* bio pages
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
         if "/people/" not in href:
@@ -41,7 +44,6 @@ def scrape_team():
             continue
         seen.add(href)
 
-        # Name: from the link text or a heading inside
         name = ""
         h_tag = a.find(["h2", "h3", "h4"])
         if h_tag:
@@ -51,7 +53,6 @@ def scrape_team():
         if not name:
             continue
 
-        # Title: next <p> or sibling text inside the card
         title = ""
         p_tag = a.find("p")
         if p_tag:
@@ -64,7 +65,7 @@ def scrape_team():
             "title":         title,
             "location":      "New York, NY",
             "competitor_id": "tusk",
-            "url":           href,  # real individual bio page
+            "url":           href,
         })
 
     return members
@@ -101,12 +102,19 @@ def push(members):
     if not LOVABLE_URL:
         print("  Skipping push — LOVABLE_FUNCTION_URL not set.")
         return
-    today   = datetime.now().strftime("%Y-%m-%d")
-    records = [{"name": m["name"], "title": m["title"], "url": m["url"], "location": m.get("location",""), "competitor_id": "tusk"} for m in members]
-    wrapped = {"data_type": "leadership", "data": records}
+    payload = [{
+        "title": m["name"],
+        "snippet": m["title"],
+        "source_domain": "tuskstrategies.com",
+        "published_date": datetime.now().strftime("%Y-%m-%d"),
+        "url": m["url"],
+        "competitor_id": "tusk"
+    } for m in members]
     headers = {"Content-Type": "application/json", "x-api-key": API_KEY}
-    r = requests.post(LOVABLE_URL, json=wrapped, headers=headers, timeout=30)
-    print(f"  {r.status_code} {r.text[:100]}")
+    for i in range(0, len(payload), 50):
+        batch = payload[i:i+50]
+        r = requests.post(LOVABLE_URL, json=batch, headers=headers, timeout=30)
+        print(f"  Batch {i//50+1}: {r.status_code} {r.text[:80]}")
 
 
 def main():
