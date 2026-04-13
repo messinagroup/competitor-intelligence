@@ -34,30 +34,35 @@ jobs:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 tusk_team_monitor.py
+        continue-on-error: true
 
       - name: Run Tusk Careers Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 tusk_careers_monitor.py
+        continue-on-error: true
 
       - name: Run Tusk News Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 tusk_news_monitor.py
+        continue-on-error: true
 
       - name: Run Tusk Services Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 tusk_services_monitor.py
+        continue-on-error: true
 
       - name: Run Teneo Services Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 teneo_services_monitor.py
+        continue-on-error: true
 
       - name: Run Teneo Leadership Monitor
         env:
@@ -85,12 +90,14 @@ jobs:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 fgs_leadership_monitor.py
+        continue-on-error: true
 
       - name: Run BPI Alerts Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 bpi_alerts_monitor.py
+        continue-on-error: true
 
       - name: Commit updated state files
         run: |
@@ -105,30 +112,35 @@ jobs:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 fgs_careers_monitor.py
+        continue-on-error: true
 
       - name: Run FGS AI Newsletter Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 fgs_ai_newsletter_monitor.py
+        continue-on-error: true
 
       - name: Run Google Alerts Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 google_alerts_monitor.py
+        continue-on-error: true
 
       - name: Run FGS Services Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 fgs_services_monitor.py
+        continue-on-error: true
 
       - name: Run FGS News Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 fgs_news_monitor.py
+        continue-on-error: true
 
       - name: Run Flint Services Monitor
         env:
@@ -142,69 +154,81 @@ jobs:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 capstone_leadership_monitor.py
+        continue-on-error: true
 
       - name: Capstone Careers Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 capstone_careers_monitor.py
+        continue-on-error: true
 
       - name: Capstone Case Studies Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 capstone_case_studies_monitor.py
+        continue-on-error: true
 
       - name: Capstone News Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 capstone_news_monitor.py
+        continue-on-error: true
 
       - name: BPI Leadership Scraper
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 bpi_leadership_scraper.py
+        continue-on-error: true
 
       - name: BPI Locations Scraper
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 bpi_locations_scraper.py
+        continue-on-error: true
 
       - name: BPI Recentwork Scraper
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 bpi_recentwork_scrapper.py
+        continue-on-error: true
 
       - name: BPI Jobs Scraper
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 bpi_jobs_scraper.py
+        continue-on-error: true
 
       - name: BPI Leadership Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 bpi_leadership_monitor.py
+        continue-on-error: true
 
       - name: BPI Locations Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 bpi_locations_monitor.py
+        continue-on-error: true
 
       - name: BPI Recentwork Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 bpi_recentwork_monitor.py
+        continue-on-error: true
 
       - name: BPI Jobs Monitor
         env:
           LOVABLE_FUNCTION_URL: ${{ secrets.LOVABLE_FUNCTION_URL }}
           LOVABLE_API_KEY: ${{ secrets.LOVABLE_API_KEY }}
         run: python3 bpi_jobs_monitor.py
+        continue-on-error: true
