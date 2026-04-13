@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 
 JOBS_URL = "https://www.teneo.com/careers/open-positions/"
 STATE_FILE = "teneo_jobs_state.json"
-LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "")
+LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "").strip()
 API_KEY = os.environ.get("LOVABLE_API_KEY", "")
 
 DEPARTMENTS = ["Strategy & Communications", "Financial Advisory", "Management Consulting",
@@ -27,8 +27,15 @@ def scrape_jobs():
     jobs = []
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.goto(JOBS_URL, wait_until="networkidle")
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            viewport={"width": 1280, "height": 800}
+        )
+        page = context.new_page()
+        try:
+            page.goto(JOBS_URL, wait_until="domcontentloaded", timeout=60000)
+        except Exception as e:
+            print(f"Warning: {e}")
         page.wait_for_timeout(3000)
         content = page.inner_text("body")
         browser.close()
@@ -40,12 +47,10 @@ def scrape_jobs():
         if any(s.lower() == line.lower() for s in SKIP):
             i += 1
             continue
-        # Check if next line is a department
         if i + 1 < len(lines) and lines[i+1] in DEPARTMENTS:
             title = line
             department = lines[i+1]
             location = lines[i+2] if i + 2 < len(lines) else ""
-            # Skip if location looks like a department
             if location in DEPARTMENTS:
                 location = ""
             jobs.append({
@@ -58,7 +63,6 @@ def scrape_jobs():
             continue
         i += 1
 
-    # Deduplicate
     seen = set()
     unique = []
     for j in jobs:
