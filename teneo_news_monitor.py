@@ -1,37 +1,46 @@
 import json
 import os
+import re
 import requests
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 
 NEWS_URL = "https://www.teneo.com/news/"
 STATE_FILE = "teneo_news_state.json"
-LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "")
+LOVABLE_URL = os.environ.get("LOVABLE_FUNCTION_URL", "").strip()
 API_KEY = os.environ.get("LOVABLE_API_KEY", "")
 
 def scrape_news():
     articles = []
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.goto(NEWS_URL, wait_until="networkidle")
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            viewport={"width": 1280, "height": 800}
+        )
+        page = context.new_page()
+        try:
+            page.goto(NEWS_URL, wait_until="domcontentloaded", timeout=60000)
+        except Exception as e:
+            print(f"Warning: {e}")
+        page.wait_for_timeout(3000)
         links = page.query_selector_all("a")
         for link in links:
             href = link.get_attribute("href") or ""
             title_raw = link.inner_text().strip()
-            if not href or "/news/" not in href or href == NEWS_URL:
+            if not href or "/news/" not in href or href.rstrip("/") == NEWS_URL.rstrip("/"):
                 continue
+            if not href.startswith("http"):
+                href = "https://www.teneo.com" + href
             if not title_raw or len(title_raw) < 15:
                 continue
-            # Split title from date/location
             lines = [l.strip() for l in title_raw.split("\n") if l.strip()]
-            # First line may be category (Press Release, Media Coverage)
             category = ""
             title = ""
             snippet = ""
             date_str = datetime.now().strftime("%Y-%m-%d")
             source = "teneo.com"
-            if len(lines) >= 1:
+            if lines:
                 if lines[0] in ["Press Release", "Media Coverage"]:
                     category = lines[0]
                     title = lines[1] if len(lines) > 1 else ""
@@ -41,9 +50,6 @@ def scrape_news():
                     title = lines[0]
                     snippet = " ".join(lines[1:-1]) if len(lines) > 2 else ""
                     last = lines[-1] if lines else ""
-                # Extract date and source from last line
-                # Format: "February 23, 2026 Bloomberg"
-                import re
                 date_match = re.search(r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d+,\s+\d{4}', last)
                 if date_match:
                     try:
@@ -87,9 +93,11 @@ def send_to_lovable(payload):
     headers = {"Content-Type": "application/json"}
     if API_KEY:
         headers["x-api-key"] = API_KEY
-    r = requests.post(LOVABLE_URL, json=payload, headers=headers, timeout=30)
-    print(f"  {r.status_code} {r.text}")
-    return r.status_code in [200, 201]
+    for i in range(0, len(payload), 50):
+        batch = payload[i:i+50]
+        r = requests.post(LOVABLE_URL, json=batch, headers=headers, timeout=30)
+        print(f"  Batch {i//50+1}: {r.status_code} {r.text[:80]}")
+    return True
 
 def main():
     print("TENEO NEWS MONITOR")
@@ -98,7 +106,7 @@ def main():
     print(f"Scraping {NEWS_URL}...")
     current = scrape_news()
     print(f"Found {len(current)} articles:")
-    for a in current:
+    for a in current[:10]:
         print(f"  {a['published_date']} - {a['title'][:60]}")
     new_articles = [a for a in current if a["url"] not in prev_urls]
     if not previous:
