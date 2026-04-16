@@ -1,255 +1,87 @@
 [
   {
-    "name": "Trevor Martin",
+    "name": "Amy Platts",
     "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/trevor-martin"
-  },
-  {
-    "name": "Kirsten Molyneux",
-    "title": "Partner",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kirsten-molyneux"
-  },
-  {
-    "name": "Anna Epstein",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/anna-epstein"
-  },
-  {
-    "name": "Nonie Cheng",
-    "title": "Director",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nonie-cheng"
-  },
-  {
-    "name": "Sarah Crawshaw",
-    "title": "Partner, COO Asia",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sarah-crawshaw"
-  },
-  {
-    "name": "Nicola Brooks",
-    "title": "Managing Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nicola-brooks"
-  },
-  {
-    "name": "Aditi Mane",
-    "title": "Director",
-    "location": "Abu Dhabi",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/aditi-mane"
-  },
-  {
-    "name": "Hazem Assalieh",
-    "title": "Managing Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/hazem-assalieh"
-  },
-  {
-    "name": "Dan Richfield",
-    "title": "Managing Director, Senior Software Architect",
-    "location": "Kingston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/dan-richfield"
-  },
-  {
-    "name": "Nicky Bryan",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nicky-bryan"
-  },
-  {
-    "name": "Danya Al-Qattan",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/danya-al-qattan"
-  },
-  {
-    "name": "Andr\u00e9 Malkine",
-    "title": "Managing Director, Digital Development",
-    "location": "Kingston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/andre-malkine"
-  },
-  {
-    "name": "Jacqueline Niemeyer",
-    "title": "Managing Director",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jacqueline-niemeyer"
-  },
-  {
-    "name": "Julia Caspers",
-    "title": "Director",
-    "location": "D\u00fcsseldorf",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/julia-caspers"
-  },
-  {
-    "name": "Anna Lambertz",
-    "title": "Managing Director",
-    "location": "D\u00fcsseldorf",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/anna-lambertz"
-  },
-  {
-    "name": "Ryan Hopkins",
-    "title": "Managing Director",
     "location": "London",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ryan-hopkins"
+    "url": "https://fgsglobal.com/people/amy-platts"
   },
   {
-    "name": "Cl\u00e9mence Roquet-Mont\u00e9gon",
-    "title": "Director",
-    "location": "Paris",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/clemence-roquet-montegon"
-  },
-  {
-    "name": "Amy Milner",
-    "title": "Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/amy-milner"
-  },
-  {
-    "name": "Sir Craig Oliver",
-    "title": "Co-Global Head Of Strategy & Reputation",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/craig-oliver"
-  },
-  {
-    "name": "Oliver Sherwood",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/oliver-sherwood"
-  },
-  {
-    "name": "Kamella Hudson",
-    "title": "Partner, Government Affairs, Policy And Advocacy",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kamella-hudson"
-  },
-  {
-    "name": "Lindsay Andrews",
-    "title": "Senior Advisor",
-    "location": "San Francisco",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/lindsay-andrews"
-  },
-  {
-    "name": "Matt Schubert",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/matt-schubert"
-  },
-  {
-    "name": "Jonathan Sadlier",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jonathan-sadlier"
-  },
-  {
-    "name": "Christian Jeske",
-    "title": "Managing Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/christian-jeske"
-  },
-  {
-    "name": "Alex Byron",
-    "title": "Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/alex-byron"
-  },
-  {
-    "name": "Tom White",
-    "title": "Partner",
+    "name": "Felipe Garcia Echeverri",
+    "title": "Senior Advsior",
     "location": "Brussels",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/tom-white"
+    "url": "https://fgsglobal.com/people/felipe-garcia-echeverri"
   },
   {
-    "name": "Daniel Phillip R\u00f6ska",
+    "name": "Ed Kronenburg",
+    "title": "Senior Advisor",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ed-kronenburg"
+  },
+  {
+    "name": "Peter ter Horst",
     "title": "Partner",
-    "location": "Frankfurt",
+    "location": "The Hague",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/daniel-phillip-roska"
+    "url": "https://fgsglobal.com/people/peter-ter-horst"
   },
   {
-    "name": "Mike Schuster",
-    "title": "Managing Director",
-    "location": "Berlin",
+    "name": "Vincent Nieuwelink",
+    "title": "Partner",
+    "location": "The Hague",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mike-schuster"
+    "url": "https://fgsglobal.com/people/vincent-nieuwelink"
   },
   {
-    "name": "Susan Ho",
-    "title": "Asia Chair",
-    "location": "Hong Kong",
+    "name": "Jan Peter Balkenende",
+    "title": "Associate Partner",
+    "location": "The Hague",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/susan-ho"
+    "url": "https://fgsglobal.com/people/jan-peter-balkenende"
   },
   {
-    "name": "Chandler Wills",
+    "name": "Hernan Enrique Ponce Aray",
+    "title": "Associate Partner",
+    "location": "Brussels",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/hernan-enrique-ponce-aray"
+  },
+  {
+    "name": "Charles Smit",
+    "title": "Associate Partner",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/charles-smit"
+  },
+  {
+    "name": "Catherine Baderman",
+    "title": "Global Deputy CFO",
+    "location": "Chicago",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/catherine-baderman"
+  },
+  {
+    "name": "Koen Gijsbers",
+    "title": "Associate Partner",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/koen-gijsbers"
+  },
+  {
+    "name": "Sophie Sperlich",
     "title": "Director",
-    "location": "Los Angeles",
+    "location": "Brussels",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/chandler-wills"
+    "url": "https://fgsglobal.com/people/sophie-sperlich"
   },
   {
-    "name": "Laura Richardson",
-    "title": "Senior Advisor, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/laura-richardson"
-  },
-  {
-    "name": "Ethan Holmes",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ethan-holmes"
-  },
-  {
-    "name": "Christopher Williams",
-    "title": "Managing Director",
+    "name": "Alex Felton",
+    "title": "Director",
     "location": "London",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/christopher-williams"
-  },
-  {
-    "name": "Tom Grant",
-    "title": "Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/tom-grant"
-  },
-  {
-    "name": "Amy Wong",
-    "title": "Head Of Finance, Asia",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/amy-wong"
+    "url": "https://fgsglobal.com/people/alex-felton"
   },
   {
     "name": "Dick Berlijn",
@@ -336,88 +168,1348 @@
     "url": "https://fgsglobal.com/people/hugh-mcFadyen"
   },
   {
-    "name": "Justine Hall",
+    "name": "Maeghan Dewar",
     "title": "Partner",
     "location": "Vancouver",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/justine-hall"
+    "url": "https://fgsglobal.com/people/maeghan-dewar"
   },
   {
-    "name": "Sandy Blackwood",
-    "title": "Director",
-    "location": "Toronto",
+    "name": "Thomas Mills",
+    "title": "Director, Washington",
+    "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sandy-blackwood"
+    "url": "https://fgsglobal.com/people/thomas-mills"
   },
   {
-    "name": "Samantha Khalil",
+    "name": "Kerstin Lustig",
     "title": "Managing Director",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kerstin-lustig"
+  },
+  {
+    "name": "Jeremy Sawatzky",
+    "title": "Partner",
     "location": "",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/samantha-khalil"
+    "url": "https://fgsglobal.com/people/jeremy-sawatzky"
   },
   {
-    "name": "Nick Schumacher",
-    "title": "Director",
-    "location": "Calgary",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nick-schumacher"
-  },
-  {
-    "name": "Josh Pekarsky",
-    "title": "Partner",
-    "location": "Vancouver",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/josh-pekarsky"
-  },
-  {
-    "name": "Andy Lloyd",
-    "title": "Partner",
-    "location": "Toronto",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/andy-lloyd"
-  },
-  {
-    "name": "Greg Burch",
-    "title": "Partner",
-    "location": "Toronto",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/greg-burch"
-  },
-  {
-    "name": "Jonas Hermann",
-    "title": "Director",
-    "location": "Zurich",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jonas-hermann"
-  },
-  {
-    "name": "Hani Kharoubi",
-    "title": "Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/hani-kharoubi"
-  },
-  {
-    "name": "Angie Mohamed",
-    "title": "Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/angie-mohamed"
-  },
-  {
-    "name": "Emily Lagemann",
+    "name": "Alexander Steeghs",
     "title": "Director",
     "location": "Berlin",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/emily-lagemann"
+    "url": "https://fgsglobal.com/people/alexander-steeghs"
   },
   {
-    "name": "Ciara Phillips",
+    "name": "Ashleigh Burton",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ashleigh-burton"
+  },
+  {
+    "name": "Euan McLelland",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/euan-mcLelland"
+  },
+  {
+    "name": "Mark Harris",
+    "title": "Global CFO & COO",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mark-harris"
+  },
+  {
+    "name": "Teri Hatch",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/teri-hatch"
+  },
+  {
+    "name": "Olivia Snyder",
+    "title": "Director",
+    "location": "Boston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/olivia-snyder"
+  },
+  {
+    "name": "Fatim Diallo",
+    "title": "Director",
+    "location": "Tokyo",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/fatim-diallo"
+  },
+  {
+    "name": "Oliver Scheele",
+    "title": "Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/oliver-scheele"
+  },
+  {
+    "name": "Peter Gladkow",
     "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/peter-gladkow"
+  },
+  {
+    "name": "Asaf Nagler",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/asaf-nagler"
+  },
+  {
+    "name": "Michael Ahrens",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/michael-ahrens"
+  },
+  {
+    "name": "Chandni Hirani",
+    "title": "Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/chandni-hirani"
+  },
+  {
+    "name": "Fatima Rahman",
+    "title": "Senior Art Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/fatima-rahman"
+  },
+  {
+    "name": "Jan Prinzwald",
+    "title": "Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jan-prinzwald"
+  },
+  {
+    "name": "Allison Feikes",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/allison-feikes"
+  },
+  {
+    "name": "Daniel McAndrews",
+    "title": "Senior Corporate Paralegal, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/daniel-mcandrews"
+  },
+  {
+    "name": "Amanda Anderson",
+    "title": "Director, Intranet Communications & Content, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/amanda-anderson"
+  },
+  {
+    "name": "David Garcia",
+    "title": "Managing Director",
+    "location": "Brussels",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/david-garcia"
+  },
+  {
+    "name": "Ali Darab",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ali-darab"
+  },
+  {
+    "name": "Agathe Monmont",
+    "title": "Insights Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/agathe-monmont"
+  },
+  {
+    "name": "Mike Turner",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mike-turner"
+  },
+  {
+    "name": "Louisa Moreton",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/louisa-moreton"
+  },
+  {
+    "name": "Justin Shinebourne",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/justin-shinebourne"
+  },
+  {
+    "name": "Jenny Bahr",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jenny-bahr"
+  },
+  {
+    "name": "John Gray",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/john-gray"
+  },
+  {
+    "name": "Jenny Davey",
+    "title": "Co-Global Head Of Crisis & Issues Management",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jenny-davey"
+  },
+  {
+    "name": "Jason Stein",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jason-stein"
+  },
+  {
+    "name": "James Thompson",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/james-thompson"
+  },
+  {
+    "name": "James Gray",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/james-gray"
+  },
+  {
+    "name": "James Leviton",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/james-leviton"
+  },
+  {
+    "name": "James Murgatroyd",
+    "title": "Chair, UK, Middle East And Asia",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/james-murgatroyd"
+  },
+  {
+    "name": "Harry Worthington",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/harry-worthington"
+  },
+  {
+    "name": "Christian Falkowski",
+    "title": "Managing Director",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/christian-falkowski"
+  },
+  {
+    "name": "Christoph Bertram",
+    "title": "Partner, Member Of The European Exco",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/christoph-bertram"
+  },
+  {
+    "name": "Alexander Otto",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/alexander-otto"
+  },
+  {
+    "name": "Joachim Koschnicke",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/joachim-koschnicke"
+  },
+  {
+    "name": "Biancastella de Angelis",
+    "title": "Partner",
+    "location": "Brussels",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/biancastella-de-angelis"
+  },
+  {
+    "name": "Samar Al Sayyed",
+    "title": "Partner, Head Of Saudi Arabia",
     "location": "Riyadh",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ciara-phillips"
+    "url": "https://fgsglobal.com/people/samar-al-sayyed"
+  },
+  {
+    "name": "Simon Moyse",
+    "title": "CEO Middle East",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/simon-moyse"
+  },
+  {
+    "name": "Alexander Geiser",
+    "title": "Chief Executive Officer",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/alexander-geiser"
+  },
+  {
+    "name": "Alex Seiler",
+    "title": "Partner",
+    "location": "Tokyo",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/alex-seiler"
+  },
+  {
+    "name": "John Hobday",
+    "title": "Partner",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/john-hobday"
+  },
+  {
+    "name": "Paul Yang",
+    "title": "Partner",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/paul-yang"
+  },
+  {
+    "name": "Kevin Ma",
+    "title": "Managing Director",
+    "location": "Beijing",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kevin-ma"
+  },
+  {
+    "name": "Kai Peter Rath",
+    "title": "Partner",
+    "location": "D\u00fcsseldorf",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kai-peter-rath"
+  },
+  {
+    "name": "Tatiana Belgorodski",
+    "title": "Partner",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/tatiana-belgorodski"
+  },
+  {
+    "name": "Olaf Zapke",
+    "title": "Senior Advisor",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/olaf-zapke"
+  },
+  {
+    "name": "Phoebe Kebbel",
+    "title": "Partner, Member Of The European Exco",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/phoebe-kebbel"
+  },
+  {
+    "name": "Andreas Kolbe",
+    "title": "Partner",
+    "location": "D\u00fcsseldorf",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/andreas-kolbe"
+  },
+  {
+    "name": "Tina Kunath",
+    "title": "Partner",
+    "location": "D\u00fcsseldorf",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/tina-kunath"
+  },
+  {
+    "name": "Susanne Arnold",
+    "title": "Managing Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/susanne-arnold"
+  },
+  {
+    "name": "Regina Frauen",
+    "title": "Partner",
+    "location": "Munich",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/regina-frauen"
+  },
+  {
+    "name": "Folker Dries",
+    "title": "Partner",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/folker-dries"
+  },
+  {
+    "name": "Anna Sperber",
+    "title": "Partner",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/anna-sperber"
+  },
+  {
+    "name": "Bj\u00f6rn Binder",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/bjorn-binder"
+  },
+  {
+    "name": "Brigitte von Haacke",
+    "title": "Partner, CEO Europe",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/brigitte-von-haacke"
+  },
+  {
+    "name": "Jacqlyn Schneider",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jacqlyn-schneider"
+  },
+  {
+    "name": "Louise Hohorst",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/louise-hohors"
+  },
+  {
+    "name": "Sarah Trister",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sarah-trister"
+  },
+  {
+    "name": "Natasha Gingles",
+    "title": "Director, Integrated Campaigns",
+    "location": "Miami",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/natasha-gingles"
+  },
+  {
+    "name": "Stephanie Blank",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/stephanie-blank"
+  },
+  {
+    "name": "Taylor Brown",
+    "title": "Managing Director",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/taylor-brown"
+  },
+  {
+    "name": "Syed Umair",
+    "title": "Director, Digital Design",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/syed-umair"
+  },
+  {
+    "name": "Mark Makhlouf",
+    "title": "Director, Creative Communication",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mark-makhlouf"
+  },
+  {
+    "name": "Debjani Mukherjee-Malhotra",
+    "title": "Director, Strategic Communications",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/debjani-mukherjee-malhotra"
+  },
+  {
+    "name": "Silvia Oppliger",
+    "title": "Managing Director",
+    "location": "Zurich",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/silvia-oppliger"
+  },
+  {
+    "name": "Megan Kennedy",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/megan-kennedy"
+  },
+  {
+    "name": "Ryan Carey-Mahoney",
+    "title": "Director, Social Media, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ryan-carey-mahoney"
+  },
+  {
+    "name": "Sarah Zukowski",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sarah-zukowski"
+  },
+  {
+    "name": "Mike Uhle",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mike-uhle"
+  },
+  {
+    "name": "Melanie West",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/melanie-west"
+  },
+  {
+    "name": "David Campbell",
+    "title": "Managing Director, Digital Projects",
+    "location": "Kingston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/david-campbell"
+  },
+  {
+    "name": "Dan Stone",
+    "title": "Partner, Head Of Digital Development",
+    "location": "Kingston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/dan-stone"
+  },
+  {
+    "name": "Sam Moodie",
+    "title": "Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sam-moodie"
+  },
+  {
+    "name": "Mitali Atal",
+    "title": "Partner",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mitali-atal"
+  },
+  {
+    "name": "Bernhard Brauss",
+    "title": "Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/bernhard-brauss"
+  },
+  {
+    "name": "Jesse Adelman",
+    "title": "Creative Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jesse-adelman"
+  },
+  {
+    "name": "Sophie McNulty",
+    "title": "Partner",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sophie-mcnulty"
+  },
+  {
+    "name": "Anne Gearan",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/anne-gearan"
+  },
+  {
+    "name": "Honey Debelle",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/honey-debelle"
+  },
+  {
+    "name": "Cornelia Quennet-Thielen",
+    "title": "Senior Advisor",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/cornelia-quennet-thielen"
+  },
+  {
+    "name": "Lutz Stroppe",
+    "title": "Senior Advisor",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/lutz-stroppe"
+  },
+  {
+    "name": "Mei Zhang",
+    "title": "Managing Director",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mei-zhang"
+  },
+  {
+    "name": "Charles Sipkins",
+    "title": "Partner, Co-Head Of California",
+    "location": "Los Angeles",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/charles-sipkins"
+  },
+  {
+    "name": "Amy Gross",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/amy-gross"
+  },
+  {
+    "name": "Vickee Jordan Adams",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/vickee-jordan-adams"
+  },
+  {
+    "name": "Kal Goldberg",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kal-goldberg"
+  },
+  {
+    "name": "Winnie Lerner",
+    "title": "Partner, CEO, North America",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/winnie-lerner"
+  },
+  {
+    "name": "Will Edgar",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/will-edgar"
+  },
+  {
+    "name": "Sydney Ann Neuhaus",
+    "title": "Partner & Vice Chair",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sydney-ann-neuhaus"
+  },
+  {
+    "name": "Stuart Fischer",
+    "title": "Consulting Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/stuart-fischer"
+  },
+  {
+    "name": "Rebecca Houck",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rebecca-houck"
+  },
+  {
+    "name": "Carolyn Cost",
+    "title": "Managing Director, Head Of Media Intelligence",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/carolyn-cost"
+  },
+  {
+    "name": "Stef Goodsell",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/stef-goodsell"
+  },
+  {
+    "name": "Susan Brophy",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/susan-brophy"
+  },
+  {
+    "name": "Talia Katz",
+    "title": "Director, Creative Producer, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/talia-katz"
+  },
+  {
+    "name": "Rob Seidman",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rob-seidman"
+  },
+  {
+    "name": "Peter Gardner",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/peter-gardner"
+  },
+  {
+    "name": "Peter Benton-Sullivan",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/peter-benton-sullivan"
+  },
+  {
+    "name": "Paul Poteet",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/paul-poteet"
+  },
+  {
+    "name": "Patrick Withers",
+    "title": "Managing Director, Multimedia, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/patrick-withers"
+  },
+  {
+    "name": "Nicole Dade",
+    "title": "Managing Director, Head Of Diversity, Equity, Inclusion & Belonging, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/nicole-dade"
+  },
+  {
+    "name": "Molly Bloom",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/molly-bloom"
+  },
+  {
+    "name": "Morgan Warners",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/morgan-warners"
+  },
+  {
+    "name": "Franziska Ammann",
+    "title": "Managing Director",
+    "location": "D\u00fcsseldorf",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/franziska-ammann"
+  },
+  {
+    "name": "Hendrik Bender",
+    "title": "Partner",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/hendrik-bender"
+  },
+  {
+    "name": "Tanja Dorr",
+    "title": "Partner",
+    "location": "Munich",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/tanja-dorr"
+  },
+  {
+    "name": "Ali Azimi",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ali-azimi"
+  },
+  {
+    "name": "Benjamin B\u00fchringer",
+    "title": "Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/benjamin-buhringer"
+  },
+  {
+    "name": "Raphael Eisenmann",
+    "title": "Partner",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/raphael-eisenmann"
+  },
+  {
+    "name": "Christopher Storck",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/christopher-storck"
+  },
+  {
+    "name": "Simon Steiner",
+    "title": "Partner",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/simon-steiner"
+  },
+  {
+    "name": "Dominik Veit",
+    "title": "Managing Director",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/dominik-veit"
+  },
+  {
+    "name": "Tim Efing",
+    "title": "Managing Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/tim-efing"
+  },
+  {
+    "name": "Julian Geist",
+    "title": "Partner",
+    "location": "Munich",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/julian-geist"
+  },
+  {
+    "name": "Philippe Radinger",
+    "title": "Managing Director",
+    "location": "Brussels",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/philippe-radinger"
+  },
+  {
+    "name": "Sophie Scott",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sophie-scott"
+  },
+  {
+    "name": "Helen Tang",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/helen-tang"
+  },
+  {
+    "name": "Scott Weier",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/scott-weier"
+  },
+  {
+    "name": "Natalie Salmon",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/natalie-salmon"
+  },
+  {
+    "name": "Jenna Scanlon",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jenna-scanlon"
+  },
+  {
+    "name": "Kristen Kehlet",
+    "title": "Managing Director",
+    "location": "Los Angeles",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kristen-kehlet"
+  },
+  {
+    "name": "Steph Berhane",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/steph-berhane"
+  },
+  {
+    "name": "Jenny Hopkinson",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jenny-hopkinson"
+  },
+  {
+    "name": "Mirijam Dawin",
+    "title": "Director",
+    "location": "D\u00fcsseldorf",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mirijam-dawin"
+  },
+  {
+    "name": "Kyle Daly",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kyle-daly"
+  },
+  {
+    "name": "Andrew Wahlgren",
+    "title": "Director, Contracts, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/andrew-wahlgren"
+  },
+  {
+    "name": "Madeline McKiernan",
+    "title": "Senior Associate",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/madeline-mckiernan"
+  },
+  {
+    "name": "Eva Christiansen",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/eva-christiansen"
+  },
+  {
+    "name": "Henry Schmees",
+    "title": "Managing Director",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/henry-schmees"
+  },
+  {
+    "name": "Tricia Carney",
+    "title": "Global Tax Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/tricia-carney"
+  },
+  {
+    "name": "Thea Bichmann",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/thea-bichmann"
+  },
+  {
+    "name": "Janna Creuzberg",
+    "title": "Managing Director",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/janna-creuzberg"
+  },
+  {
+    "name": "Niels Schlesier",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/niels-schlesier"
+  },
+  {
+    "name": "Manish Khatri",
+    "title": "Director, Digital Products",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/manish-khatri"
+  },
+  {
+    "name": "Lyndsey McCusker",
+    "title": "Managing Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/lyndsey-mccusker"
+  },
+  {
+    "name": "Amy Warnke",
+    "title": "Senior Digital Project Manager",
+    "location": "Kingston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/amy-warnke"
+  },
+  {
+    "name": "Matthew Six",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/matthew-six"
+  },
+  {
+    "name": "Katrin Suder",
+    "title": "Senior Advisor",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/katrin-suder"
+  },
+  {
+    "name": "Margaret Popper",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/margaret-popper"
+  },
+  {
+    "name": "Brooke Gordon",
+    "title": "Partner & NA COO",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/brooke-gordon"
+  },
+  {
+    "name": "Bridget Goodwin",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/bridget-goodwin"
+  },
+  {
+    "name": "Niel Golightly",
+    "title": "Partner",
+    "location": "Houston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/niel-golightly"
+  },
+  {
+    "name": "Daniel Goldstein",
+    "title": "Managing Director",
+    "location": "Los Angeles",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/daniel-goldstein"
+  },
+  {
+    "name": "Hannah Dunning",
+    "title": "Partner",
+    "location": "San Francisco",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/hannah-dunning"
+  },
+  {
+    "name": "Trent Duffy",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/trent-duffy"
+  },
+  {
+    "name": "Andy Duberstein",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/andy-duberstein"
+  },
+  {
+    "name": "Mike DeGraff",
+    "title": "Partner",
+    "location": "Chicago",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mike-degraff"
+  },
+  {
+    "name": "Jessie Davis",
+    "title": "Managing Director, Corporate Counsel",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jessie-davis"
+  },
+  {
+    "name": "Lucy Dao",
+    "title": "Director",
+    "location": "Los Angeles",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/lucy-dao"
+  },
+  {
+    "name": "Jacob Crows",
+    "title": "Partner",
+    "location": "Chicago",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jacob-crows"
+  },
+  {
+    "name": "Anna Cordasco",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/anna-cordasco"
+  },
+  {
+    "name": "Eamonn Liddy",
+    "title": "Director, Head Of Content",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/eamonn-liddy"
+  },
+  {
+    "name": "Charlotte McIntosh",
+    "title": "Marketing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/charlotte-mcIntosh"
+  },
+  {
+    "name": "Louis Hung",
+    "title": "Director",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/louis-hung"
+  },
+  {
+    "name": "Joel Shaffer",
+    "title": "Partner",
+    "location": "Toronto",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/joel-shaffer"
+  },
+  {
+    "name": "Akash Lodh",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/akash-lodh"
+  },
+  {
+    "name": "Phil Harwood",
+    "title": "Partner",
+    "location": "",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/phil-harwood"
+  },
+  {
+    "name": "Vera Ranneft",
+    "title": "Director",
+    "location": "San Francisco",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/vera-ranneft"
+  },
+  {
+    "name": "Nicolai Kubbig",
+    "title": "Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/nicolai-kubbig"
+  },
+  {
+    "name": "Helen Kaiser",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/helen-kaiser"
+  },
+  {
+    "name": "Olu Dada",
+    "title": "Managing Director, Head Of Brand And Design",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/olu-dada"
+  },
+  {
+    "name": "Tricia Engle",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/tricia-engle"
+  },
+  {
+    "name": "Beth Tritter",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/beth-tritter"
+  },
+  {
+    "name": "Capricia Marshall",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/capricia-marshall"
+  },
+  {
+    "name": "Frank Jansen",
+    "title": "Partner",
+    "location": "Amsterdam",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/frank-jansen"
+  },
+  {
+    "name": "Christopher Raad",
+    "title": "Managing Director",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/christopher-raad"
+  },
+  {
+    "name": "Edward Treadwell",
+    "title": "Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/edward-treadwell"
+  },
+  {
+    "name": "Sarah Roberts",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sarah-roberts"
+  },
+  {
+    "name": "Chad Ensley",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/chad-ensley"
+  },
+  {
+    "name": "Susan Schneider",
+    "title": "Director",
+    "location": "Brussels",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/susan-schneider"
+  },
+  {
+    "name": "Kathleen Hazlett",
+    "title": "Director, Digital Strategy",
+    "location": "Houston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kathleen-hazlett"
+  },
+  {
+    "name": "Lauren Marshall",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/lauren-marshall"
+  },
+  {
+    "name": "Catherine Livingston",
+    "title": "Director",
+    "location": "Boston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/catherine-livingston"
+  },
+  {
+    "name": "Akin Harrison",
+    "title": "Chief Legal Officer, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/akin-harrison"
+  },
+  {
+    "name": "Cecilia Siebke",
+    "title": "Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/cecilia-siebke"
+  },
+  {
+    "name": "Philipp Halstrick",
+    "title": "Partner",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/philipp-halstrick"
+  },
+  {
+    "name": "Matthis Kaiser",
+    "title": "Partner",
+    "location": "",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/matthis-kaiser"
+  },
+  {
+    "name": "Jobst Honig",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jobst-honig"
+  },
+  {
+    "name": "Till Achinger",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/till-achinger"
+  },
+  {
+    "name": "Sebastian Mewissen",
+    "title": "Managing Director",
+    "location": "D\u00fcsseldorf",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sebastian-mewissen"
+  },
+  {
+    "name": "Katharina Blumenfeld",
+    "title": "Partner",
+    "location": "Paris",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/katharina-blumenfeld"
+  },
+  {
+    "name": "Dirk von Manikowsky",
+    "title": "Partner",
+    "location": "D\u00fcsseldorf",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/dirk-von-manikowsky"
+  },
+  {
+    "name": "Raphael Neuner",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/raphael-neuner"
+  },
+  {
+    "name": "Julian Jacobitz",
+    "title": "Managing Director",
+    "location": "Brussels",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/julian-jacobitz"
+  },
+  {
+    "name": "Sandra Neuner",
+    "title": "Managing Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sandra-neuner"
+  },
+  {
+    "name": "Rebecca Eisert",
+    "title": "Partner",
+    "location": "",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rebecca-eisert"
+  },
+  {
+    "name": "Robert Vollrath",
+    "title": "Partner, Member Of The European Exco",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/robert-vollrath"
   },
   {
     "name": "Hayley Cook",
@@ -588,592 +1680,844 @@
     "url": "https://fgsglobal.com/people/paul-scarpetta"
   },
   {
-    "name": "Brooke Gordon",
-    "title": "Partner & NA COO",
-    "location": "New York",
+    "name": "Kayo Kasahara",
+    "title": "Senior Advisor",
+    "location": "Tokyo",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/brooke-gordon"
+    "url": "https://fgsglobal.com/people/kayo-kasahara"
   },
   {
-    "name": "Bridget Goodwin",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/bridget-goodwin"
-  },
-  {
-    "name": "Niel Golightly",
-    "title": "Partner",
-    "location": "Houston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/niel-golightly"
-  },
-  {
-    "name": "Daniel Goldstein",
-    "title": "Managing Director",
-    "location": "Los Angeles",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/daniel-goldstein"
-  },
-  {
-    "name": "Hannah Dunning",
-    "title": "Partner",
-    "location": "San Francisco",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/hannah-dunning"
-  },
-  {
-    "name": "Trent Duffy",
-    "title": "Partner, Washington",
+    "name": "Josh Tzuker",
+    "title": "Partner & Global Head Of Competition, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/trent-duffy"
+    "url": "https://fgsglobal.com/people/josh-tzuker"
   },
   {
-    "name": "Andy Duberstein",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/andy-duberstein"
-  },
-  {
-    "name": "Mike DeGraff",
-    "title": "Partner",
-    "location": "Chicago",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mike-degraff"
-  },
-  {
-    "name": "Jessie Davis",
-    "title": "Managing Director, Corporate Counsel",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jessie-davis"
-  },
-  {
-    "name": "Lucy Dao",
-    "title": "Director",
-    "location": "Los Angeles",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/lucy-dao"
-  },
-  {
-    "name": "Jacob Crows",
-    "title": "Partner",
-    "location": "Chicago",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jacob-crows"
-  },
-  {
-    "name": "Anna Cordasco",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/anna-cordasco"
-  },
-  {
-    "name": "Nedra Pickler",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nedra-pickler"
-  },
-  {
-    "name": "Michele Soho",
-    "title": "Chief Human Resources Officer, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/michele-soho"
-  },
-  {
-    "name": "Mike Iger",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mike-iger"
-  },
-  {
-    "name": "Michael Feldman",
-    "title": "Partner, Co-Chairman, North America",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/michael-feldman"
-  },
-  {
-    "name": "Margaret Vice",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/margaret-vice"
-  },
-  {
-    "name": "Megan Moore",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/megan-moore"
-  },
-  {
-    "name": "Megan Grant",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/megan-grant"
-  },
-  {
-    "name": "Melissa Childs",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/melissa-childs"
-  },
-  {
-    "name": "Lizzie Hyland",
+    "name": "Mallory Weinberg",
     "title": "Managing Director",
     "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/lizzie-hyland"
+    "url": "https://fgsglobal.com/people/mallory-weinberg"
   },
   {
-    "name": "Liz Davis",
-    "title": "Managing Director, Washington",
+    "name": "Nick Russell-Harris",
+    "title": "Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/liz-davis"
+    "url": "https://fgsglobal.com/people/nick-russell-Harris"
   },
   {
-    "name": "Liz Breen",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/liz-breen"
-  },
-  {
-    "name": "MacKenzie Smith",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mackenzie-smith"
-  },
-  {
-    "name": "Jacqlyn Schneider",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jacqlyn-schneider"
-  },
-  {
-    "name": "Louise Hohorst",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/louise-hohors"
-  },
-  {
-    "name": "Sarah Trister",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sarah-trister"
-  },
-  {
-    "name": "Natasha Gingles",
-    "title": "Director, Integrated Campaigns",
-    "location": "Miami",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/natasha-gingles"
-  },
-  {
-    "name": "Stephanie Blank",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/stephanie-blank"
-  },
-  {
-    "name": "Taylor Brown",
+    "name": "Markus Stoker",
     "title": "Managing Director",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/markus-stoker"
+  },
+  {
+    "name": "Joe Palombo",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/joe-palombo"
+  },
+  {
+    "name": "Atash Rafeeq",
+    "title": "Managing Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/atash-rafeeq"
+  },
+  {
+    "name": "Melissa Esguerra",
+    "title": "Managing Director",
+    "location": "Singapore",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/melissa-esguerra"
+  },
+  {
+    "name": "Rafaella Lee",
+    "title": "Director",
     "location": "Hong Kong",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/taylor-brown"
+    "url": "https://fgsglobal.com/people/rafaella-lee"
   },
   {
-    "name": "Syed Umair",
-    "title": "Director, Digital Design",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/syed-umair"
-  },
-  {
-    "name": "Mark Makhlouf",
-    "title": "Director, Creative Communication",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mark-makhlouf"
-  },
-  {
-    "name": "Debjani Mukherjee-Malhotra",
-    "title": "Director, Strategic Communications",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/debjani-mukherjee-malhotra"
-  },
-  {
-    "name": "Silvia Oppliger",
+    "name": "Christie Rawlings",
     "title": "Managing Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/christie-rawlings"
+  },
+  {
+    "name": "Trevor Zeck",
+    "title": "Partner",
+    "location": "Vancouver",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/trevor-zeck"
+  },
+  {
+    "name": "Nammi Poorooshasb",
+    "title": "Partner",
+    "location": "Vancouver",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/nammi-poorooshasb"
+  },
+  {
+    "name": "Guy Lamming",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/guy-lamming"
+  },
+  {
+    "name": "Gordon Simpson",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/gordon-simpson"
+  },
+  {
+    "name": "Conor McClafferty",
+    "title": "Partner",
+    "location": "London - Dublin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/conor-mcclafferty"
+  },
+  {
+    "name": "Edward Simpkins",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/edward-simpkins"
+  },
+  {
+    "name": "Dorothy Burwell",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/dorothy-burwell"
+  },
+  {
+    "name": "Faeth Birch",
+    "title": "CEO UK, Middle East And Asia",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/faeth-birch"
+  },
+  {
+    "name": "Catherine Boyle",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/catherine-boyle"
+  },
+  {
+    "name": "Chiara Albertini",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/chiara-albertini"
+  },
+  {
+    "name": "Chris Sibbald",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/chris-sibbald"
+  },
+  {
+    "name": "Chris Ryall",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/chris-ryall"
+  },
+  {
+    "name": "Amanda Healy",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/amanda-healy"
+  },
+  {
+    "name": "Anjali Unnikrishnan",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/anjali-unnikrishnan"
+  },
+  {
+    "name": "Morgan Hill",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/morgan-hill"
+  },
+  {
+    "name": "Rachel Alexander",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rachel-alexander"
+  },
+  {
+    "name": "Laura Farris",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/laura-farris"
+  },
+  {
+    "name": "Oliver Hudson",
+    "title": "Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/oliver-hudson"
+  },
+  {
+    "name": "Laura de Carn\u00e9",
+    "title": "Director",
+    "location": "Paris",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/laura-de-carne"
+  },
+  {
+    "name": "Jacalyn Lee",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jacalyn-lee"
+  },
+  {
+    "name": "Rob Bertholee",
+    "title": "Associate Partner",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rob-bertholee"
+  },
+  {
+    "name": "Stuart Cubbon Jr.",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/stuart-cubbon-jr"
+  },
+  {
+    "name": "Oliver Newton",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/oliver-newton"
+  },
+  {
+    "name": "Mustafa Hashim",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mustafa-hashim"
+  },
+  {
+    "name": "Amin Khalab",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/amin-khalab"
+  },
+  {
+    "name": "Rayan Chabou",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rayan-chabou"
+  },
+  {
+    "name": "Walter Suskind",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/walter-suskind"
+  },
+  {
+    "name": "Kaveh Farzad",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kaveh-farzad"
+  },
+  {
+    "name": "Katrina Okano",
+    "title": "Managing Director",
+    "location": "Los Angeles",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/katrina-okano"
+  },
+  {
+    "name": "Anthony Reed",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/anthony-reed"
+  },
+  {
+    "name": "Kolby Keo",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kolby-keo"
+  },
+  {
+    "name": "Richard Marcus",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/richard-marcus"
+  },
+  {
+    "name": "Tim van der Zanden",
+    "title": "Partner, Corporate & Transaction Communications",
+    "location": "Amsterdam",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/tim-van-der-zanden"
+  },
+  {
+    "name": "Abigail Farr",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/abigail-farr"
+  },
+  {
+    "name": "Carolyn Pike",
+    "title": "Partner",
     "location": "Zurich",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/silvia-oppliger"
+    "url": "https://fgsglobal.com/people/carolyn-pike"
   },
   {
-    "name": "Megan Kennedy",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/megan-kennedy"
-  },
-  {
-    "name": "Ryan Carey-Mahoney",
-    "title": "Director, Social Media, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ryan-carey-mahoney"
-  },
-  {
-    "name": "Eamonn Liddy",
-    "title": "Director, Head Of Content",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/eamonn-liddy"
-  },
-  {
-    "name": "Charlotte McIntosh",
-    "title": "Marketing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/charlotte-mcIntosh"
-  },
-  {
-    "name": "Louis Hung",
-    "title": "Director",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/louis-hung"
-  },
-  {
-    "name": "Joel Shaffer",
-    "title": "Partner",
-    "location": "Toronto",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/joel-shaffer"
-  },
-  {
-    "name": "Akash Lodh",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/akash-lodh"
-  },
-  {
-    "name": "Phil Harwood",
-    "title": "Partner",
-    "location": "",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/phil-harwood"
-  },
-  {
-    "name": "Vera Ranneft",
-    "title": "Director",
-    "location": "San Francisco",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/vera-ranneft"
-  },
-  {
-    "name": "Nicolai Kubbig",
-    "title": "Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nicolai-kubbig"
-  },
-  {
-    "name": "Helen Kaiser",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/helen-kaiser"
-  },
-  {
-    "name": "Olu Dada",
-    "title": "Managing Director, Head Of Brand And Design",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/olu-dada"
-  },
-  {
-    "name": "Tricia Engle",
+    "name": "Richard Mintz",
     "title": "Partner, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/tricia-engle"
+    "url": "https://fgsglobal.com/people/richard-mintz"
   },
   {
-    "name": "Beth Tritter",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/beth-tritter"
-  },
-  {
-    "name": "Yousuf Fazil",
-    "title": "EU & UKMEA Technology Business Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/yousuf-fazil"
-  },
-  {
-    "name": "Abby Deift",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/abby-deift"
-  },
-  {
-    "name": "Attilio Caligiani",
-    "title": "Partner",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/attilio-caligiani"
-  },
-  {
-    "name": "Yassmeen Malash",
-    "title": "Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/yassmeen-malash"
-  },
-  {
-    "name": "Subhan Cheema",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/subhan-cheema"
-  },
-  {
-    "name": "Conan D'Arcy",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/conan-darcy"
-  },
-  {
-    "name": "David Reuter",
-    "title": "Senior Advisor",
-    "location": "",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/david-reuter"
-  },
-  {
-    "name": "Aaron Kwittken",
-    "title": "Global Head Of AI + Innovation",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/aaron-kwittken"
-  },
-  {
-    "name": "Jorick Albers",
-    "title": "Director",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jorick-albers"
-  },
-  {
-    "name": "Jeanette Hamster",
-    "title": "Partner",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jeanette-hamster"
-  },
-  {
-    "name": "Phenola Lawrence",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/phenola-lawrence"
-  },
-  {
-    "name": "Moni Wiltenburg",
-    "title": "Director",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/moni-wiltenburg"
-  },
-  {
-    "name": "Megan Bouchier",
-    "title": "Partner, Co-Head Of San Francisco",
-    "location": "San Francisco",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/megan-bouchier"
-  },
-  {
-    "name": "Jim Barron",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jim-barron"
-  },
-  {
-    "name": "Jamie Baird",
+    "name": "Jim Finkle",
     "title": "Managing Director",
-    "location": "New York",
+    "location": "Boston",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jamie-baird"
+    "url": "https://fgsglobal.com/people/jim-finkle"
   },
   {
-    "name": "Lindsay Alexander",
-    "title": "Managing Director, Design",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/lindsay-alexander"
-  },
-  {
-    "name": "Birte Kattelmann-Jagdt",
-    "title": "Senior Advisor",
-    "location": "D\u00fcsseldorf",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/birte-kattelmann-jagdt"
-  },
-  {
-    "name": "Selina von Hoyningen-Huene",
+    "name": "Sebastian Doedens",
     "title": "Managing Director",
     "location": "Munich",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/selina-von-hoyningen-huene"
+    "url": "https://fgsglobal.com/people/sebastian-doedens"
   },
   {
-    "name": "Ge Yu",
-    "title": "Managing Director, Washington",
-    "location": "DC",
+    "name": "Beth Fouhy",
+    "title": "Partner",
+    "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ge-yu"
+    "url": "https://fgsglobal.com/people/beth-fouhy"
   },
   {
-    "name": "Amanda Stone",
-    "title": "Managing Director, Washington",
-    "location": "DC",
+    "name": "Mareike Oldemeinen",
+    "title": "Managing Director, Corporate & Business Development",
+    "location": "Frankfurt",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/amanda-stone"
+    "url": "https://fgsglobal.com/people/mareike-oldemeinen"
   },
   {
-    "name": "Sarah Bahar",
+    "name": "Pola Moitroux",
+    "title": "Managing Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/pola-moitroux"
+  },
+  {
+    "name": "Jannik Luger",
+    "title": "Managing Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jannik-luger"
+  },
+  {
+    "name": "Ahmed S. Jebur",
     "title": "Managing Director",
     "location": "Dubai",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sarah-bahar"
+    "url": "https://fgsglobal.com/people/ahmed-s-jebur"
   },
   {
-    "name": "Daniel Francis",
+    "name": "Eliza Carter",
+    "title": "Director , Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/eliza-carter"
+  },
+  {
+    "name": "Joseph Diebold",
+    "title": "Managing Director , Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/joseph-diebold"
+  },
+  {
+    "name": "Harry Florry",
+    "title": "Partner, Head Of Singapore",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/harry-florry"
+  },
+  {
+    "name": "Liz Friedlander",
+    "title": "Managing Director , Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/liz-friedlander"
+  },
+  {
+    "name": "Evonne Xiao",
     "title": "Director",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/evonne-xiao"
+  },
+  {
+    "name": "Kala Krishnan",
+    "title": "Managing Director",
     "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/daniel-francis"
+    "url": "https://fgsglobal.com/people/kala-krishnan"
   },
   {
-    "name": "William Klein",
-    "title": "Consulting Partner",
-    "location": "Berlin",
+    "name": "Cailin McKenna",
+    "title": "Director, Washington",
+    "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/william-klein"
+    "url": "https://fgsglobal.com/people/cailin-mckenna"
   },
   {
-    "name": "Ruth Porter",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ruth-porter"
-  },
-  {
-    "name": "Miriam Solomon",
-    "title": "Head Of Marketing And Business Development, North America",
+    "name": "Paul Holmes",
+    "title": "Vice Chair",
     "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/miriam-solomon"
+    "url": "https://fgsglobal.com/people/paul-holmes"
   },
   {
-    "name": "Maartje Snellen",
+    "name": "Michael Mittelman",
     "title": "Partner",
-    "location": "Amsterdam",
+    "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/maartje-snellen"
+    "url": "https://fgsglobal.com/people/michael-mittelman"
   },
   {
-    "name": "Johannes Steger",
+    "name": "Kristin Smith",
     "title": "Managing Director",
-    "location": "Berlin",
+    "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/johannes-steger"
+    "url": "https://fgsglobal.com/people/kristin-smith"
   },
   {
-    "name": "Nyssa Kourakos",
+    "name": "Kerry Golds",
     "title": "Partner",
-    "location": "Miami",
+    "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nyssa-kourakos"
+    "url": "https://fgsglobal.com/people/kerry-golds"
   },
   {
-    "name": "Scott McAbee",
+    "name": "Kirsti Hastings",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kirsti-hastings"
+  },
+  {
+    "name": "Dan Abernethy",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/dan-abernethy"
+  },
+  {
+    "name": "Ed Adler",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ed-adler"
+  },
+  {
+    "name": "Eric Wachter",
     "title": "Managing Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/scott-mcabee"
+    "url": "https://fgsglobal.com/people/eric-wachter"
   },
   {
-    "name": "Monique Sidhom",
-    "title": "Managing Director",
+    "name": "Jeremy Pelofsky",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jeremy-pelofsky"
+  },
+  {
+    "name": "Jeff McAndrews",
+    "title": "Partner, Head Of Los Angeles",
     "location": "Los Angeles",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/monique-sidhom"
+    "url": "https://fgsglobal.com/people/jeff-mcandrews"
   },
   {
-    "name": "Caitlin Falk",
-    "title": "Managing Director, Digital Strategy, Washington",
+    "name": "Barney Gimbel",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/barney-gimbel"
+  },
+  {
+    "name": "Charles (Chuck) Nathan",
+    "title": "Consulting Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/charles-chuck-nathan"
+  },
+  {
+    "name": "Julie Gouss",
+    "title": "Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/caitlin-falk"
+    "url": "https://fgsglobal.com/people/julie-gouss"
   },
   {
-    "name": "Joe Dixon",
-    "title": "Managing Director",
-    "location": "Dubai",
+    "name": "Jonathan Kopp",
+    "title": "Partner",
+    "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/joe-dixon"
+    "url": "https://fgsglobal.com/people/jonathan-kopp"
   },
   {
-    "name": "Jeffrey Hantson",
+    "name": "Jenni LeCompte",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jenni-lecompte"
+  },
+  {
+    "name": "Joel Johnson",
+    "title": "Partner, Head Of Washington, DC, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/joel-johnson"
+  },
+  {
+    "name": "Jennifer Loven",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jennifer-loven"
+  },
+  {
+    "name": "Irene Moskowitz",
     "title": "Managing Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jeffrey-hantson"
+    "url": "https://fgsglobal.com/people/irene-moskowitz"
   },
   {
-    "name": "Camille Putois",
-    "title": "Partner",
-    "location": "Paris",
+    "name": "Jamie Obal",
+    "title": "Managing Director, Washington",
+    "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/camille-putois"
+    "url": "https://fgsglobal.com/people/jamie-obal"
   },
   {
-    "name": "Edward Bowie",
+    "name": "Graeme Trayner",
+    "title": "Partner, Global Insight Lead, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/graeme-trayner"
+  },
+  {
+    "name": "Gregg Rothschild",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/gregg-rothschild"
+  },
+  {
+    "name": "Gina Foote",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/gina-foote"
+  },
+  {
+    "name": "Chrystal Okonta",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/chrystal-okonta"
+  },
+  {
+    "name": "Mariah Zwicker",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mariah-zwicker"
+  },
+  {
+    "name": "George Sard",
+    "title": "Co-Chairman",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/george-sard"
+  },
+  {
+    "name": "Nick Rust",
     "title": "Director",
+    "location": "Houston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/nick-rust"
+  },
+  {
+    "name": "Julie Rudnick",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/julie-rudnick"
+  },
+  {
+    "name": "Peter Rose",
+    "title": "Senior Advisor",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/peter-rose"
+  },
+  {
+    "name": "Benjamin Roback",
+    "title": "Managing Director",
     "location": "London",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/edward-bowie"
+    "url": "https://fgsglobal.com/people/benjamin-roback"
   },
   {
-    "name": "Modar Raslan",
-    "title": "Director",
-    "location": "Dubai",
+    "name": "Warren Rizzi",
+    "title": "Managing Director, Washington",
+    "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/modar-raslan"
+    "url": "https://fgsglobal.com/people/warren-rizzi"
+  },
+  {
+    "name": "Jay Qin",
+    "title": "Partner",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jay-qin"
+  },
+  {
+    "name": "Leah Polito",
+    "title": "Partner",
+    "location": "San Francisco",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/leah-polito"
+  },
+  {
+    "name": "Robert Pirollo",
+    "title": "Managing Director, Human Resources",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/robert-pirollo"
+  },
+  {
+    "name": "Brandon Pinto",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/brandon-pinto"
+  },
+  {
+    "name": "Stephen Pettibone",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/stephen-pettibone"
+  },
+  {
+    "name": "Diana Nehf",
+    "title": "Director, Design",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/diana-nehf"
+  },
+  {
+    "name": "Ginny Wilmerding",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ginny-wilmerding"
+  },
+  {
+    "name": "Minako Hattori",
+    "title": "Partner, Co-Head Of Japan Office",
+    "location": "Tokyo",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/minako-hattori"
+  },
+  {
+    "name": "Claudia Kosser",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/claudia-kosser"
+  },
+  {
+    "name": "Ben Richardson",
+    "title": "Partner, Head Of Asia",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ben-richardson"
+  },
+  {
+    "name": "Daniel Bogler",
+    "title": "Managing Director",
+    "location": "Tokyo",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/daniel-bogler"
+  },
+  {
+    "name": "Deborah Hayden",
+    "title": "Partner",
+    "location": "Tokyo",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/deborah-hayden"
+  },
+  {
+    "name": "Ruban Yogarajah",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ruban-yogarajah"
+  },
+  {
+    "name": "Rollo Head",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rollo-head"
+  },
+  {
+    "name": "Roland Rudd",
+    "title": "Global Chair",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/roland-rudd"
+  },
+  {
+    "name": "Sarah Morgan",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sarah-morgan"
+  },
+  {
+    "name": "Richard Webster-Smith",
+    "title": "Partner",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/richard-webster-smith"
+  },
+  {
+    "name": "Rob Cuthbertson",
+    "title": "Creative Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rob-cuthbertson"
+  },
+  {
+    "name": "Paul Kranhold",
+    "title": "Co-Chair, North America",
+    "location": "San Francisco",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/paul-kranhold"
+  },
+  {
+    "name": "Scott Klampfer",
+    "title": "Partner, Creative Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/scott-klampfer"
+  },
+  {
+    "name": "Chris Kittredge",
+    "title": "Partner, Head Of Boston",
+    "location": "Boston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/chris-kittredge"
+  },
+  {
+    "name": "Rory King",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rory-king"
+  },
+  {
+    "name": "Kelly Kimberly",
+    "title": "Partner, Head Of Houston",
+    "location": "Houston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kelly-kimberly"
+  },
+  {
+    "name": "Frances Jeter",
+    "title": "Partner",
+    "location": "Houston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/frances-jeter"
+  },
+  {
+    "name": "David Isaacs",
+    "title": "Partner",
+    "location": "San Francisco",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/david-isaacs"
+  },
+  {
+    "name": "Jeff Huber",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jeff-huber"
+  },
+  {
+    "name": "Grant Greenberg",
+    "title": "Partner, Digital Strategy",
+    "location": "Miami",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/grant-greenberg"
+  },
+  {
+    "name": "Lisa Green",
+    "title": "Partner, Director Of Media & Presentation Training",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/lisa-green"
+  },
+  {
+    "name": "Kate Gorgi",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kate-gorgi"
+  },
+  {
+    "name": "Jenny Gore",
+    "title": "Partner",
+    "location": "Chicago",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jenny-gore"
   },
   {
     "name": "Melody Dymek",
@@ -1344,508 +2688,172 @@
     "url": "https://fgsglobal.com/people/bridget-nagle"
   },
   {
-    "name": "Capricia Marshall",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/capricia-marshall"
-  },
-  {
-    "name": "Frank Jansen",
-    "title": "Partner",
-    "location": "Amsterdam",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/frank-jansen"
-  },
-  {
-    "name": "Christopher Raad",
-    "title": "Managing Director",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/christopher-raad"
-  },
-  {
-    "name": "Edward Treadwell",
-    "title": "Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/edward-treadwell"
-  },
-  {
-    "name": "Sarah Roberts",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sarah-roberts"
-  },
-  {
-    "name": "Chad Ensley",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/chad-ensley"
-  },
-  {
-    "name": "Susan Schneider",
+    "name": "Adrian Garcia-Esteve",
     "title": "Director",
     "location": "Brussels",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/susan-schneider"
+    "url": "https://fgsglobal.com/people/adrian-garcia-esteve"
   },
   {
-    "name": "Kathleen Hazlett",
-    "title": "Director, Digital Strategy",
-    "location": "Houston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kathleen-hazlett"
-  },
-  {
-    "name": "Lauren Marshall",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/lauren-marshall"
-  },
-  {
-    "name": "Catherine Livingston",
+    "name": "Pierre Picard",
     "title": "Director",
-    "location": "Boston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/catherine-livingston"
-  },
-  {
-    "name": "Akin Harrison",
-    "title": "Chief Legal Officer, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/akin-harrison"
-  },
-  {
-    "name": "Cecilia Siebke",
-    "title": "Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/cecilia-siebke"
-  },
-  {
-    "name": "Peter Gladkow",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/peter-gladkow"
-  },
-  {
-    "name": "Asaf Nagler",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/asaf-nagler"
-  },
-  {
-    "name": "Michael Ahrens",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/michael-ahrens"
-  },
-  {
-    "name": "Chandni Hirani",
-    "title": "Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/chandni-hirani"
-  },
-  {
-    "name": "Fatima Rahman",
-    "title": "Senior Art Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/fatima-rahman"
-  },
-  {
-    "name": "Jan Prinzwald",
-    "title": "Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jan-prinzwald"
-  },
-  {
-    "name": "Allison Feikes",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/allison-feikes"
-  },
-  {
-    "name": "Daniel McAndrews",
-    "title": "Senior Corporate Paralegal, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/daniel-mcandrews"
-  },
-  {
-    "name": "Amanda Anderson",
-    "title": "Director, Intranet Communications & Content, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/amanda-anderson"
-  },
-  {
-    "name": "David Garcia",
-    "title": "Managing Director",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/david-garcia"
-  },
-  {
-    "name": "Ali Darab",
-    "title": "Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ali-darab"
-  },
-  {
-    "name": "Agathe Monmont",
-    "title": "Insights Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/agathe-monmont"
-  },
-  {
-    "name": "Amy Platts",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/amy-platts"
-  },
-  {
-    "name": "Felipe Garcia Echeverri",
-    "title": "Senior Advsior",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/felipe-garcia-echeverri"
-  },
-  {
-    "name": "Ed Kronenburg",
-    "title": "Senior Advisor",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ed-kronenburg"
-  },
-  {
-    "name": "Peter ter Horst",
-    "title": "Partner",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/peter-ter-horst"
-  },
-  {
-    "name": "Vincent Nieuwelink",
-    "title": "Partner",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/vincent-nieuwelink"
-  },
-  {
-    "name": "Jan Peter Balkenende",
-    "title": "Associate Partner",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jan-peter-balkenende"
-  },
-  {
-    "name": "Hernan Enrique Ponce Aray",
-    "title": "Associate Partner",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/hernan-enrique-ponce-aray"
-  },
-  {
-    "name": "Charles Smit",
-    "title": "Associate Partner",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/charles-smit"
-  },
-  {
-    "name": "Catherine Baderman",
-    "title": "Global Deputy CFO",
-    "location": "Chicago",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/catherine-baderman"
-  },
-  {
-    "name": "Koen Gijsbers",
-    "title": "Associate Partner",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/koen-gijsbers"
-  },
-  {
-    "name": "Sophie Sperlich",
-    "title": "Director",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sophie-sperlich"
-  },
-  {
-    "name": "Alex Felton",
-    "title": "Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/alex-felton"
-  },
-  {
-    "name": "Maeghan Dewar",
-    "title": "Partner",
-    "location": "Vancouver",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/maeghan-dewar"
-  },
-  {
-    "name": "Thomas Mills",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/thomas-mills"
-  },
-  {
-    "name": "Kerstin Lustig",
-    "title": "Managing Director",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kerstin-lustig"
-  },
-  {
-    "name": "Jeremy Sawatzky",
-    "title": "Partner",
-    "location": "",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jeremy-sawatzky"
-  },
-  {
-    "name": "Alexander Steeghs",
-    "title": "Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/alexander-steeghs"
-  },
-  {
-    "name": "Ashleigh Burton",
-    "title": "Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ashleigh-burton"
-  },
-  {
-    "name": "Euan McLelland",
-    "title": "Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/euan-mcLelland"
-  },
-  {
-    "name": "Mark Harris",
-    "title": "Global CFO & COO",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mark-harris"
-  },
-  {
-    "name": "Teri Hatch",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/teri-hatch"
-  },
-  {
-    "name": "Olivia Snyder",
-    "title": "Director",
-    "location": "Boston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/olivia-snyder"
-  },
-  {
-    "name": "Fatim Diallo",
-    "title": "Director",
-    "location": "Tokyo",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/fatim-diallo"
-  },
-  {
-    "name": "Oliver Scheele",
-    "title": "Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/oliver-scheele"
-  },
-  {
-    "name": "Kai Peter Rath",
-    "title": "Partner",
-    "location": "D\u00fcsseldorf",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kai-peter-rath"
-  },
-  {
-    "name": "Tatiana Belgorodski",
-    "title": "Partner",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/tatiana-belgorodski"
-  },
-  {
-    "name": "Olaf Zapke",
-    "title": "Senior Advisor",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/olaf-zapke"
-  },
-  {
-    "name": "Phoebe Kebbel",
-    "title": "Partner, Member Of The European Exco",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/phoebe-kebbel"
-  },
-  {
-    "name": "Andreas Kolbe",
-    "title": "Partner",
-    "location": "D\u00fcsseldorf",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/andreas-kolbe"
-  },
-  {
-    "name": "Tina Kunath",
-    "title": "Partner",
-    "location": "D\u00fcsseldorf",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/tina-kunath"
-  },
-  {
-    "name": "Susanne Arnold",
-    "title": "Managing Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/susanne-arnold"
-  },
-  {
-    "name": "Regina Frauen",
-    "title": "Partner",
-    "location": "Munich",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/regina-frauen"
-  },
-  {
-    "name": "Folker Dries",
-    "title": "Partner",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/folker-dries"
-  },
-  {
-    "name": "Anna Sperber",
-    "title": "Partner",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/anna-sperber"
-  },
-  {
-    "name": "Bj\u00f6rn Binder",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/bjorn-binder"
-  },
-  {
-    "name": "Brigitte von Haacke",
-    "title": "Partner, CEO Europe",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/brigitte-von-haacke"
-  },
-  {
-    "name": "Adrija Chakraborty",
-    "title": "Managing Director, Equity Advisory & IR",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/adrija-chakraborty"
-  },
-  {
-    "name": "Rebecca Gasser",
-    "title": "Global Chief Information Officer",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rebecca-gasser"
-  },
-  {
-    "name": "Daniela Ritter",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/daniela-ritter"
-  },
-  {
-    "name": "Danielle Berg",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/danielle-berg"
-  },
-  {
-    "name": "Rich Allan",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rich-allan"
-  },
-  {
-    "name": "Pinky Badhan",
-    "title": "Managing Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/pinky-badhan"
-  },
-  {
-    "name": "Robert Amady",
-    "title": "Managing Director",
     "location": "Paris",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/robert-amady"
+    "url": "https://fgsglobal.com/people/pierre-picard"
   },
   {
-    "name": "Sophia Johnston",
-    "title": "Managing Director",
-    "location": "London",
+    "name": "Denise Feldner",
+    "title": "Senior Advisor",
+    "location": "Berlin",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sophia-johnston"
+    "url": "https://fgsglobal.com/people/denise-feldner"
   },
   {
-    "name": "Jessica Murphy",
+    "name": "Heather Prosser",
+    "title": "Managing Director",
+    "location": "Tokyo",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/heather-prosser"
+  },
+  {
+    "name": "Robin Bleichrodt",
+    "title": "Managing Director",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/robin-bleichrodt"
+  },
+  {
+    "name": "Michael Flaherty",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/michael-flaherty"
+  },
+  {
+    "name": "Christine Claire Graeff",
+    "title": "Global Chief Growth Officer",
+    "location": "Zurich",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/christine-claire-graeff"
+  },
+  {
+    "name": "Shannon O'Connor",
     "title": "Director",
     "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jessica-murphy"
+    "url": "https://fgsglobal.com/people/shannon-oconnor"
   },
   {
-    "name": "Ben Waldron",
-    "title": "Managing Director, Strategic Communications Division, Washington",
+    "name": "Menno Snel",
+    "title": "Partner",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/menno-snel"
+  },
+  {
+    "name": "Richard Walters",
+    "title": "Partner, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ben-waldron"
+    "url": "https://fgsglobal.com/people/richard-walters"
   },
   {
-    "name": "Kendall Bitonte",
+    "name": "Jos\u00e9 Oosterveen",
+    "title": "Director Finance Benelux",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jose-oosterveen"
+  },
+  {
+    "name": "Frans van Steenis",
+    "title": "Associate Partner",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/frans-van-steenis"
+  },
+  {
+    "name": "Christian Jeske",
+    "title": "Managing Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/christian-jeske"
+  },
+  {
+    "name": "Alex Byron",
+    "title": "Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/alex-byron"
+  },
+  {
+    "name": "Tom White",
+    "title": "Partner",
+    "location": "Brussels",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/tom-white"
+  },
+  {
+    "name": "Daniel Phillip R\u00f6ska",
+    "title": "Partner",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/daniel-phillip-roska"
+  },
+  {
+    "name": "Mike Schuster",
+    "title": "Managing Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mike-schuster"
+  },
+  {
+    "name": "Susan Ho",
+    "title": "Asia Chair",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/susan-ho"
+  },
+  {
+    "name": "Chandler Wills",
+    "title": "Director",
+    "location": "Los Angeles",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/chandler-wills"
+  },
+  {
+    "name": "Laura Richardson",
+    "title": "Senior Advisor, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/laura-richardson"
+  },
+  {
+    "name": "Ethan Holmes",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ethan-holmes"
+  },
+  {
+    "name": "Christopher Williams",
     "title": "Managing Director",
     "location": "London",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kendall-bitonte"
+    "url": "https://fgsglobal.com/people/christopher-williams"
   },
   {
-    "name": "Elise Kammerer",
+    "name": "Tom Grant",
     "title": "Director",
-    "location": "Berlin",
+    "location": "London",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/elise-kammerer"
+    "url": "https://fgsglobal.com/people/tom-grant"
+  },
+  {
+    "name": "Amy Wong",
+    "title": "Head Of Finance, Asia",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/amy-wong"
   },
   {
     "name": "Ayako Asano",
@@ -1932,256 +2940,256 @@
     "url": "https://fgsglobal.com/people/adam-sharon"
   },
   {
-    "name": "Mike Turner",
-    "title": "Partner",
+    "name": "Yousuf Fazil",
+    "title": "EU & UKMEA Technology Business Partner",
     "location": "London",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mike-turner"
+    "url": "https://fgsglobal.com/people/yousuf-fazil"
   },
   {
-    "name": "Louisa Moreton",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/louisa-moreton"
-  },
-  {
-    "name": "Justin Shinebourne",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/justin-shinebourne"
-  },
-  {
-    "name": "Jenny Bahr",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jenny-bahr"
-  },
-  {
-    "name": "John Gray",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/john-gray"
-  },
-  {
-    "name": "Jenny Davey",
-    "title": "Co-Global Head Of Crisis & Issues Management",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jenny-davey"
-  },
-  {
-    "name": "Jason Stein",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jason-stein"
-  },
-  {
-    "name": "James Thompson",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/james-thompson"
-  },
-  {
-    "name": "James Gray",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/james-gray"
-  },
-  {
-    "name": "James Leviton",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/james-leviton"
-  },
-  {
-    "name": "James Murgatroyd",
-    "title": "Chair, UK, Middle East And Asia",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/james-murgatroyd"
-  },
-  {
-    "name": "Harry Worthington",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/harry-worthington"
-  },
-  {
-    "name": "Guy Lamming",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/guy-lamming"
-  },
-  {
-    "name": "Gordon Simpson",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/gordon-simpson"
-  },
-  {
-    "name": "Conor McClafferty",
-    "title": "Partner",
-    "location": "London - Dublin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/conor-mcclafferty"
-  },
-  {
-    "name": "Edward Simpkins",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/edward-simpkins"
-  },
-  {
-    "name": "Dorothy Burwell",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/dorothy-burwell"
-  },
-  {
-    "name": "Faeth Birch",
-    "title": "CEO UK, Middle East And Asia",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/faeth-birch"
-  },
-  {
-    "name": "Catherine Boyle",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/catherine-boyle"
-  },
-  {
-    "name": "Chiara Albertini",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/chiara-albertini"
-  },
-  {
-    "name": "Chris Sibbald",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/chris-sibbald"
-  },
-  {
-    "name": "Chris Ryall",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/chris-ryall"
-  },
-  {
-    "name": "Amanda Healy",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/amanda-healy"
-  },
-  {
-    "name": "Anjali Unnikrishnan",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/anjali-unnikrishnan"
-  },
-  {
-    "name": "Paul Holmes",
-    "title": "Vice Chair",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/paul-holmes"
-  },
-  {
-    "name": "Michael Mittelman",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/michael-mittelman"
-  },
-  {
-    "name": "Kristin Smith",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kristin-smith"
-  },
-  {
-    "name": "Kerry Golds",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kerry-golds"
-  },
-  {
-    "name": "Kirsti Hastings",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kirsti-hastings"
-  },
-  {
-    "name": "Dan Abernethy",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/dan-abernethy"
-  },
-  {
-    "name": "Ed Adler",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ed-adler"
-  },
-  {
-    "name": "Eric Wachter",
+    "name": "Abby Deift",
     "title": "Managing Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/eric-wachter"
+    "url": "https://fgsglobal.com/people/abby-deift"
   },
   {
-    "name": "Jeremy Pelofsky",
-    "title": "Partner, Washington",
+    "name": "Attilio Caligiani",
+    "title": "Partner",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/attilio-caligiani"
+  },
+  {
+    "name": "Yassmeen Malash",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/yassmeen-malash"
+  },
+  {
+    "name": "Subhan Cheema",
+    "title": "Managing Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jeremy-pelofsky"
+    "url": "https://fgsglobal.com/people/subhan-cheema"
   },
   {
-    "name": "Jeff McAndrews",
-    "title": "Partner, Head Of Los Angeles",
-    "location": "Los Angeles",
+    "name": "Conan D'Arcy",
+    "title": "Partner",
+    "location": "London",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jeff-mcandrews"
+    "url": "https://fgsglobal.com/people/conan-darcy"
   },
   {
-    "name": "Barney Gimbel",
+    "name": "David Reuter",
+    "title": "Senior Advisor",
+    "location": "",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/david-reuter"
+  },
+  {
+    "name": "Aaron Kwittken",
+    "title": "Global Head Of AI + Innovation",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/aaron-kwittken"
+  },
+  {
+    "name": "Jorick Albers",
+    "title": "Director",
+    "location": "Brussels",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jorick-albers"
+  },
+  {
+    "name": "Jeanette Hamster",
+    "title": "Partner",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jeanette-hamster"
+  },
+  {
+    "name": "Phenola Lawrence",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/phenola-lawrence"
+  },
+  {
+    "name": "Moni Wiltenburg",
+    "title": "Director",
+    "location": "The Hague",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/moni-wiltenburg"
+  },
+  {
+    "name": "Megan Bouchier",
+    "title": "Partner, Co-Head Of San Francisco",
+    "location": "San Francisco",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/megan-bouchier"
+  },
+  {
+    "name": "Jim Barron",
     "title": "Partner",
     "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/barney-gimbel"
+    "url": "https://fgsglobal.com/people/jim-barron"
   },
   {
-    "name": "Charles (Chuck) Nathan",
-    "title": "Consulting Partner",
+    "name": "Jamie Baird",
+    "title": "Managing Director",
     "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/charles-chuck-nathan"
+    "url": "https://fgsglobal.com/people/jamie-baird"
+  },
+  {
+    "name": "Lindsay Alexander",
+    "title": "Managing Director, Design",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/lindsay-alexander"
+  },
+  {
+    "name": "Birte Kattelmann-Jagdt",
+    "title": "Senior Advisor",
+    "location": "D\u00fcsseldorf",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/birte-kattelmann-jagdt"
+  },
+  {
+    "name": "Selina von Hoyningen-Huene",
+    "title": "Managing Director",
+    "location": "Munich",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/selina-von-hoyningen-huene"
+  },
+  {
+    "name": "Ge Yu",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ge-yu"
+  },
+  {
+    "name": "Amanda Stone",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/amanda-stone"
+  },
+  {
+    "name": "Sarah Bahar",
+    "title": "Managing Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sarah-bahar"
+  },
+  {
+    "name": "Daniel Francis",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/daniel-francis"
+  },
+  {
+    "name": "William Klein",
+    "title": "Consulting Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/william-klein"
+  },
+  {
+    "name": "Ruth Porter",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ruth-porter"
+  },
+  {
+    "name": "Jacqueline Niemeyer",
+    "title": "Managing Director",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jacqueline-niemeyer"
+  },
+  {
+    "name": "Julia Caspers",
+    "title": "Director",
+    "location": "D\u00fcsseldorf",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/julia-caspers"
+  },
+  {
+    "name": "Anna Lambertz",
+    "title": "Managing Director",
+    "location": "D\u00fcsseldorf",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/anna-lambertz"
+  },
+  {
+    "name": "Ryan Hopkins",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ryan-hopkins"
+  },
+  {
+    "name": "Cl\u00e9mence Roquet-Mont\u00e9gon",
+    "title": "Director",
+    "location": "Paris",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/clemence-roquet-montegon"
+  },
+  {
+    "name": "Amy Milner",
+    "title": "Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/amy-milner"
+  },
+  {
+    "name": "Sir Craig Oliver",
+    "title": "Co-Global Head Of Strategy & Reputation",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/craig-oliver"
+  },
+  {
+    "name": "Oliver Sherwood",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/oliver-sherwood"
+  },
+  {
+    "name": "Kamella Hudson",
+    "title": "Partner, Government Affairs, Policy And Advocacy",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kamella-hudson"
+  },
+  {
+    "name": "Lindsay Andrews",
+    "title": "Senior Advisor",
+    "location": "San Francisco",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/lindsay-andrews"
+  },
+  {
+    "name": "Matt Schubert",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/matt-schubert"
+  },
+  {
+    "name": "Jonathan Sadlier",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jonathan-sadlier"
   },
   {
     "name": "Lisa Miller Large",
@@ -2268,88 +3276,508 @@
     "url": "https://fgsglobal.com/people/joseph-caruso"
   },
   {
-    "name": "Walter Suskind",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/walter-suskind"
-  },
-  {
-    "name": "Kaveh Farzad",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kaveh-farzad"
-  },
-  {
-    "name": "Katrina Okano",
-    "title": "Managing Director",
-    "location": "Los Angeles",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/katrina-okano"
-  },
-  {
-    "name": "Anthony Reed",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/anthony-reed"
-  },
-  {
-    "name": "Kolby Keo",
+    "name": "Hope Hurley",
     "title": "Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kolby-keo"
+    "url": "https://fgsglobal.com/people/hope-hurley"
   },
   {
-    "name": "Richard Marcus",
+    "name": "Willie Roberson",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/willie-roberson"
+  },
+  {
+    "name": "Brandon Louey",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/brandon-louey"
+  },
+  {
+    "name": "Madison Scanlan",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/madison-scanlan"
+  },
+  {
+    "name": "Daniel Sch\u00e4fer",
+    "title": "Partner",
+    "location": "Frankfurt",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/daniel-schafer"
+  },
+  {
+    "name": "Leann Poirier",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/leann-poirier"
+  },
+  {
+    "name": "Katharine Pitt",
+    "title": "Managing Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/katharine-pitt"
+  },
+  {
+    "name": "Ayrton Thevissen",
+    "title": "Partner",
+    "location": "Brussels",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ayrton-thevissen"
+  },
+  {
+    "name": "Reinhard H\u00f6nighaus",
+    "title": "Partner",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/reinhard-honighaus"
+  },
+  {
+    "name": "Jill Pike",
     "title": "Partner, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/richard-marcus"
+    "url": "https://fgsglobal.com/people/jill-pike"
   },
   {
-    "name": "Tim van der Zanden",
-    "title": "Partner, Corporate & Transaction Communications",
-    "location": "Amsterdam",
+    "name": "Keiichi Hotta",
+    "title": "Managing Director",
+    "location": "Tokyo",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/tim-van-der-zanden"
+    "url": "https://fgsglobal.com/people/keiichi-hotta"
   },
   {
-    "name": "Abigail Farr",
+    "name": "Jan-Oliver Sch\u00fctz",
+    "title": "Managing Director",
+    "location": "",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jan-oliver-schutz"
+  },
+  {
+    "name": "Trevor Martin",
+    "title": "Partner",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/trevor-martin"
+  },
+  {
+    "name": "Kirsten Molyneux",
+    "title": "Partner",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kirsten-molyneux"
+  },
+  {
+    "name": "Anna Epstein",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/anna-epstein"
+  },
+  {
+    "name": "Nonie Cheng",
+    "title": "Director",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/nonie-cheng"
+  },
+  {
+    "name": "Sarah Crawshaw",
+    "title": "Partner, COO Asia",
+    "location": "Hong Kong",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sarah-crawshaw"
+  },
+  {
+    "name": "Nicola Brooks",
+    "title": "Managing Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/nicola-brooks"
+  },
+  {
+    "name": "Aditi Mane",
+    "title": "Director",
+    "location": "Abu Dhabi",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/aditi-mane"
+  },
+  {
+    "name": "Hazem Assalieh",
+    "title": "Managing Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/hazem-assalieh"
+  },
+  {
+    "name": "Dan Richfield",
+    "title": "Managing Director, Senior Software Architect",
+    "location": "Kingston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/dan-richfield"
+  },
+  {
+    "name": "Nicky Bryan",
     "title": "Managing Director",
     "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/abigail-farr"
+    "url": "https://fgsglobal.com/people/nicky-bryan"
   },
   {
-    "name": "Carolyn Pike",
+    "name": "Danya Al-Qattan",
     "title": "Partner",
-    "location": "Zurich",
+    "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/carolyn-pike"
+    "url": "https://fgsglobal.com/people/danya-al-qattan"
   },
   {
-    "name": "Richard Mintz",
+    "name": "Andr\u00e9 Malkine",
+    "title": "Managing Director, Digital Development",
+    "location": "Kingston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/andre-malkine"
+  },
+  {
+    "name": "Erin Arrison",
+    "title": "Managing Director, Contracts, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/erin-arrison"
+  },
+  {
+    "name": "Anne Larimer Hart",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/anne-larimer-hart"
+  },
+  {
+    "name": "Adam Goldstein",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/adam-goldstein"
+  },
+  {
+    "name": "Joshua Gross",
     "title": "Partner, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/richard-mintz"
+    "url": "https://fgsglobal.com/people/joshua-gross"
   },
   {
-    "name": "Jim Finkle",
-    "title": "Managing Director",
-    "location": "Boston",
+    "name": "Divya Pandove",
+    "title": "Managing Director, Head Of Data Science, Washington",
+    "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jim-finkle"
+    "url": "https://fgsglobal.com/people/divya-pandove"
   },
   {
-    "name": "Sebastian Doedens",
-    "title": "Managing Director",
-    "location": "Munich",
+    "name": "Craig James",
+    "title": "Partner, Washington",
+    "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sebastian-doedens"
+    "url": "https://fgsglobal.com/people/craig-james"
+  },
+  {
+    "name": "Debra Greenspan",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/debra-greenspan"
+  },
+  {
+    "name": "Catharine Ransom",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/catharine-ransom"
+  },
+  {
+    "name": "Carter Eskew",
+    "title": "Global Co-Chairman, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/carter-eskew"
+  },
+  {
+    "name": "Carolyn Gluck",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/carolyn-gluck"
+  },
+  {
+    "name": "Brian Gaston",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/brian-gaston"
+  },
+  {
+    "name": "Carley Corda",
+    "title": "Managing Director, Creative Producer, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/carley-corda"
+  },
+  {
+    "name": "Miriam Solomon",
+    "title": "Head Of Marketing And Business Development, North America",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/miriam-solomon"
+  },
+  {
+    "name": "Maartje Snellen",
+    "title": "Partner",
+    "location": "Amsterdam",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/maartje-snellen"
+  },
+  {
+    "name": "Johannes Steger",
+    "title": "Managing Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/johannes-steger"
+  },
+  {
+    "name": "Nyssa Kourakos",
+    "title": "Partner",
+    "location": "Miami",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/nyssa-kourakos"
+  },
+  {
+    "name": "Scott McAbee",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/scott-mcabee"
+  },
+  {
+    "name": "Monique Sidhom",
+    "title": "Managing Director",
+    "location": "Los Angeles",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/monique-sidhom"
+  },
+  {
+    "name": "Caitlin Falk",
+    "title": "Managing Director, Digital Strategy, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/caitlin-falk"
+  },
+  {
+    "name": "Joe Dixon",
+    "title": "Managing Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/joe-dixon"
+  },
+  {
+    "name": "Jeffrey Hantson",
+    "title": "Managing Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jeffrey-hantson"
+  },
+  {
+    "name": "Camille Putois",
+    "title": "Partner",
+    "location": "Paris",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/camille-putois"
+  },
+  {
+    "name": "Edward Bowie",
+    "title": "Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/edward-bowie"
+  },
+  {
+    "name": "Modar Raslan",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/modar-raslan"
+  },
+  {
+    "name": "Adrija Chakraborty",
+    "title": "Managing Director, Equity Advisory & IR",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/adrija-chakraborty"
+  },
+  {
+    "name": "Rebecca Gasser",
+    "title": "Global Chief Information Officer",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rebecca-gasser"
+  },
+  {
+    "name": "Daniela Ritter",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/daniela-ritter"
+  },
+  {
+    "name": "Danielle Berg",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/danielle-berg"
+  },
+  {
+    "name": "Rich Allan",
+    "title": "Managing Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/rich-allan"
+  },
+  {
+    "name": "Pinky Badhan",
+    "title": "Managing Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/pinky-badhan"
+  },
+  {
+    "name": "Robert Amady",
+    "title": "Managing Director",
+    "location": "Paris",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/robert-amady"
+  },
+  {
+    "name": "Sophia Johnston",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sophia-johnston"
+  },
+  {
+    "name": "Jessica Murphy",
+    "title": "Director",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jessica-murphy"
+  },
+  {
+    "name": "Ben Waldron",
+    "title": "Managing Director, Strategic Communications Division, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ben-waldron"
+  },
+  {
+    "name": "Kendall Bitonte",
+    "title": "Managing Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/kendall-bitonte"
+  },
+  {
+    "name": "Elise Kammerer",
+    "title": "Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/elise-kammerer"
+  },
+  {
+    "name": "Justine Hall",
+    "title": "Partner",
+    "location": "Vancouver",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/justine-hall"
+  },
+  {
+    "name": "Sandy Blackwood",
+    "title": "Director",
+    "location": "Toronto",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sandy-blackwood"
+  },
+  {
+    "name": "Samantha Khalil",
+    "title": "Managing Director",
+    "location": "",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/samantha-khalil"
+  },
+  {
+    "name": "Nick Schumacher",
+    "title": "Director",
+    "location": "Calgary",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/nick-schumacher"
+  },
+  {
+    "name": "Josh Pekarsky",
+    "title": "Partner",
+    "location": "Vancouver",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/josh-pekarsky"
+  },
+  {
+    "name": "Andy Lloyd",
+    "title": "Partner",
+    "location": "Toronto",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/andy-lloyd"
+  },
+  {
+    "name": "Greg Burch",
+    "title": "Partner",
+    "location": "Toronto",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/greg-burch"
+  },
+  {
+    "name": "Jonas Hermann",
+    "title": "Director",
+    "location": "Zurich",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jonas-hermann"
+  },
+  {
+    "name": "Hani Kharoubi",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/hani-kharoubi"
+  },
+  {
+    "name": "Angie Mohamed",
+    "title": "Director",
+    "location": "Dubai",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/angie-mohamed"
+  },
+  {
+    "name": "Emily Lagemann",
+    "title": "Director",
+    "location": "Berlin",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/emily-lagemann"
+  },
+  {
+    "name": "Ciara Phillips",
+    "title": "Managing Director",
+    "location": "Riyadh",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/ciara-phillips"
   },
   {
     "name": "Sandra Iseli",
@@ -2520,256 +3948,88 @@
     "url": "https://fgsglobal.com/people/kelly-langmesser"
   },
   {
-    "name": "Cornelia Quennet-Thielen",
-    "title": "Senior Advisor",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/cornelia-quennet-thielen"
-  },
-  {
-    "name": "Lutz Stroppe",
-    "title": "Senior Advisor",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/lutz-stroppe"
-  },
-  {
-    "name": "Mei Zhang",
-    "title": "Managing Director",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mei-zhang"
-  },
-  {
-    "name": "Charles Sipkins",
-    "title": "Partner, Co-Head Of California",
-    "location": "Los Angeles",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/charles-sipkins"
-  },
-  {
-    "name": "Amy Gross",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/amy-gross"
-  },
-  {
-    "name": "Vickee Jordan Adams",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/vickee-jordan-adams"
-  },
-  {
-    "name": "Kal Goldberg",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kal-goldberg"
-  },
-  {
-    "name": "Winnie Lerner",
-    "title": "Partner, CEO, North America",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/winnie-lerner"
-  },
-  {
-    "name": "Will Edgar",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/will-edgar"
-  },
-  {
-    "name": "Sydney Ann Neuhaus",
-    "title": "Partner & Vice Chair",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sydney-ann-neuhaus"
-  },
-  {
-    "name": "Stuart Fischer",
-    "title": "Consulting Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/stuart-fischer"
-  },
-  {
-    "name": "Rebecca Houck",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rebecca-houck"
-  },
-  {
-    "name": "Erin Arrison",
-    "title": "Managing Director, Contracts, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/erin-arrison"
-  },
-  {
-    "name": "Anne Larimer Hart",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/anne-larimer-hart"
-  },
-  {
-    "name": "Adam Goldstein",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/adam-goldstein"
-  },
-  {
-    "name": "Joshua Gross",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/joshua-gross"
-  },
-  {
-    "name": "Divya Pandove",
-    "title": "Managing Director, Head Of Data Science, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/divya-pandove"
-  },
-  {
-    "name": "Craig James",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/craig-james"
-  },
-  {
-    "name": "Debra Greenspan",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/debra-greenspan"
-  },
-  {
-    "name": "Catharine Ransom",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/catharine-ransom"
-  },
-  {
-    "name": "Carter Eskew",
-    "title": "Global Co-Chairman, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/carter-eskew"
-  },
-  {
-    "name": "Carolyn Gluck",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/carolyn-gluck"
-  },
-  {
-    "name": "Brian Gaston",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/brian-gaston"
-  },
-  {
-    "name": "Carley Corda",
-    "title": "Managing Director, Creative Producer, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/carley-corda"
-  },
-  {
-    "name": "Eva Christiansen",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/eva-christiansen"
-  },
-  {
-    "name": "Henry Schmees",
-    "title": "Managing Director",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/henry-schmees"
-  },
-  {
-    "name": "Tricia Carney",
-    "title": "Global Tax Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/tricia-carney"
-  },
-  {
-    "name": "Thea Bichmann",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/thea-bichmann"
-  },
-  {
-    "name": "Janna Creuzberg",
-    "title": "Managing Director",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/janna-creuzberg"
-  },
-  {
-    "name": "Niels Schlesier",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/niels-schlesier"
-  },
-  {
-    "name": "Manish Khatri",
-    "title": "Director, Digital Products",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/manish-khatri"
-  },
-  {
-    "name": "Lyndsey McCusker",
-    "title": "Managing Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/lyndsey-mccusker"
-  },
-  {
-    "name": "Amy Warnke",
-    "title": "Senior Digital Project Manager",
+    "name": "Lindsay Hutton",
+    "title": "Managing Director, Digital Operations",
     "location": "Kingston",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/amy-warnke"
+    "url": "https://fgsglobal.com/people/lindsay-hutton"
   },
   {
-    "name": "Matthew Six",
+    "name": "Jenny Bloom",
+    "title": "Director, Global Technology Platforms",
+    "location": "Kingston",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/jenny-bloom"
+  },
+  {
+    "name": "Novita Kohli",
+    "title": "Director, Media Planning And Placement, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/novita-kohli"
+  },
+  {
+    "name": "Sebastian Vos",
+    "title": "Partner",
+    "location": "Brussels",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sebastian-vos"
+  },
+  {
+    "name": "Michelle Kirkman",
+    "title": "Director, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/michelle-kirkman"
+  },
+  {
+    "name": "Sarah Ashton",
+    "title": "Partner",
+    "location": "Los Angeles",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/sarah-ashton"
+  },
+  {
+    "name": "Lord Andrew Cooper",
+    "title": "Partner, Research & Insights",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/lord-andrew-cooper"
+  },
+  {
+    "name": "Anneke Hoijtink",
     "title": "Managing Director",
-    "location": "New York",
+    "location": "Amsterdam",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/matthew-six"
+    "url": "https://fgsglobal.com/people/anneke-hoijtink"
   },
   {
-    "name": "Katrin Suder",
-    "title": "Senior Advisor",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/katrin-suder"
-  },
-  {
-    "name": "Margaret Popper",
+    "name": "Adam Grossberg",
     "title": "Partner",
     "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/margaret-popper"
+    "url": "https://fgsglobal.com/people/adam-grossberg"
+  },
+  {
+    "name": "Colleen Rush",
+    "title": "Director, Creative Producer, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/colleen-rush"
+  },
+  {
+    "name": "Alice Neave",
+    "title": "Director",
+    "location": "London",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/alice-neave"
+  },
+  {
+    "name": "Claudio Albanese",
+    "title": "Senior Advisor",
+    "location": "",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/claudio-albanese"
   },
   {
     "name": "Caitlin McClure",
@@ -2856,1348 +4116,88 @@
     "url": "https://fgsglobal.com/people/aaron-golds"
   },
   {
-    "name": "Morgan Hill",
-    "title": "Director, Washington",
+    "name": "Nedra Pickler",
+    "title": "Partner, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/morgan-hill"
+    "url": "https://fgsglobal.com/people/nedra-pickler"
   },
   {
-    "name": "Rachel Alexander",
+    "name": "Michele Soho",
+    "title": "Chief Human Resources Officer, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/michele-soho"
+  },
+  {
+    "name": "Mike Iger",
+    "title": "Partner, Washington",
+    "location": "DC",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/mike-iger"
+  },
+  {
+    "name": "Michael Feldman",
+    "title": "Partner, Co-Chairman, North America",
+    "location": "New York",
+    "competitor_id": "fgs",
+    "url": "https://fgsglobal.com/people/michael-feldman"
+  },
+  {
+    "name": "Margaret Vice",
     "title": "Managing Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rachel-alexander"
+    "url": "https://fgsglobal.com/people/margaret-vice"
   },
   {
-    "name": "Laura Farris",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/laura-farris"
-  },
-  {
-    "name": "Oliver Hudson",
-    "title": "Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/oliver-hudson"
-  },
-  {
-    "name": "Laura de Carn\u00e9",
-    "title": "Director",
-    "location": "Paris",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/laura-de-carne"
-  },
-  {
-    "name": "Jacalyn Lee",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jacalyn-lee"
-  },
-  {
-    "name": "Rob Bertholee",
-    "title": "Associate Partner",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rob-bertholee"
-  },
-  {
-    "name": "Stuart Cubbon Jr.",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/stuart-cubbon-jr"
-  },
-  {
-    "name": "Oliver Newton",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/oliver-newton"
-  },
-  {
-    "name": "Mustafa Hashim",
-    "title": "Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mustafa-hashim"
-  },
-  {
-    "name": "Amin Khalab",
-    "title": "Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/amin-khalab"
-  },
-  {
-    "name": "Rayan Chabou",
-    "title": "Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rayan-chabou"
-  },
-  {
-    "name": "Christian Falkowski",
-    "title": "Managing Director",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/christian-falkowski"
-  },
-  {
-    "name": "Christoph Bertram",
-    "title": "Partner, Member Of The European Exco",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/christoph-bertram"
-  },
-  {
-    "name": "Alexander Otto",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/alexander-otto"
-  },
-  {
-    "name": "Joachim Koschnicke",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/joachim-koschnicke"
-  },
-  {
-    "name": "Biancastella de Angelis",
-    "title": "Partner",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/biancastella-de-angelis"
-  },
-  {
-    "name": "Samar Al Sayyed",
-    "title": "Partner, Head Of Saudi Arabia",
-    "location": "Riyadh",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/samar-al-sayyed"
-  },
-  {
-    "name": "Simon Moyse",
-    "title": "CEO Middle East",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/simon-moyse"
-  },
-  {
-    "name": "Alexander Geiser",
-    "title": "Chief Executive Officer",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/alexander-geiser"
-  },
-  {
-    "name": "Alex Seiler",
-    "title": "Partner",
-    "location": "Tokyo",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/alex-seiler"
-  },
-  {
-    "name": "John Hobday",
-    "title": "Partner",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/john-hobday"
-  },
-  {
-    "name": "Paul Yang",
-    "title": "Partner",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/paul-yang"
-  },
-  {
-    "name": "Kevin Ma",
-    "title": "Managing Director",
-    "location": "Beijing",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kevin-ma"
-  },
-  {
-    "name": "Kayo Kasahara",
-    "title": "Senior Advisor",
-    "location": "Tokyo",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kayo-kasahara"
-  },
-  {
-    "name": "Josh Tzuker",
-    "title": "Partner & Global Head Of Competition, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/josh-tzuker"
-  },
-  {
-    "name": "Mallory Weinberg",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mallory-weinberg"
-  },
-  {
-    "name": "Nick Russell-Harris",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nick-russell-Harris"
-  },
-  {
-    "name": "Markus Stoker",
-    "title": "Managing Director",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/markus-stoker"
-  },
-  {
-    "name": "Joe Palombo",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/joe-palombo"
-  },
-  {
-    "name": "Atash Rafeeq",
-    "title": "Managing Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/atash-rafeeq"
-  },
-  {
-    "name": "Melissa Esguerra",
-    "title": "Managing Director",
-    "location": "Singapore",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/melissa-esguerra"
-  },
-  {
-    "name": "Rafaella Lee",
-    "title": "Director",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rafaella-lee"
-  },
-  {
-    "name": "Christie Rawlings",
-    "title": "Managing Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/christie-rawlings"
-  },
-  {
-    "name": "Trevor Zeck",
-    "title": "Partner",
-    "location": "Vancouver",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/trevor-zeck"
-  },
-  {
-    "name": "Nammi Poorooshasb",
-    "title": "Partner",
-    "location": "Vancouver",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nammi-poorooshasb"
-  },
-  {
-    "name": "Sophie Scott",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sophie-scott"
-  },
-  {
-    "name": "Helen Tang",
-    "title": "Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/helen-tang"
-  },
-  {
-    "name": "Scott Weier",
+    "name": "Megan Moore",
     "title": "Partner, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/scott-weier"
+    "url": "https://fgsglobal.com/people/megan-moore"
   },
   {
-    "name": "Natalie Salmon",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/natalie-salmon"
-  },
-  {
-    "name": "Jenna Scanlon",
+    "name": "Megan Grant",
     "title": "Partner",
     "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jenna-scanlon"
+    "url": "https://fgsglobal.com/people/megan-grant"
   },
   {
-    "name": "Kristen Kehlet",
-    "title": "Managing Director",
-    "location": "Los Angeles",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kristen-kehlet"
-  },
-  {
-    "name": "Steph Berhane",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/steph-berhane"
-  },
-  {
-    "name": "Jenny Hopkinson",
+    "name": "Melissa Childs",
     "title": "Managing Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jenny-hopkinson"
+    "url": "https://fgsglobal.com/people/melissa-childs"
   },
   {
-    "name": "Mirijam Dawin",
-    "title": "Director",
-    "location": "D\u00fcsseldorf",
+    "name": "Lizzie Hyland",
+    "title": "Managing Director",
+    "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mirijam-dawin"
+    "url": "https://fgsglobal.com/people/lizzie-hyland"
   },
   {
-    "name": "Kyle Daly",
+    "name": "Liz Davis",
     "title": "Managing Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kyle-daly"
+    "url": "https://fgsglobal.com/people/liz-davis"
   },
   {
-    "name": "Andrew Wahlgren",
-    "title": "Director, Contracts, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/andrew-wahlgren"
-  },
-  {
-    "name": "Madeline McKiernan",
-    "title": "Senior Associate",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/madeline-mckiernan"
-  },
-  {
-    "name": "Beth Fouhy",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/beth-fouhy"
-  },
-  {
-    "name": "Mareike Oldemeinen",
-    "title": "Managing Director, Corporate & Business Development",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mareike-oldemeinen"
-  },
-  {
-    "name": "Pola Moitroux",
-    "title": "Managing Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/pola-moitroux"
-  },
-  {
-    "name": "Jannik Luger",
-    "title": "Managing Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jannik-luger"
-  },
-  {
-    "name": "Ahmed S. Jebur",
-    "title": "Managing Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ahmed-s-jebur"
-  },
-  {
-    "name": "Eliza Carter",
-    "title": "Director , Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/eliza-carter"
-  },
-  {
-    "name": "Joseph Diebold",
-    "title": "Managing Director , Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/joseph-diebold"
-  },
-  {
-    "name": "Harry Florry",
-    "title": "Partner, Head Of Singapore",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/harry-florry"
-  },
-  {
-    "name": "Liz Friedlander",
-    "title": "Managing Director , Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/liz-friedlander"
-  },
-  {
-    "name": "Evonne Xiao",
-    "title": "Director",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/evonne-xiao"
-  },
-  {
-    "name": "Kala Krishnan",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kala-krishnan"
-  },
-  {
-    "name": "Cailin McKenna",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/cailin-mckenna"
-  },
-  {
-    "name": "Franziska Ammann",
-    "title": "Managing Director",
-    "location": "D\u00fcsseldorf",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/franziska-ammann"
-  },
-  {
-    "name": "Hendrik Bender",
-    "title": "Partner",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/hendrik-bender"
-  },
-  {
-    "name": "Tanja Dorr",
-    "title": "Partner",
-    "location": "Munich",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/tanja-dorr"
-  },
-  {
-    "name": "Ali Azimi",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ali-azimi"
-  },
-  {
-    "name": "Benjamin B\u00fchringer",
-    "title": "Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/benjamin-buhringer"
-  },
-  {
-    "name": "Raphael Eisenmann",
-    "title": "Partner",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/raphael-eisenmann"
-  },
-  {
-    "name": "Christopher Storck",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/christopher-storck"
-  },
-  {
-    "name": "Simon Steiner",
-    "title": "Partner",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/simon-steiner"
-  },
-  {
-    "name": "Dominik Veit",
-    "title": "Managing Director",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/dominik-veit"
-  },
-  {
-    "name": "Tim Efing",
-    "title": "Managing Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/tim-efing"
-  },
-  {
-    "name": "Julian Geist",
-    "title": "Partner",
-    "location": "Munich",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/julian-geist"
-  },
-  {
-    "name": "Philippe Radinger",
-    "title": "Managing Director",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/philippe-radinger"
-  },
-  {
-    "name": "Julie Gouss",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/julie-gouss"
-  },
-  {
-    "name": "Jonathan Kopp",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jonathan-kopp"
-  },
-  {
-    "name": "Jenni LeCompte",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jenni-lecompte"
-  },
-  {
-    "name": "Joel Johnson",
-    "title": "Partner, Head Of Washington, DC, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/joel-johnson"
-  },
-  {
-    "name": "Jennifer Loven",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jennifer-loven"
-  },
-  {
-    "name": "Irene Moskowitz",
+    "name": "Liz Breen",
     "title": "Managing Director, Washington",
     "location": "DC",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/irene-moskowitz"
+    "url": "https://fgsglobal.com/people/liz-breen"
   },
   {
-    "name": "Jamie Obal",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jamie-obal"
-  },
-  {
-    "name": "Graeme Trayner",
-    "title": "Partner, Global Insight Lead, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/graeme-trayner"
-  },
-  {
-    "name": "Gregg Rothschild",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/gregg-rothschild"
-  },
-  {
-    "name": "Gina Foote",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/gina-foote"
-  },
-  {
-    "name": "Chrystal Okonta",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/chrystal-okonta"
-  },
-  {
-    "name": "Mariah Zwicker",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mariah-zwicker"
-  },
-  {
-    "name": "Carolyn Cost",
-    "title": "Managing Director, Head Of Media Intelligence",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/carolyn-cost"
-  },
-  {
-    "name": "Stef Goodsell",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/stef-goodsell"
-  },
-  {
-    "name": "Susan Brophy",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/susan-brophy"
-  },
-  {
-    "name": "Talia Katz",
-    "title": "Director, Creative Producer, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/talia-katz"
-  },
-  {
-    "name": "Rob Seidman",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rob-seidman"
-  },
-  {
-    "name": "Peter Gardner",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/peter-gardner"
-  },
-  {
-    "name": "Peter Benton-Sullivan",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/peter-benton-sullivan"
-  },
-  {
-    "name": "Paul Poteet",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/paul-poteet"
-  },
-  {
-    "name": "Patrick Withers",
-    "title": "Managing Director, Multimedia, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/patrick-withers"
-  },
-  {
-    "name": "Nicole Dade",
-    "title": "Managing Director, Head Of Diversity, Equity, Inclusion & Belonging, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nicole-dade"
-  },
-  {
-    "name": "Molly Bloom",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/molly-bloom"
-  },
-  {
-    "name": "Morgan Warners",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/morgan-warners"
-  },
-  {
-    "name": "Adrian Garcia-Esteve",
-    "title": "Director",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/adrian-garcia-esteve"
-  },
-  {
-    "name": "Pierre Picard",
-    "title": "Director",
-    "location": "Paris",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/pierre-picard"
-  },
-  {
-    "name": "Denise Feldner",
-    "title": "Senior Advisor",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/denise-feldner"
-  },
-  {
-    "name": "Heather Prosser",
-    "title": "Managing Director",
-    "location": "Tokyo",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/heather-prosser"
-  },
-  {
-    "name": "Robin Bleichrodt",
-    "title": "Managing Director",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/robin-bleichrodt"
-  },
-  {
-    "name": "Michael Flaherty",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/michael-flaherty"
-  },
-  {
-    "name": "Christine Claire Graeff",
-    "title": "Global Chief Growth Officer",
-    "location": "Zurich",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/christine-claire-graeff"
-  },
-  {
-    "name": "Shannon O'Connor",
+    "name": "MacKenzie Smith",
     "title": "Director",
     "location": "New York",
     "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/shannon-oconnor"
-  },
-  {
-    "name": "Menno Snel",
-    "title": "Partner",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/menno-snel"
-  },
-  {
-    "name": "Richard Walters",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/richard-walters"
-  },
-  {
-    "name": "Jos\u00e9 Oosterveen",
-    "title": "Director Finance Benelux",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jose-oosterveen"
-  },
-  {
-    "name": "Frans van Steenis",
-    "title": "Associate Partner",
-    "location": "The Hague",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/frans-van-steenis"
-  },
-  {
-    "name": "Philipp Halstrick",
-    "title": "Partner",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/philipp-halstrick"
-  },
-  {
-    "name": "Matthis Kaiser",
-    "title": "Partner",
-    "location": "",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/matthis-kaiser"
-  },
-  {
-    "name": "Jobst Honig",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jobst-honig"
-  },
-  {
-    "name": "Till Achinger",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/till-achinger"
-  },
-  {
-    "name": "Sebastian Mewissen",
-    "title": "Managing Director",
-    "location": "D\u00fcsseldorf",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sebastian-mewissen"
-  },
-  {
-    "name": "Katharina Blumenfeld",
-    "title": "Partner",
-    "location": "Paris",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/katharina-blumenfeld"
-  },
-  {
-    "name": "Dirk von Manikowsky",
-    "title": "Partner",
-    "location": "D\u00fcsseldorf",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/dirk-von-manikowsky"
-  },
-  {
-    "name": "Raphael Neuner",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/raphael-neuner"
-  },
-  {
-    "name": "Julian Jacobitz",
-    "title": "Managing Director",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/julian-jacobitz"
-  },
-  {
-    "name": "Sandra Neuner",
-    "title": "Managing Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sandra-neuner"
-  },
-  {
-    "name": "Rebecca Eisert",
-    "title": "Partner",
-    "location": "",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rebecca-eisert"
-  },
-  {
-    "name": "Robert Vollrath",
-    "title": "Partner, Member Of The European Exco",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/robert-vollrath"
-  },
-  {
-    "name": "Hope Hurley",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/hope-hurley"
-  },
-  {
-    "name": "Willie Roberson",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/willie-roberson"
-  },
-  {
-    "name": "Brandon Louey",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/brandon-louey"
-  },
-  {
-    "name": "Madison Scanlan",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/madison-scanlan"
-  },
-  {
-    "name": "Daniel Sch\u00e4fer",
-    "title": "Partner",
-    "location": "Frankfurt",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/daniel-schafer"
-  },
-  {
-    "name": "Leann Poirier",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/leann-poirier"
-  },
-  {
-    "name": "Katharine Pitt",
-    "title": "Managing Director",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/katharine-pitt"
-  },
-  {
-    "name": "Ayrton Thevissen",
-    "title": "Partner",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ayrton-thevissen"
-  },
-  {
-    "name": "Reinhard H\u00f6nighaus",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/reinhard-honighaus"
-  },
-  {
-    "name": "Jill Pike",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jill-pike"
-  },
-  {
-    "name": "Keiichi Hotta",
-    "title": "Managing Director",
-    "location": "Tokyo",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/keiichi-hotta"
-  },
-  {
-    "name": "Jan-Oliver Sch\u00fctz",
-    "title": "Managing Director",
-    "location": "",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jan-oliver-schutz"
-  },
-  {
-    "name": "Paul Kranhold",
-    "title": "Co-Chair, North America",
-    "location": "San Francisco",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/paul-kranhold"
-  },
-  {
-    "name": "Scott Klampfer",
-    "title": "Partner, Creative Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/scott-klampfer"
-  },
-  {
-    "name": "Chris Kittredge",
-    "title": "Partner, Head Of Boston",
-    "location": "Boston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/chris-kittredge"
-  },
-  {
-    "name": "Rory King",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rory-king"
-  },
-  {
-    "name": "Kelly Kimberly",
-    "title": "Partner, Head Of Houston",
-    "location": "Houston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kelly-kimberly"
-  },
-  {
-    "name": "Frances Jeter",
-    "title": "Partner",
-    "location": "Houston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/frances-jeter"
-  },
-  {
-    "name": "David Isaacs",
-    "title": "Partner",
-    "location": "San Francisco",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/david-isaacs"
-  },
-  {
-    "name": "Jeff Huber",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jeff-huber"
-  },
-  {
-    "name": "Grant Greenberg",
-    "title": "Partner, Digital Strategy",
-    "location": "Miami",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/grant-greenberg"
-  },
-  {
-    "name": "Lisa Green",
-    "title": "Partner, Director Of Media & Presentation Training",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/lisa-green"
-  },
-  {
-    "name": "Kate Gorgi",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/kate-gorgi"
-  },
-  {
-    "name": "Jenny Gore",
-    "title": "Partner",
-    "location": "Chicago",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jenny-gore"
-  },
-  {
-    "name": "George Sard",
-    "title": "Co-Chairman",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/george-sard"
-  },
-  {
-    "name": "Nick Rust",
-    "title": "Director",
-    "location": "Houston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/nick-rust"
-  },
-  {
-    "name": "Julie Rudnick",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/julie-rudnick"
-  },
-  {
-    "name": "Peter Rose",
-    "title": "Senior Advisor",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/peter-rose"
-  },
-  {
-    "name": "Benjamin Roback",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/benjamin-roback"
-  },
-  {
-    "name": "Warren Rizzi",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/warren-rizzi"
-  },
-  {
-    "name": "Jay Qin",
-    "title": "Partner",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jay-qin"
-  },
-  {
-    "name": "Leah Polito",
-    "title": "Partner",
-    "location": "San Francisco",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/leah-polito"
-  },
-  {
-    "name": "Robert Pirollo",
-    "title": "Managing Director, Human Resources",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/robert-pirollo"
-  },
-  {
-    "name": "Brandon Pinto",
-    "title": "Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/brandon-pinto"
-  },
-  {
-    "name": "Stephen Pettibone",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/stephen-pettibone"
-  },
-  {
-    "name": "Diana Nehf",
-    "title": "Director, Design",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/diana-nehf"
-  },
-  {
-    "name": "Lindsay Hutton",
-    "title": "Managing Director, Digital Operations",
-    "location": "Kingston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/lindsay-hutton"
-  },
-  {
-    "name": "Jenny Bloom",
-    "title": "Director, Global Technology Platforms",
-    "location": "Kingston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jenny-bloom"
-  },
-  {
-    "name": "Novita Kohli",
-    "title": "Director, Media Planning And Placement, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/novita-kohli"
-  },
-  {
-    "name": "Sebastian Vos",
-    "title": "Partner",
-    "location": "Brussels",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sebastian-vos"
-  },
-  {
-    "name": "Michelle Kirkman",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/michelle-kirkman"
-  },
-  {
-    "name": "Sarah Ashton",
-    "title": "Partner",
-    "location": "Los Angeles",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sarah-ashton"
-  },
-  {
-    "name": "Lord Andrew Cooper",
-    "title": "Partner, Research & Insights",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/lord-andrew-cooper"
-  },
-  {
-    "name": "Anneke Hoijtink",
-    "title": "Managing Director",
-    "location": "Amsterdam",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/anneke-hoijtink"
-  },
-  {
-    "name": "Adam Grossberg",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/adam-grossberg"
-  },
-  {
-    "name": "Colleen Rush",
-    "title": "Director, Creative Producer, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/colleen-rush"
-  },
-  {
-    "name": "Alice Neave",
-    "title": "Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/alice-neave"
-  },
-  {
-    "name": "Claudio Albanese",
-    "title": "Senior Advisor",
-    "location": "",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/claudio-albanese"
-  },
-  {
-    "name": "Sarah Zukowski",
-    "title": "Managing Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sarah-zukowski"
-  },
-  {
-    "name": "Mike Uhle",
-    "title": "Director, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mike-uhle"
-  },
-  {
-    "name": "Melanie West",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/melanie-west"
-  },
-  {
-    "name": "David Campbell",
-    "title": "Managing Director, Digital Projects",
-    "location": "Kingston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/david-campbell"
-  },
-  {
-    "name": "Dan Stone",
-    "title": "Partner, Head Of Digital Development",
-    "location": "Kingston",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/dan-stone"
-  },
-  {
-    "name": "Sam Moodie",
-    "title": "Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sam-moodie"
-  },
-  {
-    "name": "Mitali Atal",
-    "title": "Partner",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/mitali-atal"
-  },
-  {
-    "name": "Bernhard Brauss",
-    "title": "Director",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/bernhard-brauss"
-  },
-  {
-    "name": "Jesse Adelman",
-    "title": "Creative Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/jesse-adelman"
-  },
-  {
-    "name": "Sophie McNulty",
-    "title": "Partner",
-    "location": "Dubai",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sophie-mcnulty"
-  },
-  {
-    "name": "Anne Gearan",
-    "title": "Partner, Washington",
-    "location": "DC",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/anne-gearan"
-  },
-  {
-    "name": "Honey Debelle",
-    "title": "Managing Director",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/honey-debelle"
-  },
-  {
-    "name": "Ginny Wilmerding",
-    "title": "Partner",
-    "location": "New York",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ginny-wilmerding"
-  },
-  {
-    "name": "Minako Hattori",
-    "title": "Partner, Co-Head Of Japan Office",
-    "location": "Tokyo",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/minako-hattori"
-  },
-  {
-    "name": "Claudia Kosser",
-    "title": "Partner",
-    "location": "Berlin",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/claudia-kosser"
-  },
-  {
-    "name": "Ben Richardson",
-    "title": "Partner, Head Of Asia",
-    "location": "Hong Kong",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ben-richardson"
-  },
-  {
-    "name": "Daniel Bogler",
-    "title": "Managing Director",
-    "location": "Tokyo",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/daniel-bogler"
-  },
-  {
-    "name": "Deborah Hayden",
-    "title": "Partner",
-    "location": "Tokyo",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/deborah-hayden"
-  },
-  {
-    "name": "Ruban Yogarajah",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/ruban-yogarajah"
-  },
-  {
-    "name": "Rollo Head",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rollo-head"
-  },
-  {
-    "name": "Roland Rudd",
-    "title": "Global Chair",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/roland-rudd"
-  },
-  {
-    "name": "Sarah Morgan",
-    "title": "Managing Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/sarah-morgan"
-  },
-  {
-    "name": "Richard Webster-Smith",
-    "title": "Partner",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/richard-webster-smith"
-  },
-  {
-    "name": "Rob Cuthbertson",
-    "title": "Creative Director",
-    "location": "London",
-    "competitor_id": "fgs",
-    "url": "https://fgsglobal.com/people/rob-cuthbertson"
+    "url": "https://fgsglobal.com/people/mackenzie-smith"
   },
   {
     "name": "Alastair Elwen",
